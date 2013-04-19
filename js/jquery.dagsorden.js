@@ -1,3 +1,7 @@
+/**
+ * @file
+ * jquery.dagsorden.js
+ */
 (function ($) {
 	var is_visible = false;
 

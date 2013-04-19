@@ -1,3 +1,7 @@
+/**
+ * @file
+ * script.js
+ */
 jQuery(document).ready(function () {
     var slideNavItems = jQuery('.custom-slideshow .item-bg');
     slideNavItems.each(function(k,v) {
