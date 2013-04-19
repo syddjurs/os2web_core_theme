@@ -1,4 +1,10 @@
-<div class="panel-display container-9 panel-node clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<?php
+/**
+ * @file
+ * panels-os2web-portal.tpl.php
+ */
+?>
+<div class="panel-display container-9 panel-node clearfix" <?php print (!empty($css_id))?"id=\"$css_id\"":'';  ?>>
   <div class="panel-panel grid-9 alpha omega panel-region-lead">
     <div class="inside"><?php print $content['lead']; ?></div>
   </div>

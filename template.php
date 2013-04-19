@@ -54,7 +54,7 @@ function os2web_core_theme_breadcrumb($variables) {
   }
 
   if (!empty($breadcrumb)) {
-    $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
+    $output = '<div class="breadcrumb you-are-here">' . t('Du er her:') . '</div>';
     $title = drupal_get_title();
     $breadcrumb[0] = l(t('Forside'), '<front>', array('attributes' => array('title' => 'Forside')));
     $breadcrumb[] = '<a href="#" title="' . $title . '">' . $title . '</a>';

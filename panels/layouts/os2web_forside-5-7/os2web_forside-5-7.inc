@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * os2web_forside-5-7.inc
+ */
 
 /**
  * Implements hook_panels_layouts().

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * os2web_portal.inc
+ */
 
 /**
  * Implements hook_panels_layouts().
