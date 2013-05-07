@@ -3940,3 +3940,63 @@ input.error{
 .bullet-point-send-to-friend-form.ajax-progress .throbber{
   float: right;
 }
+
+
+#block-feedback-form span { display: block}
+#block-feedback-form h2 { background-image: url(../images/feedbackikon189.png); width: 30px; height: 189px; color: transparent; float: left }
+
+#block-feedback-form {
+	display: none;
+	position: fixed;
+	bottom: 60px;
+	right: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+#block-feedback-form form { border: none; }
+#block-feedback-form .content { float: right}
+#block-feedback-form .feedback-link {
+	width: 30px;
+	height: 189px;
+	display: block;
+}
+
+#block-feedback-form .feedback-form {
+	background-color: white;
+	opacity: 1;
+	color: black;
+	float: left;
+	max-width: 201px;
+	border-top: 1px solid purple;
+	border-bottom: 1px solid purple;
+	border-left: 1px solid purple;
+}
+
+#block-feedback-form .feedback-form input[type=text]{ width: 200px}
+
+#feedback-submit {
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#feedback-status-message {background-color: #970065; display: block; color: #FFF; padding: 20px 10px 140px 10px}
+
+.view-os2web-cp-service-cp-case-search .form-submit {
+    background: #8b0053;
+    color: white;
+    border-radius: 3px;
+    text-shadow: none;
+    padding: 11px 19px;
+    text-transform: uppercase;
+    border: none;
+    margin: 32px 0 0 10px;
+}
+
+.view-os2web-cp-service-cp-case-search .form-item .description{
+    display: none;
+}
+
+.view-os2web-cp-service-cp-case-search .views-submit-button{
+    display: none; /* Only the last one */
+}
