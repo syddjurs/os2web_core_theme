@@ -10,12 +10,12 @@
       <div class="inside"><?php print $content['top_left']; ?></div>
     </div>
 
-    <div class="panel-panel grid-4 panel-region-top-right">
+    <div class="panel-panel grid-4 panel-region-top-right omega">
       <div class="inside"><?php print $content['top_right']; ?></div>
     </div>
   </div>
 
-  <div class="panel-panel grid-12 alpha panel-region-bottom">
+  <div class="panel-panel grid-12 alpha omega panel-region-bottom">
     <div class="inside"><?php print $content['bottom']; ?></div>
   </div>
 </div>
