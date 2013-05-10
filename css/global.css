@@ -2234,6 +2234,7 @@ color: #B3B3B3;
 ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
 }
 #region-preface-first {width: 960px; margin-left: 0px; margin-right: 0px}
+#region-preface-first .block{ float: right;}
 #zone-preface { line-height: 30px; padding-top: 5px; width: 960px; color: #FFF; font-size: 15px }
 #zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
 #zone-preface .block-nice-menus  { float: right; margin-right: 30px}
