@@ -2237,6 +2237,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 #zone-preface { line-height: 30px; padding-top: 5px; width: 960px; color: #FFF; font-size: 15px }
 #zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
 #zone-preface .block-nice-menus  { float: right; margin-right: 30px}
+#zone-preface .block-nice-menus .block-title { display: none;}
 #zone-preface  ul.nice-menu-down li.menuparent {
     background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
 }
@@ -2257,7 +2258,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 
 #zone-preface ul.nice-menu a {color: #FFF;font-size: 15px}
 
-#zone-preface ul.nice-menu li { background-color:  #640C3C;}
+#zone-preface ul.nice-menu li { background-color:  initial;}
 
 #zone-preface ul.nice-menu ul { top: 30px; border: none}
 
