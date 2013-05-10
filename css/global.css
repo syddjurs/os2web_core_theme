@@ -2385,20 +2385,19 @@ div.breadcrumb.you-are-here {
 .view-id-os2web_base_panels_view_selfserv {
 }
 
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-content, #region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-header {
-	background-image: url(../images/mellemSELVindhold.png);
+#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-content,
+#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-header {
+	background: #3b5998;
 	padding: 1px 0;
-	}
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-header .blanketter {
-	background-image: url(../images/headerSELVindhold.png);
-	background-repeat: no-repeat;
-	}
+}
+#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-header .blanketter {
+	background: #3b5998;
+}
 
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-footer {
-	background-image: url(../images/bundSELVindhold.png);
-	background-position: left bottom;
+#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-footer {
+	background: #3b5998;
 	height: 41px;
-	}
+}
 #region-sidebar-second .view-id-os2web_base_panels_view_selfserv h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -2416,7 +2415,7 @@ div.breadcrumb.you-are-here {
 }
 
 .selvbetjening-indholdsside .blanketter a {
-	color: #C386A8;
+	color: white;
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -2440,7 +2439,7 @@ div.breadcrumb.you-are-here {
 	background-image: url("../images/selvbetjening-down-arrow.png");
 	background-position: 5px 0;
 	font-size: 14px;
-    }
+}
 
 
 
@@ -3935,5 +3934,5 @@ background: #d10000;
 .view-id-os2web_base_panels_view_newslist .views-row {
 	margin-bottom: 25px; border-bottom: 2px solid #DDD; padding-bottom: 20px; clear: left}
 .view-id-os2web_base_panels_view_newslist .field-type-text-with-summary { color: #555; font-style: italic; padding-top: 10px;}
-	
+
 .view-id-os2web_base_panels_view_newslist .last-updated-node { float: right}
