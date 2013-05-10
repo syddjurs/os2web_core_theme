@@ -1,7 +1,7 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
- 
+
 /*#page {background-image: url(../images/byvaaben-transp.png); background-position: center top; background-repeat: no-repeat}
 
 #zone-content-wrapper {background-image: url(../images/page-bg-top.png); background-repeat: no-repeat}
@@ -10,7 +10,7 @@
 
 #zone-footer-wrapper {background-image: url(..images/page-bg-bund.png)}
 #zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
- 
+
 
 #zone-menu { background-image: url(../images/menu-bg.png)}
 
@@ -24,13 +24,13 @@
 .grid-12.alpha.omega .views-row-5.grid-3,
 .grid-12.alpha.omega .views-row-9.grid-3,
 .grid-12.alpha.omega .views-row-13.grid-3 { margin-left: 0; clear: left}
-	 
+
 .grid-12.alpha.omega .views-row-4.grid-3,
 .grid-12.alpha.omega .views-row-8.grid-3,
 .grid-12.alpha.omega .views-row-12.grid-3,
 .grid-12.alpha.omega .views-row-16.grid-3
 	 { margin-right: 0}
-	 
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block;}
@@ -111,7 +111,7 @@ ul.primary li a {
 	}
 
 #main-menu li a.qtip-hover{
-    color: #880054;
+    color: #3B5998;
     background-image: url(../images/menu-dp-over.png);
     }
 
@@ -501,7 +501,8 @@ ul.jcarousel-list-horizontal { }
 	width: 42px;
 }
 #block-block-5 p { margin-bottom: 0px}
-#block-menu-menu-erhverv-genveje {float: left}
+#block-menu-os2web-menu-business-shortcuts {float: left}
+#block-menu-os2web-menu-business-shortcuts .block-title {display: none;}
 
 #region-header-second { height: 80px}
 
@@ -706,7 +707,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 
 .qtip-wrapper .view-megadd-news a:hover {
-    color: #880054;
+    color: #3B5998;
 }
 
 div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega.aktuelle-emner {
@@ -750,7 +751,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 }
 
 .qtip-wrapper ul.menu a:hover {
-    color: #880054;
+    color: #3B5998;
     background-image:url('../images/megamenu-arrow-over.png');
     background-repeat: no-repeat;
     background-position:left center;
@@ -1110,7 +1111,7 @@ ul.menu li a.menu-minipanel-1608 {
 .view-os2web-base-panels-view-selfserv {
 	background-color: #FBFBFB;
 	}
-	
+
 .view-display-id-sb_block_forside { padding: 0}
 .view-display-id-sb_block_forside .view-header h3 { margin: 10px;}
 
@@ -1221,9 +1222,10 @@ body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto
 
 .spotbox h4 {font-size: 12px; color: #8A8A8A ; clear: both; font-weight: normal; line-height: 1.1em}
 .spotbox .views-row:hover a, .spotbox .views-row:hover h4 { color: #880054; }
+.spotbox .views-row:hover h3 { background-image: url(../images/spotboxPILc.png) }
 .spotbox-video .views-row:hover h3 { background-image: none }
 .spotbox-video .views-row:hover h4 { background-image: url(../images/spotboxPILover.png) }
-.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #880054; z-index: 999 }
+.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #3B5998; z-index: 999 }
 .spotbox-body { height: 95px; overflow: hidden; padding: 10px; background-color: #FFF}
 a.overlayclass {
   width:230px;
@@ -1251,10 +1253,10 @@ a.overlayclass span.zoom-icon{
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #880054;
+  border: 3px solid #3B5998;
 	  height: 106px;
   width: 221px;
-  border: #880054 solid 5px;
+  border: #3B5998 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-tall {
@@ -1262,10 +1264,10 @@ a.overlayclass span.zoom-icon-tall {
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #880054;
+  border: 3px solid #3B5998;
   height: 327px;
   width: 221px;
-  border: #880054 solid 5px;
+  border: #3B5998 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-video {
@@ -1273,17 +1275,17 @@ a.overlayclass span.zoom-icon-video {
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #880054;
+  border: 3px solid #3B5998;
   height: 168px;
   width: 300px;
-  border: #880054 solid 5px;
+  border: #3B5998 solid 5px;
 }
 
-a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #880054 solid 5px;
+a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #3B5998 solid 5px;
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #880054;}
+  border: 3px solid #3B5998;}
 
 .spotbox .views-row:hover span.zoom-icon, .spotbox .views-row:hover span.zoom-icon-video, .spotbox .views-row:hover span.zoom-icon-tall {
   visibility:visible;
@@ -1402,7 +1404,7 @@ height: 90px;
 
 
 .selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 23px; padding-top: 8px; padding-bottom: 11px; }
-.selvbetjening-megamenu {background-image: url(../images/selvbetjening-230.png);  color: #FFF; padding: 20px; height: 281px }
+.selvbetjening-megamenu {background-image: url(../images/selvbetjening-bg-BLUE.png);  color: #FFF; padding: 20px; height: 281px }
 .selvbetjening-megamenu h3 a {
 	text-transform: uppercase;
 	text-align: center;
@@ -1462,7 +1464,7 @@ height: 90px;
 */
 .portal-politik-og-planer .panel-region-middle-right {margin-left: 5px}
 .portal-side .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-230.png);
+	background-image: url(../images/selvbetjening-bg-BLUE.png);
 	margin: 0;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -1832,6 +1834,9 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
 #zone-header-wrapper {  height: 138px;}
 
+#zone-user-wrapper ul.menu li {
+	display: inline-block;
+}
 #zone-user-wrapper ul.menu li a {
     display: block;
     margin-top: 0px;
@@ -1874,7 +1879,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
 }
 
-#block-menu-menu-erhverv-genveje a {
+#block-menu-os2web-menu-business-shortcuts a {
     font-size: 12px;
     color: #5c5c5c;
     display: block;
@@ -1930,7 +1935,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .field-name-field-case a:hover,
 .field-name-field-doc a:hover {
-    color: #880054;
+    color: #3B5998;
 }
 
 .documentdate{
@@ -2149,7 +2154,7 @@ color: #B3B3B3;
 #panel-politikogplaner .panel-region-middle-center {width: 470px}
 
 .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-230.png);
+	background-image: url(../images/selvbetjening-bg-BLUE.png);
 	margin: 0;}
 
 .selvbetjening-block-portal h3 a {
@@ -2531,7 +2536,7 @@ div.breadcrumb.you-are-here {
 	top: 5px;
         height: 106px;
 	width: 221px;
-	border: #880054 solid 5px;
+	border: #3B5998 solid 5px;
 }
 
 
@@ -3094,13 +3099,13 @@ border-bottom: 1px solid #F3F3F3;
 .ccc-outer .ccc-inner .ccc-button {
  color: #000; }
 
-.ccc-outer {border-color: #880054 !important}
+.ccc-outer {border-color: #3B5998 !important}
 
 .ccc-inner h2, .ccc-expand {
-    background-color: #880054 !important;}
+    background-color: #3B5998 !important;}
 
 .ccc-inner a {
-    color: #880054 !important;
+    color: #3B5998 !important;
 }
 
 #block-views-redaktoer-info-block { background-color: #E6E6E6; padding: 10px; margin-top: 20px}
@@ -3802,17 +3807,12 @@ input.error{
   float: right;
 }
 
-<<<<<<< HEAD
 .views-row { overflow: hidden}
 .right-links-block {
 
 	color:#333333;
 
 }
-
-
-
-
 
 .view-os2web-kulturnaut-events-lists .views-row { margin: 0; clear: both; margin-bottom: 20px; margin-top: 10px;}
 
@@ -3828,24 +3828,24 @@ input.error{
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 .view-os2web-kulturnaut-events-lists .calendar .calendar-bottom {
-background: #d10000; 
+background: #d10000;
 		background: linear-gradient(top, #d10000 0%, #7a0909 100%);
 		background: -moz-linear-gradient(top, #d10000 0%, #7a0909 100%);
 		background: -webkit-linear-gradient(top, #d10000 0%, #7a0909 100%);
 		color: #FFF;
-		font-size: 10px; 
+		font-size: 10px;
 		text-transform: uppercase;
 		padding-top: 2px;
 	}
-	
+
 .view-os2web-kulturnaut-events-lists .calendar .calendar-top {
-					background: #fcfcfc; 
-	background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%); 
-	background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%); 
-	background: -webkit-linear-gradient(top, #fcfcfc 0%,#dad8d8 100%); 
-	
-	
-		font-size: 12px; font-weight: bold; color: #8A8A8A; text-transform: uppercase; 	
+					background: #fcfcfc;
+	background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
+	background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
+	background: -webkit-linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
+
+
+		font-size: 12px; font-weight: bold; color: #8A8A8A; text-transform: uppercase;
 		display: block;
 		border-top: 3px solid #a13838;
 		border-radius: 0 0 10px 10px;
@@ -3873,7 +3873,6 @@ background: #d10000;
 .panels-flexible-region-6-center { width: 100%}
 
 #region-footer-third .block-block .block-inner { padding: 5px; background-color: #FBFBFB }
-=======
 
 #block-feedback-form span { display: block}
 #block-feedback-form h2 { background-image: url(../images/feedbackikon189.png); width: 30px; height: 189px; color: transparent; float: left }
@@ -3916,7 +3915,7 @@ background: #d10000;
 #feedback-status-message {background-color: #970065; display: block; color: #FFF; padding: 20px 10px 140px 10px}
 
 .view-os2web-cp-service-cp-case-search .form-submit {
-    background: #8b0053;
+    background: #3B5998;
     color: white;
     border-radius: 3px;
     text-shadow: none;
@@ -3933,4 +3932,3 @@ background: #d10000;
 .view-os2web-cp-service-cp-case-search .views-submit-button{
     display: none; /* Only the last one */
 }
->>>>>>> 94d9eac16d57805210651ce4599eca5d07fec267
