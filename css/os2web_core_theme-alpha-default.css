@@ -1,35 +1,114 @@
-/* This file will hold styles that are loaded using the same media query as the normal grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
-
-/*#page {background-image: url(../images/byvaaben-transp.png); background-position: center top; background-repeat: no-repeat}
-
-#zone-content-wrapper {background-image: url(../images/page-bg-top.png); background-repeat: no-repeat}
-.zone-content-wrapper, #zone-postscript-wrapper {background-image: url(../images/page-bg-bg.png); background-position: center; background-position-x: top; background-position-y: center; background-repeat: repeat-y}
-
-
-#zone-footer-wrapper {background-image: url(..images/page-bg-bund.png)}
-#zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
-
-
-#zone-menu { background-image: url(../images/menu-bg.png)}
-
-*/
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
 
-.grid-12.alpha.omega .views-row-1.grid-3,
-.grid-12.alpha.omega .views-row-5.grid-3,
-.grid-12.alpha.omega .views-row-9.grid-3,
-.grid-12.alpha.omega .views-row-13.grid-3 { margin-left: 0; clear: left}
+.grid-9, .grid-10, .grid-11, .grid-12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  padding-left: 0;
+  margin-right: 0;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 9px ;
+  padding-left: 1px;
+  margin-right: 0;
+}
 
-.grid-12.alpha.omega .views-row-4.grid-3,
-.grid-12.alpha.omega .views-row-8.grid-3,
-.grid-12.alpha.omega .views-row-12.grid-3,
-.grid-12.alpha.omega .views-row-16.grid-3
-	 { margin-right: 0}
+.push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4,
+.push-5, .pull-5, .push-6, .pull-6, .push-7, .pull-7, .push-8, .pull-8,
+.push-9, .pull-9, .push-10, .pull-10, .push-11, .pull-11, .push-12, .pull-12 {
+  position: relative;
+}
+
+.grid-12 .views-row-1.grid-3,
+.grid-12 .views-row-5.grid-3 {
+	margin-left: 0;
+	clear: left;
+	}
+
+.grid-12 .views-row-4.grid-3,
+.grid-12 .views-row-8.grid-3 {
+	margin-right: 0;
+	}
+
+
+/*
+ * ==========================================================
+ * Alpha - Omega
+ * ==========================================================
+ */
+
+.alpha {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/*
+ * ==========================================================
+ * Container
+ * ==========================================================
+ */
+
+body {
+  min-width: 970px;
+}
+
+.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
+
+/*
+ * ==========================================================
+ * Columns
+ * ==========================================================
+ */
+
+.container-12 .grid-1 {
+  width: 69px;
+}
+
+.container-12 .grid-2 {
+  width: 147px;
+}
+
+.container-12 .grid-3 {
+  width: 229px;
+}
+
+.container-12 .grid-4 {
+  width: 309px;
+}
+
+.container-12 .grid-5 {
+  width: 389px;
+}
+
+.container-12 .grid-6 {
+  width: 469px;
+}
+
+.container-12 .grid-7 {
+  width: 549px;
+}
+
+
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
@@ -45,13 +124,13 @@ select, input, textarea { font:99% sans-serif; }
 body {font:13px sans-serif; line-height:1.22; }
 body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
-::-moz-selection { background: #3B5998; color: #fff; text-shadow: none; }
-::selection { background: #3B5998; color: #fff; text-shadow: none; }
+::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
+::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
-a:link, a:visited { color: #3B5998; text-decoration: none;}
+a:link, a:visited { color: #8b0053; text-decoration: none;}
 
 a:active,
-a:focus { outline: 1px solid #3B5998;}
+a:focus { outline: 1px solid #8b0053;}
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 5px;
@@ -111,7 +190,7 @@ ul.primary li a {
 	}
 
 #main-menu li a.qtip-hover{
-    color: #3B5998;
+    color: #880054;
     background-image: url(../images/menu-dp-over.png);
     }
 
@@ -348,7 +427,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
-	color: #3B5998;
+	color: #8b0053;
 }
 
 .view-id-newslist.view-display-id-panel_pane_1,
@@ -501,8 +580,7 @@ ul.jcarousel-list-horizontal { }
 	width: 42px;
 }
 #block-block-5 p { margin-bottom: 0px}
-#block-menu-os2web-menu-business-shortcuts {float: left}
-#block-menu-os2web-menu-business-shortcuts .block-title {display: none;}
+#block-menu-menu-erhverv-genveje {float: left}
 
 #region-header-second { height: 80px}
 
@@ -557,7 +635,7 @@ ul.jcarousel-list-horizontal { }
 	background-image: url(../images/byvaaben1.png);
 	background-position: center top;
 	background-repeat: no-repeat;
-/*	height: 200px;*/
+	height: 202px;
 	margin: auto;}
 #section-content {
 	background: url(../images/byvaaben-00.png) center top no-repeat;}
@@ -566,22 +644,55 @@ ul.jcarousel-list-horizontal { }
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
 .zone-footer-wrapper {
+	background-image: url(../images/content-bg07.png);
+	background-position: center top;
+	background-repeat:repeat-y;
 	padding-top: 25px;}
 .zone-content-wrapper {
 	/*width: 1018px; */
 	margin: auto;
+	/*background-color: #FFF;*/
+	/*background-image: url(../images/transwhite.png)*/
+	background-image: url(../images/content-bg03.png);
+	background-repeat: repeat-y;
+	background-position: center center;
+	}
+
+.uden-hoejre-spalte-wrapper
+	{background-image: url(../images/content-bg05.png);
+}
+
+.page-taxonomy #zone-content-wrapper {
+	background: url(../images/content-bg2.png) repeat-y center
+	}
+.front #zone-content-wrapper {
+	background: url(../images/content-bg-fs.png);
+	background-repeat: repeat-y;
+	background-position: center center;
 	}
 #zone-content {
 	padding-top: 10px;
 	padding-bottom: 20px;
+	background-image: url(../images/skyggeINDHOLD.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
 	}
 
-
+.node-type-contentpage #zone-content {
+	background-image: url(../images/indholdTOP.png);
+	}
+.uden-hoejre-spalte-wrapper #zone-content {
+	background-image: url(../images/content-bg06.png)
+	}
 #zone-footer {
-	min-height: 350px;}
+	/*background-image: url(../images/footer-bg.png); */
+	background-image: url(../images/transwhite.png);
+	/*background-position: top left;
+	background-repeat: repeat-x;
+	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { height: 68px; background-color: #FBFBFB}
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -599,6 +710,7 @@ ul.jcarousel-list-horizontal { }
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
 #zone-header{ padding-bottom: 10px}
+#region-sidebar-first {width: 240px; margin-right: 0px}
 
 /*
 ## grid-fix
@@ -606,10 +718,9 @@ ul.jcarousel-list-horizontal { }
 */
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
-#region-footer-first { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
+#region-footer-first { width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
 
-.menu-minipanels { background-color: #FFF}
-
+.qtip-cmstheme { background-color: transparent}
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
@@ -707,7 +818,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 
 .qtip-wrapper .view-megadd-news a:hover {
-    color: #3B5998;
+    color: #880054;
 }
 
 div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega.aktuelle-emner {
@@ -751,7 +862,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 }
 
 .qtip-wrapper ul.menu a:hover {
-    color: #3B5998;
+    color: #880054;
     background-image:url('../images/megamenu-arrow-over.png');
     background-repeat: no-repeat;
     background-position:left center;
@@ -972,7 +1083,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     border:1px solid #FFF;
     border-bottom:1px solid #FFF;
     background-color:#F2F2F2;
-	background-color: #3B5998;
+	background-color: #8b0053;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 }
@@ -1079,8 +1190,8 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 #zone-user-wrapper {
-	border-top: solid 3px #123379
-}
+	border-top: solid 3px #5D0036
+	}
 
 #zone-user-wrapper ul.menu li {}
 #zone-user-wrapper ul.menu li a {}
@@ -1100,19 +1211,11 @@ ul.menu li a.menu-minipanel-1608 {
     }
 
 .spotbox-2-vertical .spotbox-row {
+    background-image: url("../images/spot1b.png");
     padding: 0;
-    background-color: #FBFBFB;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    background-position: 0px 27px;
     }
 
-.spotbox-2-vertical .spotbox-row img { max-width: 100%; height: auto}
-
-.view-display-id-sb_block_forside { padding: 0}
-.view-display-id-sb_block_forside .view-header h3 { margin: 10px;}
-
-.view-display-id-sb_block_forside_att_2 { padding-bottom: 20px;}
-.spotbox-2-vertical a p { color: #FFF}
 .spotbox-subsite-frontpage {
 	margin-bottom: 10px;
 	margin-left: 5px
@@ -1211,7 +1314,7 @@ ul.menu li a.menu-minipanel-1608 {
 }
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
-.spotbox h3 {width: 100%;height: 30px; overflow: hidden; line-height: 0.9em; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
+.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
 body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto; padding:0 0 3px 0; margin: 22px 16px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
 .spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 19px}
@@ -1221,7 +1324,7 @@ body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto
 .spotbox .views-row:hover h3 { background-image: url(../images/spotboxPILc.png) }
 .spotbox-video .views-row:hover h3 { background-image: none }
 .spotbox-video .views-row:hover h4 { background-image: url(../images/spotboxPILover.png) }
-.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #3B5998; z-index: 999 }
+.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #880054; z-index: 999 }
 .spotbox-body { height: 95px; overflow: hidden; padding: 10px; background-color: #FFF}
 a.overlayclass {
   width:230px;
@@ -1249,10 +1352,10 @@ a.overlayclass span.zoom-icon{
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
 	  height: 106px;
   width: 221px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-tall {
@@ -1260,10 +1363,10 @@ a.overlayclass span.zoom-icon-tall {
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
   height: 327px;
   width: 221px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-video {
@@ -1271,17 +1374,17 @@ a.overlayclass span.zoom-icon-video {
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
   height: 168px;
   width: 300px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
-a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #3B5998 solid 5px;
+a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #880054 solid 5px;
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #3B5998;}
+  border: 3px solid #880054;}
 
 .spotbox .views-row:hover span.zoom-icon, .spotbox .views-row:hover span.zoom-icon-video, .spotbox .views-row:hover span.zoom-icon-tall {
   visibility:visible;
@@ -1327,20 +1430,26 @@ padding-bottom: 5px
 	padding: 6px 1px 0px 1px;
 }
 
-
-.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjeningFORSIDE-BLUE.png); background-repeat: no-repeat;}
+/*
+.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
 .selvbetjening-block-forside h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
 .selvbetjening-block-forside ul {margin-left: 10px; margin-bottom: 12px}
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
-.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
-
+G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
+*/
 
 .portal-politik-og-planer .selvbetjening-block-forside h3 a {
+	background-image: url(../images/politikogplanerTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
 	line-height: 55px;
 	padding: 8px 23px;}
 
 .portal-erhverv .selvbetjening-block-forside h3 a{
+	background-image: url(../images/erhvervTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
 	line-height: 55px;
 	padding: 8px 23px;}
 
@@ -1394,7 +1503,7 @@ height: 90px;
 
 
 .selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 23px; padding-top: 8px; padding-bottom: 11px; }
-.selvbetjening-megamenu {background-image: url(../images/selvbetjening-bg-BLUE.png);  color: #FFF; padding: 20px; height: 281px }
+.selvbetjening-megamenu {background-image: url(../images/selvbetjening-230.png);  color: #FFF; padding: 20px; height: 281px }
 .selvbetjening-megamenu h3 a {
 	text-transform: uppercase;
 	text-align: center;
@@ -1454,7 +1563,7 @@ height: 90px;
 */
 .portal-politik-og-planer .panel-region-middle-right {margin-left: 5px}
 .portal-side .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-bg-BLUE.png);
+	background-image: url(../images/selvbetjening-230.png);
 	margin: 0;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -1746,7 +1855,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .qtip-wrapper div.panel-panel {margin-right: 0}
 
-.qtip-os2web_core_theme .qtip-wrapper {
+.qtip-cmstheme .qtip-wrapper {
 	background-image: url("../images/megadropdownBAG.png");
 	background-position: center top;
 	background-color: #FFF;
@@ -1821,12 +1930,9 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
     }
 #zone-user a { font-weight: normal}
-#zone-user-wrapper {  height: 40px; overflow: hidden}
-#zone-header-wrapper {  height: 138px;}
+#zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
+#zone-header-wrapper { }
 
-#zone-user-wrapper ul.menu li {
-	display: inline-block;
-}
 #zone-user-wrapper ul.menu li a {
     display: block;
     margin-top: 0px;
@@ -1869,7 +1975,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
 }
 
-#block-menu-os2web-menu-business-shortcuts a {
+#block-menu-menu-erhverv-genveje a {
     font-size: 12px;
     color: #5c5c5c;
     display: block;
@@ -1925,7 +2031,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .field-name-field-case a:hover,
 .field-name-field-doc a:hover {
-    color: #3B5998;
+    color: #880054;
 }
 
 .documentdate{
@@ -1991,10 +2097,11 @@ p.MsoNormal {
     color: #4a4a4a;
 }
 
-.not-front .indholdsomraade .region-content-inner {
-	padding-left: 20px;
+/*
+.indholdsomraade .region-content-inner {
+	margin-left: 10px;
 }
-
+*/
 #region-footer-first {background-repeat: no-repeat; height: 53px; line-height: 53px; background-color: #FBFBFB; color: #B3B3B3; font-size: 11px; overflow: hidden}
 
 .region-footer-first-inner {
@@ -2143,7 +2250,7 @@ color: #B3B3B3;
 #panel-politikogplaner .panel-region-middle-center {width: 470px}
 
 .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-bg-BLUE.png);
+	background-image: url(../images/selvbetjening-230.png);
 	margin: 0;}
 
 .selvbetjening-block-portal h3 a {
@@ -2233,33 +2340,19 @@ color: #B3B3B3;
 
 ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
 }
-#region-preface-first {width: 960px; margin-left: 0px; margin-right: 0px}
-#region-preface-first .block{ float: right;}
-#zone-preface { line-height: 30px; padding-top: 5px; width: 960px; color: #FFF; font-size: 15px }
+#region-preface-first {width: 970px; margin-left: 0px; margin-right: 0px}
+#zone-preface { line-height: 30px; padding-top: 5px; width: 970px; color: #FFF; font-size: 15px }
 #zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
 #zone-preface .block-nice-menus  { float: right; margin-right: 30px}
-#zone-preface .block-nice-menus .block-title { display: none;}
 #zone-preface  ul.nice-menu-down li.menuparent {
     background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
-}
-#zone-preface-wrapper {
-	position: absolute;
-	background-image: url(../images/os2webWEBSTEDER-bg.png);
-	width: 1018px;
-	z-index: 999;
-	height: 35px;
-	margin-left: -509px;
-	left: 50%;
-}
-#zone-preface {
-	margin: auto;
 }
 
 #zone-preface ul.nice-menu-down li { border-top: none ;border: none}
 
 #zone-preface ul.nice-menu a {color: #FFF;font-size: 15px}
 
-#zone-preface ul.nice-menu li { background-color:  initial;}
+#zone-preface ul.nice-menu li { background-color:  #640C3C;}
 
 #zone-preface ul.nice-menu ul { top: 30px; border: none}
 
@@ -2339,9 +2432,7 @@ text-transform: uppercase;
 }
 
 #region-footer-second .view-id-selvbetjening ul,
-#region-footer-second .view-id-selvbetjening li,
-#region-footer-second .view-id-os2web_base_panels_view_selfserv ul,
-#region-footer-second .view-id-os2web_base_panels_view_selfserv li {
+#region-footer-second .view-id-selvbetjening li {
 	margin: 0;
 
 }
@@ -2386,23 +2477,24 @@ div.breadcrumb.you-are-here {
 }
 
 
-.view-id-os2web_base_panels_view_selfserv {
+.block-views-selvbetjening-block-6 {
 }
 
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-content,
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-header {
-	background: #3b5998;
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header {
+	background-image: url(../images/mellemSELVindhold.png);
 	padding: 1px 0;
-}
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-header .blanketter {
-	background: #3b5998;
-}
+	}
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header .blanketter {
+	background-image: url(../images/headerSELVindhold.png);
+	background-repeat: no-repeat;
+	}
 
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv.selvbetjening-indholdsside .view-footer {
-	background: #3b5998;
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-footer {
+	background-image: url(../images/bundSELVindhold.png);
+	background-position: left bottom;
 	height: 41px;
-}
-#region-sidebar-second .view-id-os2web_base_panels_view_selfserv h2 {
+	}
+#region-sidebar-second .block-views-selvbetjening-block-6 h2 {
 	text-transform: uppercase;
 	text-align: center;
 	color: white;
@@ -2419,7 +2511,7 @@ div.breadcrumb.you-are-here {
 }
 
 .selvbetjening-indholdsside .blanketter a {
-	color: white;
+	color: #C386A8;
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -2443,7 +2535,7 @@ div.breadcrumb.you-are-here {
 	background-image: url("../images/selvbetjening-down-arrow.png");
 	background-position: 5px 0;
 	font-size: 14px;
-}
+    }
 
 
 
@@ -2522,7 +2614,7 @@ div.breadcrumb.you-are-here {
 }
 
 #region-sidebar-second .spotbox-indhold .views-row:hover a {
-        color: #3B5998;
+        color: #8b0053;
 }
 
 #region-sidebar-second .spotbox-indhold .views-row:hover h3 { background-image: url(../images/spotboxPILc.png);}
@@ -2538,7 +2630,7 @@ div.breadcrumb.you-are-here {
 	top: 5px;
         height: 106px;
 	width: 221px;
-	border: #3B5998 solid 5px;
+	border: #880054 solid 5px;
 }
 
 
@@ -2652,7 +2744,7 @@ div.breadcrumb.you-are-here {
 
 div.qtip { background-image: url(../images/megadropdownBUND.png); background-position: bottom center; padding-bottom: 34px;}
 
-.qtip-os2web_core_theme .qtip-wrapper {
+.qtip-cmstheme .qtip-wrapper {
     padding: 20px 0 0;
 }
 
@@ -2775,7 +2867,7 @@ line-height: 22px;
 }
 
 #region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover {
-        background: url(../images/v-arrow-default-on.png) #3B5998 no-repeat right 50%;
+        background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
         color: #FFF;
 }
 
@@ -2891,7 +2983,7 @@ line-height: 22px;
         padding-left: 2px;
 }
 .breadcrumb a:hover {
-	color: #3B5998;
+	color: #8b0053;
 }
 
 .selvbetjening-block-forside .yaselect-anchor {
@@ -3067,6 +3159,7 @@ border-bottom: 1px solid #F3F3F3;
 
 .spotbox_no_picture {
 	background-image: url(../images/spotBOXgraa.png);
+	width: 231px;
 }
 
 .spotbox_no_picture_text {
@@ -3101,13 +3194,13 @@ border-bottom: 1px solid #F3F3F3;
 .ccc-outer .ccc-inner .ccc-button {
  color: #000; }
 
-.ccc-outer {border-color: #3B5998 !important}
+.ccc-outer {border-color: #880054 !important}
 
 .ccc-inner h2, .ccc-expand {
-    background-color: #3B5998 !important;}
+    background-color: #880054 !important;}
 
 .ccc-inner a {
-    color: #3B5998 !important;
+    color: #880054 !important;
 }
 
 #block-views-redaktoer-info-block { background-color: #E6E6E6; padding: 10px; margin-top: 20px}
@@ -3154,7 +3247,7 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 #block-apachesolr-search-sort li:hover {
-   background-color: #3B5998;
+   background-color: #8b0053;
 }
 
 #block-apachesolr-search-sort li:hover a {
@@ -3245,7 +3338,7 @@ tr.even td { background: #f9f9f9;}
 	margin-bottom: 15px; height: 30px; }
 .view-id-planer_i_hoering .view-footer span { display: block;float: left; margin-right: 15px}
 .view-id-planer_i_hoering .view-footer span.alle { float: right; margin-right: 0}
-.view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #3B5998; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
+.view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #8b0053; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 
 
@@ -3374,7 +3467,7 @@ tr.even td { background: #f9f9f9;}
 }
 
 .portalnews-big .views-row.views-row-first .news-list-left:hover {
-  border: solid #3B5998 5px;
+  border: solid #8b0053 5px;
 }
 
 .view-id-newslist.portalnews-big .view-content {
@@ -3810,133 +3903,3 @@ input.error{
 }
 
 .views-row { overflow: hidden}
-.right-links-block {
-
-	color:#333333;
-
-}
-
-.view-os2web-kulturnaut-events-lists .views-row { margin: 0; clear: both; margin-bottom: 20px; margin-top: 10px;}
-
-.view-os2web-kulturnaut-events-lists .calendar { width: 40px; float: left; margin-bottom: 10px; margin-right: 10px;}
-
-.view-os2web-kulturnaut-events-lists .calendar {
-	text-align: center;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-}
-.view-os2web-kulturnaut-events-lists .calendar .calendar-bottom {
-background: #d10000;
-		background: linear-gradient(top, #d10000 0%, #7a0909 100%);
-		background: -moz-linear-gradient(top, #d10000 0%, #7a0909 100%);
-		background: -webkit-linear-gradient(top, #d10000 0%, #7a0909 100%);
-		color: #FFF;
-		font-size: 10px;
-		text-transform: uppercase;
-		padding-top: 2px;
-	}
-
-.view-os2web-kulturnaut-events-lists .calendar .calendar-top {
-					background: #fcfcfc;
-	background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
-	background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
-	background: -webkit-linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
-
-
-		font-size: 12px; font-weight: bold; color: #8A8A8A; text-transform: uppercase;
-		display: block;
-		border-top: 3px solid #a13838;
-		border-radius: 0 0 10px 10px;
-		-moz-border-radius: 0 0 10px 10px;
-		-webkit-border-radius: 0 0 10px 10px;
-		padding: 6px 0 6px 0;
-	}
-.view-os2web-kulturnaut-events-lists .views-field-title { padding-top: 10px; }
-.view-os2web-kulturnaut-events-lists .views-field-title  a {
-	line-height: 16px;
-	font-size: 16px;
-	color: #8A8A8A;
-}
-@-moz-document url-prefix() {
-    .date {
-        padding: 16px 0 0 0;
-    }
-    .date p span {
-    	padding: 9px 0 3px 0;
-    }
-}
-
-.front .view-os2web-spotbox-view-spots { clear: both}
-
-.panels-flexible-region-6-center { width: 100%}
-
-#region-footer-third .block-block .block-inner { padding: 5px; background-color: #FBFBFB }
-
-#block-feedback-form span { display: block}
-#block-feedback-form h2 { background-image: url(../images/feedbackikon189.png); width: 30px; height: 189px; color: transparent; float: left }
-
-#block-feedback-form {
-	display: none;
-	position: fixed;
-	bottom: 60px;
-	right: 0;
-	overflow: hidden;
-	z-index: 10;
-}
-#block-feedback-form form { border: none; }
-#block-feedback-form .content { float: right}
-#block-feedback-form .feedback-link {
-	width: 30px;
-	height: 189px;
-	display: block;
-}
-
-#block-feedback-form .feedback-form {
-	background-color: white;
-	opacity: 1;
-	color: black;
-	float: left;
-	max-width: 201px;
-	border-top: 1px solid purple;
-	border-bottom: 1px solid purple;
-	border-left: 1px solid purple;
-}
-
-#block-feedback-form .feedback-form input[type=text]{ width: 200px}
-
-#feedback-submit {
-	float: right;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-
-#feedback-status-message {background-color: #970065; display: block; color: #FFF; padding: 20px 10px 140px 10px}
-
-.view-os2web-cp-service-cp-case-search .form-submit {
-    background: #3B5998;
-    color: white;
-    border-radius: 3px;
-    text-shadow: none;
-    padding: 11px 19px;
-    text-transform: uppercase;
-    border: none;
-    margin: 32px 0 0 10px;
-}
-
-.view-os2web-cp-service-cp-case-search .form-item .description{
-    display: none;
-}
-
-.view-os2web-cp-service-cp-case-search .views-submit-button{
-    display: none; /* Only the last one */
-}
-
-.view-id-os2web_base_panels_view_newslist .views-row {
-	margin-bottom: 25px; border-bottom: 2px solid #DDD; padding-bottom: 20px; clear: left}
-.view-id-os2web_base_panels_view_newslist .field-type-text-with-summary { color: #555; font-style: italic; padding-top: 10px;}
-
-.view-id-os2web_base_panels_view_newslist .last-updated-node { float: right}
