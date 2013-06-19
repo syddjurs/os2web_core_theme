@@ -32,7 +32,7 @@
       ?>
     </div>
   </div>
-  <?php if ($view_mode != 'os2web_meeting_meeting'): ?>
+  <?php if ($view_mode != 'os2web_meetings_meeting_detail_view'): ?>
     <?php
     print "<div class='last-updated-node'> Opdateret: " . format_date($node->changed, "short") . "</div>";
     ?>
