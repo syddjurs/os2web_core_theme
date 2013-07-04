@@ -45,13 +45,13 @@ select, input, textarea { font:99% sans-serif; }
 body {font:13px sans-serif; line-height:1.22; }
 body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
-::-moz-selection { background: #3B5998; color: #fff; text-shadow: none; }
-::selection { background: #3B5998; color: #fff; text-shadow: none; }
+::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
+::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
-a:link, a:visited { color: #3B5998; text-decoration: none;}
+a:link, a:visited { color: #8b0053; text-decoration: none;}
 
 a:active,
-a:focus { outline: 1px solid #3B5998;}
+a:focus { outline: 1px solid #8b0053;}
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 5px;
@@ -111,7 +111,7 @@ ul.primary li a {
 	}
 
 #main-menu li a.qtip-hover{
-    color: #3B5998;
+    color: #880054;
     background-image: url(../images/menu-dp-over.png);
     }
 
@@ -348,7 +348,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
-	color: #3B5998;
+	color: #8b0053;
 }
 
 .view-id-newslist.view-display-id-panel_pane_1,
@@ -501,8 +501,7 @@ ul.jcarousel-list-horizontal { }
 	width: 42px;
 }
 #block-block-5 p { margin-bottom: 0px}
-#block-menu-os2web-menu-business-shortcuts {float: left}
-#block-menu-os2web-menu-business-shortcuts .block-title {display: none;}
+#block-menu-menu-erhverv-genveje {float: left}
 
 #region-header-second { height: 80px}
 
@@ -707,7 +706,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 
 .qtip-wrapper .view-megadd-news a:hover {
-    color: #3B5998;
+    color: #880054;
 }
 
 div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega.aktuelle-emner {
@@ -751,7 +750,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 }
 
 .qtip-wrapper ul.menu a:hover {
-    color: #3B5998;
+    color: #880054;
     background-image:url('../images/megamenu-arrow-over.png');
     background-repeat: no-repeat;
     background-position:left center;
@@ -972,7 +971,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     border:1px solid #FFF;
     border-bottom:1px solid #FFF;
     background-color:#F2F2F2;
-	background-color: #3B5998;
+	background-color: #8b0053;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 }
@@ -1225,7 +1224,7 @@ body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto
 .spotbox .views-row:hover h3 { background-image: url(../images/spotboxPILc.png) }
 .spotbox-video .views-row:hover h3 { background-image: none }
 .spotbox-video .views-row:hover h4 { background-image: url(../images/spotboxPILover.png) }
-.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #3B5998; z-index: 999 }
+.spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #880054; z-index: 999 }
 .spotbox-body { height: 95px; overflow: hidden; padding: 10px; background-color: #FFF}
 a.overlayclass {
   width:230px;
@@ -1253,10 +1252,10 @@ a.overlayclass span.zoom-icon{
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
 	  height: 106px;
   width: 221px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-tall {
@@ -1264,10 +1263,10 @@ a.overlayclass span.zoom-icon-tall {
   position:absolute;
   left:0;
   top:0;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
   height: 327px;
   width: 221px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
 a.overlayclass span.zoom-icon-video {
@@ -1275,17 +1274,17 @@ a.overlayclass span.zoom-icon-video {
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #3B5998;
+  border: 3px solid #880054;
   height: 168px;
   width: 300px;
-  border: #3B5998 solid 5px;
+  border: #880054 solid 5px;
 }
 
-a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #3B5998 solid 5px;
+a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #880054 solid 5px;
   position:absolute;
   left:0;
   top:-162px;
-  border: 3px solid #3B5998;}
+  border: 3px solid #880054;}
 
 .spotbox .views-row:hover span.zoom-icon, .spotbox .views-row:hover span.zoom-icon-video, .spotbox .views-row:hover span.zoom-icon-tall {
   visibility:visible;
@@ -1404,7 +1403,7 @@ height: 90px;
 
 
 .selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 23px; padding-top: 8px; padding-bottom: 11px; }
-.selvbetjening-megamenu {background-image: url(../images/selvbetjening-bg-BLUE.png);  color: #FFF; padding: 20px; height: 281px }
+.selvbetjening-megamenu {background-image: url(../images/selvbetjening-230.png);  color: #FFF; padding: 20px; height: 281px }
 .selvbetjening-megamenu h3 a {
 	text-transform: uppercase;
 	text-align: center;
@@ -1464,7 +1463,7 @@ height: 90px;
 */
 .portal-politik-og-planer .panel-region-middle-right {margin-left: 5px}
 .portal-side .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-bg-BLUE.png);
+	background-image: url(../images/selvbetjening-230.png);
 	margin: 0;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -1834,9 +1833,6 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
 #zone-header-wrapper {  height: 138px;}
 
-#zone-user-wrapper ul.menu li {
-	display: inline-block;
-}
 #zone-user-wrapper ul.menu li a {
     display: block;
     margin-top: 0px;
@@ -1879,7 +1875,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
 }
 
-#block-menu-os2web-menu-business-shortcuts a {
+#block-menu-menu-erhverv-genveje a {
     font-size: 12px;
     color: #5c5c5c;
     display: block;
@@ -1935,7 +1931,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .field-name-field-case a:hover,
 .field-name-field-doc a:hover {
-    color: #3B5998;
+    color: #880054;
 }
 
 .documentdate{
@@ -2154,7 +2150,7 @@ color: #B3B3B3;
 #panel-politikogplaner .panel-region-middle-center {width: 470px}
 
 .selvbetjening-block-portal {
-	background-image: url(../images/selvbetjening-bg-BLUE.png);
+	background-image: url(../images/selvbetjening-230.png);
 	margin: 0;}
 
 .selvbetjening-block-portal h3 a {
@@ -2522,7 +2518,7 @@ div.breadcrumb.you-are-here {
 }
 
 #region-sidebar-second .spotbox-indhold .views-row:hover a {
-        color: #3B5998;
+        color: #8b0053;
 }
 
 #region-sidebar-second .spotbox-indhold .views-row:hover h3 { background-image: url(../images/spotboxPILc.png);}
@@ -2538,7 +2534,7 @@ div.breadcrumb.you-are-here {
 	top: 5px;
         height: 106px;
 	width: 221px;
-	border: #3B5998 solid 5px;
+	border: #880054 solid 5px;
 }
 
 
@@ -2891,7 +2887,7 @@ line-height: 22px;
         padding-left: 2px;
 }
 .breadcrumb a:hover {
-	color: #3B5998;
+	color: #8b0053;
 }
 
 .selvbetjening-block-forside .yaselect-anchor {
@@ -3101,13 +3097,13 @@ border-bottom: 1px solid #F3F3F3;
 .ccc-outer .ccc-inner .ccc-button {
  color: #000; }
 
-.ccc-outer {border-color: #3B5998 !important}
+.ccc-outer {border-color: #880054 !important}
 
 .ccc-inner h2, .ccc-expand {
-    background-color: #3B5998 !important;}
+    background-color: #880054 !important;}
 
 .ccc-inner a {
-    color: #3B5998 !important;
+    color: #880054 !important;
 }
 
 #block-views-redaktoer-info-block { background-color: #E6E6E6; padding: 10px; margin-top: 20px}
@@ -3154,7 +3150,7 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 #block-apachesolr-search-sort li:hover {
-   background-color: #3B5998;
+   background-color: #8b0053;
 }
 
 #block-apachesolr-search-sort li:hover a {
@@ -3245,7 +3241,7 @@ tr.even td { background: #f9f9f9;}
 	margin-bottom: 15px; height: 30px; }
 .view-id-planer_i_hoering .view-footer span { display: block;float: left; margin-right: 15px}
 .view-id-planer_i_hoering .view-footer span.alle { float: right; margin-right: 0}
-.view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #3B5998; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
+.view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #8b0053; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 
 
@@ -3374,7 +3370,7 @@ tr.even td { background: #f9f9f9;}
 }
 
 .portalnews-big .views-row.views-row-first .news-list-left:hover {
-  border: solid #3B5998 5px;
+  border: solid #8b0053 5px;
 }
 
 .view-id-newslist.portalnews-big .view-content {
@@ -3917,7 +3913,7 @@ background: #d10000;
 #feedback-status-message {background-color: #970065; display: block; color: #FFF; padding: 20px 10px 140px 10px}
 
 .view-os2web-cp-service-cp-case-search .form-submit {
-    background: #3B5998;
+    background: #8b0053;
     color: white;
     border-radius: 3px;
     text-shadow: none;
