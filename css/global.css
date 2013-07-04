@@ -501,7 +501,8 @@ ul.jcarousel-list-horizontal { }
 	width: 42px;
 }
 #block-block-5 p { margin-bottom: 0px}
-#block-menu-menu-erhverv-genveje {float: left}
+#block-menu-os2web-menu-business-shortcuts {float: left}
+#block-menu-os2web-menu-business-shortcuts .block-title {display: none;}
 
 #region-header-second { height: 80px}
 
