@@ -1,3 +1,9 @@
+<?php
+/**
+ * @file
+ * region--content.tpl.php
+ */
+?>
 <div<?php print $attributes; ?>>
   <div<?php print $content_attributes; ?>>
     <a id="main-content"></a>
