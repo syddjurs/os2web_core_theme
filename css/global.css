@@ -673,6 +673,7 @@ ul.jcarousel-list-horizontal { }
 	background-image: url(../images/skyggeINDHOLD.png);
 	background-repeat: no-repeat;
 	background-color: transparent;
+	background-position: top;
 	}
 
 .node-type-contentpage #zone-content {
@@ -944,20 +945,20 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 /* Kontaktblok */
 
-.view-id-kontaktblok {
+.view-os2web-contact-view-contact {
 	background-image: url(../images/kontaktMELLEM.png);
 	width: 232px;
 	background-repeat: repeat-y;
 	background-position: -4px 0}
 
-.view-id-kontaktblok .view-content {
+.view-os2web-contact-view-contact .view-content {
 	/*height: 305px;*/
 	padding-top: 20px;
 	overflow: hidden;
 	background-image: url(../images/kontaktTOP.png);
 	background-repeat: no-repeat;
 	background-position: -4px 4px}
-.view-id-kontaktblok .view-footer {
+.view-os2web-contact-view-contact .view-footer {
 	height: 45px;
 	padding-top: 48px;
 	padding-left: 20px;
@@ -975,8 +976,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .telfonnummer {background-image: url(../images/telefon.png); background-repeat: no-repeat; padding-left: 35px; margin-bottom: 10px}
 .telfonnummer, .telfonnummer a { font-size: 34px;color: #777; line-height: 37px}
 
-.views-field-field-kontaktblok-callcenter p {margin-bottom: 10px}
-.views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
+.views-field-field-os2web-contact-field-callc p {margin-bottom: 10px}
+.views-field-field-os2web-contact-field-callc {margin-top: 15px; margin-bottom: 15px}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
@@ -984,13 +985,13 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a {color: #9b9b9b;}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a:hover {color: #8b0054;}
 
-.view-kontaktblok {
+.view-os2web-contact-view-contact {
 	margin-bottom: 20px;
 	margin-top: 3px;
 	margin-left: 1px
 }
 
-.view-kontaktblok .views-field {
+.view-os2web-contact-view-contact .views-field {
 	font-size: 11px;
 	color: #9B9B9B;
 	padding-left: 20px;
@@ -998,10 +999,10 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 }
 
 
-.view-kontaktblok .views-field strong {line-height: 20px;}
+.view-os2web-contact-view-contact .views-field strong {line-height: 20px;}
 /*
-.view-kontaktblok .views-field .telfonnummer,
-.view-kontaktblok .views-field .telfonnummer a {
+.view-os2web-contact-view-contact .views-field .telfonnummer,
+.view-os2web-contact-view-contact .views-field .telfonnummer a {
 	background-image: none;
 	font-size: 12px;
 	padding: 0 0 3px 0;
@@ -1048,7 +1049,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     padding: 0 0 3px;    background-image: none;}
 
 
-.view-kontaktblok  div.dag {
+.view-os2web-contact-view-contact  div.dag {
 	float: left;
 	width: 129px;
 	clear: left;
@@ -1056,16 +1057,16 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	clear: left;
 }
 
-.view-kontaktblok div.aaben {
+.view-os2web-contact-view-contact div.aaben {
 	float: left;
 	display: block;
 }
 
-.view-kontaktblok .aabningstider { padding: 0px 20px; font-size: 11px; color: #9B9B9B; width: 200px; display: block}
+.view-os2web-contact-view-contact .aabningstider { padding: 0px 20px; font-size: 11px; color: #9B9B9B; width: 200px; display: block}
 
-.view-kontaktblok h3, #region-sidebar-second .view-kontaktblok h3 { padding-left: 20px; text-transform: none; font-size: 14px}
+.view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 { padding-left: 20px; text-transform: none; font-size: 14px}
 
-#region-sidebar-second .views-field-field-kontaktblok-callcenter h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
+#region-sidebar-second .views-field-field-os2web-contact-field-callc h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
 
 /* Table 1 Style */
 .field-type-text-with-summary table{
@@ -3382,7 +3383,7 @@ tr.even td { background: #f9f9f9;}
 
 #mini-panel-hoejre_blokke_ved_dagsordener .view-spotboxe .spotbox-row {padding: 6px 1px 0px 1px;}
 
-#mini-panel-hoejre_blokke_ved_dagsordener .view-kontaktblok { margin-left: 0}
+#mini-panel-hoejre_blokke_ved_dagsordener .view-os2web-contact-view-contact { margin-left: 0}
 
 .pane-planer-i-hoering { margin: 0 8px !important; width: 473px !important;  }
 .view-id-planer_i_hoering { background-image: url(../images/planerihoeringTOP.png); padding-top: 10px}
