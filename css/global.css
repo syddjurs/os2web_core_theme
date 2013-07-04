@@ -1108,6 +1108,10 @@ ul.menu li a.menu-minipanel-1608 {
 
 .spotbox-2-vertical .spotbox-row img { max-width: 100%; height: auto}
 
+.view-os2web-base-panels-view-selfserv {
+	background-color: #FBFBFB;
+	}
+
 .view-display-id-sb_block_forside { padding: 0}
 .view-display-id-sb_block_forside .view-header h3 { margin: 10px;}
 
@@ -1328,7 +1332,7 @@ padding-bottom: 5px
 }
 
 
-.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjeningFORSIDE-BLUE.png); background-repeat: no-repeat;}
+.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjeningFORSIDE-BLUE.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
 .selvbetjening-block-forside h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
 .selvbetjening-block-forside ul {margin-left: 10px; margin-bottom: 12px}
 .selvbetjening-block-forside li { padding-left: 5px}
