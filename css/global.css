@@ -1331,20 +1331,26 @@ padding-bottom: 5px
 	padding: 6px 1px 0px 1px;
 }
 
-
-.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjeningFORSIDE-BLUE.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
+/*
+.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
 .selvbetjening-block-forside h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
 .selvbetjening-block-forside ul {margin-left: 10px; margin-bottom: 12px}
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
-.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
-
+G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
+*/
 
 .portal-politik-og-planer .selvbetjening-block-forside h3 a {
+	background-image: url(../images/politikogplanerTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
 	line-height: 55px;
 	padding: 8px 23px;}
 
 .portal-erhverv .selvbetjening-block-forside h3 a{
+	background-image: url(../images/erhvervTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
 	line-height: 55px;
 	padding: 8px 23px;}
 
