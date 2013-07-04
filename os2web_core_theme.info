@@ -464,3 +464,5 @@ settings[alpha_region_footer_third_equal_height_element] = '0'
 settings[alpha_region_footer_third_equal_height_container] = '1'
 settings[nice_menus_custom_css] = ''
 settings[favicon_mimetype] = 'image/png'
+
+stylesheets[all and (min-width: 1008px)][] = css/grid/os2web_core_theme_default/normal/os2web_core_theme-default-normal-12.css
