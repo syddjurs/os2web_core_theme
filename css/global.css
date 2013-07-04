@@ -1,24 +1,101 @@
-/* This file will hold styles that are loaded using the same media query as the normal grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
 
-/*#page {background-image: url(../images/byvaaben-transp.png); background-position: center top; background-repeat: no-repeat}
+.grid-9, .grid-10, .grid-11, .grid-12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  padding-left: 0;
+  margin-right: 0;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 9px ;
+  padding-left: 1px;
+  margin-right: 0;
+}
 
-#zone-content-wrapper {background-image: url(../images/page-bg-top.png); background-repeat: no-repeat}
-.zone-content-wrapper, #zone-postscript-wrapper {background-image: url(../images/page-bg-bg.png); background-position: center; background-position-x: top; background-position-y: center; background-repeat: repeat-y}
-
+.push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4,
+.push-5, .pull-5, .push-6, .pull-6, .push-7, .pull-7, .push-8, .pull-8,
+.push-9, .pull-9, .push-10, .pull-10, .push-11, .pull-11, .push-12, .pull-12 {
+  position: relative;
+}
 
 #zone-footer-wrapper {background-image: url(..images/page-bg-bund.png)}
 #zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
+/*
+ * ==========================================================
+ * Alpha - Omega
+ * ==========================================================
+ */
 
-#zone-menu { background-image: url(../images/menu-bg.png)}
+.alpha {
+  margin-left: 0;
+  padding-left: 0;
+}
 
-*/
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+.omega {
+  margin-right: 0;
+}
 
-/* This file will hold styles for the mobile version of your website (mobile first). */
-/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*
+ * ==========================================================
+ * Container
+ * ==========================================================
+ */
+
+body {
+  min-width: 970px;
+}
+
+.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
+
+/*
+ * ==========================================================
+ * Columns
+ * ==========================================================
+ */
+
+.container-12 .grid-1 {
+  width: 69px;
+}
+
+.container-12 .grid-2 {
+  width: 147px;
+}
+
+.container-12 .grid-3 {
+  width: 229px;
+}
+
+.container-12 .grid-4 {
+  width: 309px;
+}
+
+.container-12 .grid-5 {
+  width: 389px;
+}
+
+.container-12 .grid-6 {
+  width: 469px;
+}
+
+.container-12 .grid-7 {
+  width: 549px;
+}
 
 .grid-12.alpha.omega .views-row-1.grid-3,
 .grid-12.alpha.omega .views-row-5.grid-3,
@@ -29,7 +106,6 @@
 .grid-12.alpha.omega .views-row-12.grid-3,
 .grid-12.alpha.omega .views-row-16.grid-3
 	 { margin-right: 0}
-
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block;}
@@ -556,7 +632,7 @@ ul.jcarousel-list-horizontal { }
 	background-image: url(../images/byvaaben1.png);
 	background-position: center top;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 202px;
 	margin: auto;}
 #section-content {
 	background: url(../images/byvaaben-00.png) center top no-repeat;}
@@ -565,22 +641,55 @@ ul.jcarousel-list-horizontal { }
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
 .zone-footer-wrapper {
+	background-image: url(../images/content-bg07.png);
+	background-position: center top;
+	background-repeat:repeat-y;
 	padding-top: 25px;}
 .zone-content-wrapper {
 	/*width: 1018px; */
 	margin: auto;
+	/*background-color: #FFF;*/
+	/*background-image: url(../images/transwhite.png)*/
+	background-image: url(../images/content-bg03.png);
+	background-repeat: repeat-y;
+	background-position: center center;
+	}
+
+.uden-hoejre-spalte-wrapper
+	{background-image: url(../images/content-bg05.png);
+}
+
+.page-taxonomy #zone-content-wrapper {
+	background: url(../images/content-bg2.png) repeat-y center
+	}
+.front #zone-content-wrapper {
+	background: url(../images/content-bg-fs.png);
+	background-repeat: repeat-y;
+	background-position: center center;
 	}
 #zone-content {
 	padding-top: 10px;
 	padding-bottom: 20px;
+	background-image: url(../images/skyggeINDHOLD.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
 	}
 
-
+.node-type-contentpage #zone-content {
+	background-image: url(../images/indholdTOP.png);
+	}
+.uden-hoejre-spalte-wrapper #zone-content {
+	background-image: url(../images/content-bg06.png)
+	}
 #zone-footer {
-	min-height: 350px;}
+	/*background-image: url(../images/footer-bg.png); */
+	background-image: url(../images/transwhite.png);
+	/*background-position: top left;
+	background-repeat: repeat-x;
+	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { height: 68px; background-color: #FBFBFB}
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -598,6 +707,7 @@ ul.jcarousel-list-horizontal { }
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
 #zone-header{ padding-bottom: 10px}
+#region-sidebar-first {width: 240px; margin-right: 0px}
 
 /*
 ## grid-fix
@@ -605,10 +715,9 @@ ul.jcarousel-list-horizontal { }
 */
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
-#region-footer-first { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
+#region-footer-first { width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
 
-.menu-minipanels { background-color: #FFF}
-
+.qtip-cmstheme { background-color: transparent}
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
@@ -727,7 +836,6 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .view-megadd-news {
 	margin-top: 15px;
 }
-.qtip-wrapper .menu-minipanels { background-color: #FFF}
 
 .qtip-wrapper .menu-minipanels ul.menu li.leaf {
     float: left;
@@ -1099,10 +1207,9 @@ ul.menu li a.menu-minipanel-1608 {
     }
 
 .spotbox-2-vertical .spotbox-row {
-    padding: 0;
-    background-color: #FBFBFB;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    background-image: url("../images/spot1b.png");
+    padding: 1px 1px 0px;
+    background-position: 0px 27px;
     }
 .view-os2web-base-panels-view-selfserv {
 	background-color: #FBFBFB;
@@ -1111,8 +1218,6 @@ ul.menu li a.menu-minipanel-1608 {
 .view-display-id-sb_block_forside { padding: 0}
 .view-display-id-sb_block_forside .view-header h3 { margin: 10px;}
 
-.view-display-id-sb_block_forside_att_2 { padding-bottom: 20px;}
-.spotbox-2-vertical a p { color: #FFF}
 .spotbox-subsite-frontpage {
 	margin-bottom: 10px;
 	margin-left: 5px
@@ -1211,7 +1316,7 @@ ul.menu li a.menu-minipanel-1608 {
 }
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
-.spotbox h3 {width: 100%;height: 30px; overflow: hidden; line-height: 0.9em; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
+.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
 body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto; padding:0 0 3px 0; margin: 22px 16px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
 .spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 19px}
@@ -1752,7 +1857,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .qtip-wrapper div.panel-panel {margin-right: 0}
 
-.qtip-os2web_core_theme .qtip-wrapper {
+.qtip-cmstheme .qtip-wrapper {
 	background-image: url("../images/megadropdownBAG.png");
 	background-position: center top;
 	background-color: #FFF;
@@ -1828,7 +1933,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     }
 #zone-user a { font-weight: normal}
 #zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
-#zone-header-wrapper {  height: 138px;}
+#zone-header-wrapper { }
 
 #zone-user-wrapper ul.menu li a {
     display: block;
@@ -2026,9 +2131,11 @@ color: #B3B3B3;
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
-.page-taxonomy-term #region-content { margin-left: 0px; }
+.page-taxonomy-term #region-content { margin-left: 0px; width: 720px}
 
+.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 723px;}
 
+ .page-taxonomy-term #panel-borger .panel-region-middle-center{  width: 470px;}
 
 
 /* END */
@@ -2237,9 +2344,8 @@ color: #B3B3B3;
 
 ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
 }
-#region-preface-first {width: 960px; margin-left: 0px; margin-right: 0px}
-#region-preface-first .block{ float: right;}
-#zone-preface { line-height: 30px; padding-top: 5px; width: 960px; color: #FFF; font-size: 15px }
+#region-preface-first {width: 970px; margin-left: 0px; margin-right: 0px}
+#zone-preface { line-height: 30px; padding-top: 5px; width: 970px; color: #FFF; font-size: 15px }
 #zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
 #zone-preface .block-nice-menus  { float: right; margin-right: 30px}
 #zone-preface .block-nice-menus .block-title { display: none;}
@@ -2331,9 +2437,7 @@ text-transform: uppercase;
 }
 
 #region-footer-second .view-id-selvbetjening ul,
-#region-footer-second .view-id-selvbetjening li,
-#region-footer-second .view-id-os2web_base_panels_view_selfserv ul,
-#region-footer-second .view-id-os2web_base_panels_view_selfserv li {
+#region-footer-second .view-id-selvbetjening li {
 	margin: 0;
 
 }
@@ -2617,7 +2721,9 @@ div.breadcrumb.you-are-here {
 .comment-links ul li a:hover {
   background: none;
 }
-
+.portal-politik-og-planer .pane-title {
+	margin-top: 0px;
+	margin-left: 7px}
 
 .pane-os2web-meeting-views-meeting-search-block .pane-content {
 	padding: 10px 10px;
@@ -2626,9 +2732,59 @@ div.breadcrumb.you-are-here {
 	background-repeat: no-repeat;
 	height: 120px }
 
-.grid-6 .grid-3.views-row-odd {}
-.portal-politik-og-planer .spotbox-horisontal .views-row { }
+.grid-6 .grid-3.views-row-odd { margin-left: 0;}
+.portal-politik-og-planer .spotbox-horisontal .views-row { padding-top: 5px; background-position: 0 0 }
+/*
+.pane-os2web-meeting-views-meeting-search-block .form-type-select {
+	background-image: url("../images/dagsordnerDROP.png");
+    height: 60px;
+    width: 440px;}
 
+.pane-os2web-meeting-views-meeting-search-block label,
+.pane-os2web-meeting-views-meeting-search-block .form-item .description,
+.pane-os2web-meeting-views-meeting-search-block #edit-search-params-wrapper {
+	display: none}
+
+.pane-os2web-meeting-views-meeting-search-block .form-type-date-popup {
+	background-image: url(../images/calender.png); background-position: right center;
+    background-repeat: no-repeat;
+    height: 59px;
+    padding-right: 38px;}
+
+.pane-os2web-meeting-views-meeting-search-block .form-type-date-popup input {
+	border: 1px solid #E6E6E6;
+	color: #A8A8A8;
+    font-size: 15px;
+    height: 35px;
+    padding: 6px;
+    width: 110px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px}
+
+.pane-os2web-meeting-views-meeting-search-block .views-exposed-form .views-submit-button input {
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent;
+    background-image: url(../images/dagsordnerSOG.png);
+    border: none;
+    border-radius: 0px;
+    color: #FFF;
+    cursor: pointer;
+    outline: 0 none;
+    overflow: visible;
+    padding: 6px 3px 21px 27px;
+    text-transform: uppercase;
+    text-shadow: none;
+    width: 97px;
+    padding-right: 10;
+    height: 51px;
+    margin-top: 0px;
+}
+*/
 .region-menu-inner .inline li {
     margin-right: 0px;
     padding: 0;
@@ -2645,7 +2801,7 @@ div.breadcrumb.you-are-here {
 
 div.qtip { background-image: url(../images/megadropdownBUND.png); background-position: bottom center; padding-bottom: 34px;}
 
-.qtip-os2web_core_theme .qtip-wrapper {
+.qtip-cmstheme .qtip-wrapper {
     padding: 20px 0 0;
 }
 
@@ -2768,7 +2924,7 @@ line-height: 22px;
 }
 
 #region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover {
-        background: url(../images/v-arrow-default-on.png) #3B5998 no-repeat right 50%;
+        background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
         color: #FFF;
 }
 
