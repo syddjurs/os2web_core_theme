@@ -2242,18 +2242,6 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 #zone-preface  ul.nice-menu-down li.menuparent {
     background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
 }
-#zone-preface-wrapper {
-	position: absolute;
-	background-image: url(../images/os2webWEBSTEDER-bg.png);
-	width: 1018px;
-	z-index: 999;
-	height: 35px;
-	margin-left: -509px;
-	left: 50%;
-}
-#zone-preface {
-	margin: auto;
-}
 
 #zone-preface ul.nice-menu-down li { border-top: none ;border: none}
 
