@@ -1934,7 +1934,11 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     }
 #zone-user a { font-weight: normal}
 #zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
-#zone-header-wrapper { }
+#zone-header-wrapper {
+	background-image: url(../images/tekstUpil.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
 
 #zone-user-wrapper ul.menu li a {
     display: block;
