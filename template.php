@@ -17,9 +17,46 @@
 function os2web_core_theme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
-  drupal_add_js($theme_path . '/js/jquery.vegas.js');
   drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
   drupal_add_js($theme_path . '/js/jquery.dagsorden.js', array('scope' => 'footer', 'weight' => 5));
+  if (function_exists('bg_image_get_image_path_from_node')) {
+    $bg_nid = db_select('node', 'n')
+      ->fields('n', array('nid'))
+      ->condition('type', 'os2web_frontend_background_img')
+      ->execute()
+      ->fetchField();
+      error_log(print_r($bg_nid, 1));
+    if ($bg_nid) {
+      drupal_add_js(path_to_theme() . '/js/jquery.vegas.js');
+      $bg = 'jQuery( function() {
+          jQuery.vegas({
+          src:\''. bg_image_get_image_path_from_node($bg_nid) .'\'
+          })(\'overlay\', {
+          src:\'/profiles/os2web/themes/os2web_core_theme/images/vegas/overlays/13.png\'
+          });
+      });';
+      drupal_add_js($bg, array('type' => 'inline', 'scope' => 'header', 'weight' => 90));
+    }
+  }
+}
+
+/**
+ * Implements template_preprocess_node().
+ */
+function os2web_core_theme_preprocess_node(&$variables) {
+    error_log('preprocess loaded');
+  if (function_exists('bg_image_get_image_path_from_node')) {
+    error_log('preprocess loaded with bg');
+    drupal_add_js(path_to_theme() . '/js/jquery.vegas.js');
+    $bg = 'jQuery( function() {
+        jQuery.vegas({
+        src:\''.$image_path.'\'
+        })(\'overlay\', {
+        src:\'/profiles/os2web/themes/os2web_core_theme/images/vegas/overlays/13.png\'
+        });
+    });';
+    drupal_add_js($bg, array('type' => 'inline', 'scope' => 'header', 'weight' => 90));
+  }
 }
 
 /**
