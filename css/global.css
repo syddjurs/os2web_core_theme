@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /*   Myriad Pro Bold Font */
@@ -676,7 +676,7 @@ ul.jcarousel-list-horizontal { }
 	background-position: top;
 	}
 
-.node-type-contentpage #zone-content {
+.node-type-os2web-base-contentpage #zone-content {
 	background-image: url(../images/indholdTOP.png);
 	}
 .uden-hoejre-spalte-wrapper #zone-content {
@@ -2089,17 +2089,17 @@ p.MsoNormal {
    line-height: inherit;
 }
 
-.node-type-contentpage .field-name-body  {
+.node-type-os2web-base-contentpage .field-name-body  {
     padding: 0 16px 10px 16px;
     margin: 10px 10px 10px 10px;
 }
 
-.node-type-contentpage .field.field-name-field-resume-long, .node-type-contentpage .region-inner h1.title, .node-type-contentpage .submitted, .node-type-contentpage .workbench-info-block {
+.node-type-os2web-base-contentpage .field.field-name-field-resume-long, .node-type-os2web-base-contentpage .region-inner h1.title, .node-type-os2web-base-contentpage .submitted, .node-type-os2web-base-contentpage .workbench-info-block {
 	margin-left: 25px;
 
 }
 
-.node-type-contentpage .field.field-name-field-resume-long, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
+.node-type-os2web-base-contentpage .field.field-name-field-resume-long, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
 	font-size: 20px;
     color: #4a4a4a;
 }
@@ -2821,7 +2821,7 @@ div.qtip { background-image: url(../images/megadropdownBUND.png); background-pos
 
 .view-id-nyheds_lister .del-bund, .view-id-nyheds_lister .printvenlig-side {display: none}
 
-.node-type-contentpage .field-items h2 {
+.node-type-os2web-base-contentpage .field-items h2 {
 color: #4B4B4B;
 font-size: 16px;
 /*background-image: url(../images/arrow-down-over.png);
@@ -2831,12 +2831,12 @@ background-position: 0px 5px;*/
 }
 
 /*
-.node-type-contentpage .field-items a {
+.node-type-os2web-base-contentpage .field-items a {
 color: #4B4B4B;
 font-size: 15px;
 }*/
 
-.node-type-contentpage .field-items li {
+.node-type-os2web-base-contentpage .field-items li {
 list-style-image: url(../images/megamenu-arrow-over.png);
 color: #4A4A4A;
 font-size: 13px;
