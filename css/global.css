@@ -4090,3 +4090,9 @@ background: #d10000;
     display: none; /* Only the last one */
 }
 
+#region-content {
+	background-image: url("../images/transwhite.png");
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0 10px;
+}
