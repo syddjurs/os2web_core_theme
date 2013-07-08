@@ -2229,7 +2229,7 @@ color: #B3B3B3;
     margin-right: 9px;
 }
 
-.skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
+.skjul-andre-sites, #block-block-12, .vis-andre-sites, .os2web_frontend_view_preface {float: right}
 .skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
     background-repeat: no-repeat;
     display: block;
