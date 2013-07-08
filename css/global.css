@@ -1190,7 +1190,7 @@ ul.menu li a.menu-minipanel-1608 {
 	border-top: solid 3px #5D0036
 	}
 
-#zone-user-wrapper ul.menu li {}
+#zone-user-wrapper ul.menu li {display: inline-block;}
 #zone-user-wrapper ul.menu li a {}
 
 .spotbox h2.pane-title {
