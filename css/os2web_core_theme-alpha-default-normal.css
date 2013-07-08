@@ -2922,11 +2922,11 @@ line-height: 22px;
 	font-size: 15px;
 	color: #787878; }
 /*
-.form-item-committee .yaselect-wrap {
+.form-item-os2web-meetings-tax-committee .yaselect-wrap {
 	width: 440px; }
-.form-item-committee .yaselect-wrap,
-.form-item-committee .yaselect-current,
-.form-item-committee .yaselect-select {
+.form-item-os2web-meetings-tax-committee .yaselect-wrap,
+.form-item-os2web-meetings-tax-committee .yaselect-current,
+.form-item-os2web-meetings-tax-committee .yaselect-select {
 	width: 439px;
 	text-transform: uppercase }
 */
@@ -3294,7 +3294,7 @@ border-bottom: 1px solid #F3F3F3;
 
 #views-exposed-form-meetings-search-page-1 .advanced-search-button { width: 0; }
 
-#views-exposed-form-meetings-search-page-1 #edit-submit-meetings-search {
+#views-exposed-form-meetings-search-page-1 #edit-submit-os2web-meetings-view-search {
   background-image: url('../images/soegefeltLUP.png');
   margin: 0;
   border: 0;
@@ -3649,7 +3649,7 @@ ul.dynatree-container ul a { padding-left: 0 }
 }
 
 
-.form-item-committee .yaselect-anchor {
+.form-item-os2web-meetings-tax-committee .yaselect-anchor {
  background-repeat: no-repeat;
  height: 50px;
  width: 440px;
@@ -3657,27 +3657,27 @@ ul.dynatree-container ul a { padding-left: 0 }
  background-image: url('../images/dagsordnerDROP.png');
 }
 
-.form-item-committee .yaselect-open {
+.form-item-os2web-meetings-tax-committee .yaselect-open {
  background-image: url('../images/dagsordnerDROP.png');
 }
-.form-item-committee .yaselect-current{
+.form-item-os2web-meetings-tax-committee .yaselect-current{
  display: block;
  width: 440px;
  text-transform: none;
  margin: 0;
 }
 
-.form-item-committee .yaselect-wrap {
+.form-item-os2web-meetings-tax-committee .yaselect-wrap {
  padding: 12px 0 0 20px;
  margin: 0;
  position: absolute;
 }
-.form-item-committee .yaselect-select {
+.form-item-os2web-meetings-tax-committee .yaselect-select {
  margin-left: 1px;
  width: 435px;
 }
 
-#views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+#views-exposed-form-meetings-search-page #edit-submit-os2web-meetings-view-search {
     background-image:  url('../images/dagsordnerSOG.png');
     border: none;
     border-radius: 0;
@@ -3692,7 +3692,7 @@ ul.dynatree-container ul a { padding-left: 0 }
     text-transform: uppercase;
 }
 
-.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-os2web-meetings-view-search {
     position: absolute;
     top: 44px;
     left: 373px;
