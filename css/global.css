@@ -2365,6 +2365,8 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 	left: 50%;
 }
 #zone-preface {
+	background-image: url("../images/syddjursWEBSTEDER.png");
+	background-repeat: no-repeat;
 	margin: auto;
 }
 
