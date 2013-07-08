@@ -808,14 +808,14 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 }
 
 
-.qtip-wrapper .view-megadd-news a{
+.qtip-wrapper .view-id-os2web_base_panels_view_meganews a{
     color: #9b9b9b;
     display:block;
     font-size: 12px;
 }
 
 
-.qtip-wrapper .view-megadd-news a:hover {
+.qtip-wrapper .view-id-os2web_base_panels_view_meganews a:hover {
     color: #880054;
 }
 
@@ -830,11 +830,11 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 }
 
 
-.view-megadd-news ul, .view-megadd-news ul li {
+.view-id-os2web_base_panels_view_meganews ul, .view-id-os2web_base_panels_view_meganews ul li {
 	margin: 0;
 	padding: 7px 0 5px 0;
 }
-.view-megadd-news {
+.view-id-os2web_base_panels_view_meganews {
 	margin-top: 15px;
 }
 
