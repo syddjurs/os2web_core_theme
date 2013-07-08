@@ -29,7 +29,6 @@
   position: relative;
 }
 
-#zone-footer-wrapper {background-image: url(..images/page-bg-bund.png)}
 #zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
 /*
