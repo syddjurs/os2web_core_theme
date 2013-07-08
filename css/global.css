@@ -2236,7 +2236,8 @@ color: #B3B3B3;
     margin-right: 9px;
 }
 
-.skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
+/* also uses the hashed version (equals betweeb different installations) of selector #block-views-os2web-diverse-block-2 and #block-views-os2web-diverse-block-1*/
+.skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-01214db10d6cffa14bc30a9c1af02127,#block-views-a6960d217e4aa28943a40b0ce5af5f42 {float: right}
 .skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
     background-repeat: no-repeat;
     display: block;
@@ -2354,6 +2355,21 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 #zone-preface .block-nice-menus .block-title { display: none;}
 #zone-preface  ul.nice-menu-down li.menuparent {
     background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
+}
+
+#zone-preface-wrapper {
+	position: absolute;
+	background-image: url("../images/syddjursWEBSTEDER-bg.png");
+	width: 1018px;
+	z-index: 999;
+	height: 35px;
+	margin-left: -509px;
+	left: 50%;
+}
+#zone-preface {
+	background-image: url("../images/syddjursWEBSTEDER.png");
+	background-repeat: no-repeat;
+	margin: auto;
 }
 
 #zone-preface ul.nice-menu-down li { border-top: none ;border: none}
@@ -3745,27 +3761,27 @@ ul.dynatree-container ul a { padding-left: 0 }
     top: 44px;
     left: 373px;
 }
-#bef-datepicker-wrapper img,
-#bef-datepicker--2-wrapper img {
+#edit-from-date-wrapper img,
+#edit-to-date-wrapper img {
   position: relative;
   top: 11px;
   padding-left: 6px;
 }
-#bef-datepicker--2-wrapper label {
+#edit-to-date-wrapper label {
     position: absolute;
     text-transform: uppercase;
     margin: 19px 0 0 0;
 }
 
-#bef-datepicker-wrapper  input,
-#bef-datepicker--2-wrapper input {
+#edit-from-date-wrapper  input,
+#edit-to-date-wrapper input {
     color: #7A7A7A;
     font-size: 17px;
     margin: 11px 0 0;
 }
 
 
-#bef-datepicker--2-wrapper input {margin-left: 23px;}
+#edit-to-date-wrapper input {margin-left: 23px;}
 
 #views-exposed-form-os2web-meetings-view-search-page #edit-search-params{
     border: 1px solid #ddd;
