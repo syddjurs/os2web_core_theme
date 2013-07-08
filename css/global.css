@@ -978,12 +978,12 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .views-field-field-os2web-contact-field-callc p {margin-bottom: 10px}
 .views-field-field-os2web-contact-field-callc {margin-top: 15px; margin-bottom: 15px}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block div.field-content h3 {padding: 0;}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact div.field-content h3 {padding: 0;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
 
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a {color: #9b9b9b;}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a:hover {color: #8b0054;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a {color: #9b9b9b;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a:hover {color: #8b0054;}
 
 .view-os2web-contact-view-contact {
 	margin-bottom: 20px;
@@ -1031,16 +1031,17 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 	padding-left: 10px;
 }
 
-#block-views-kontaktblok-block.block .telefonnummer {
+.view-os2web-contact-view-contact .telefonnummer {
         padding: 15px 0 15px 30px;
         background-image: url(../images/telefon.png);
         background-repeat: no-repeat;
         background-position: 20px 20px;
 }
 
-#block-views-kontaktblok-block.block .telefonnummer a {
+.view-os2web-contact-view-contact .telefonnummer a {
         padding-left: 20px;
 }
+
 
 .telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
 .telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
