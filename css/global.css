@@ -3341,7 +3341,7 @@ border-bottom: 1px solid #F3F3F3;
 
 #views-exposed-form-os2web-meetings-view-search-page-1 .advanced-search-button { width: 0; }
 
-#views-exposed-form-os2web-meetings-view-search-page-1 #edit-submit-meetings-search {
+#views-exposed-form-os2web-meetings-view-search-page-1 #edit-submit-os2web-meetings-view-search {
   background-image: url('../images/soegefeltLUP.png');
   margin: 0;
   border: 0;
@@ -3724,7 +3724,7 @@ ul.dynatree-container ul a { padding-left: 0 }
  width: 435px;
 }
 
-#views-exposed-form-os2web-meetings-view-search-page #edit-submit-meetings-search {
+#views-exposed-form-os2web-meetings-view-search-page #edit-submit-os2web-meetings-view-search {
     background-image:  url('../images/dagsordnerSOG.png');
     border: none;
     border-radius: 0;
@@ -3739,7 +3739,7 @@ ul.dynatree-container ul a { padding-left: 0 }
     text-transform: uppercase;
 }
 
-.portal-politik-og-planer #views-exposed-form-os2web-meetings-view-search-page #edit-submit-meetings-search {
+.portal-politik-og-planer #views-exposed-form-os2web-meetings-view-search-page #edit-submit-os2web-meetings-view-search {
     position: absolute;
     top: 44px;
     left: 373px;
