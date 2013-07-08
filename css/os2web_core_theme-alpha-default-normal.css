@@ -579,7 +579,7 @@ ul.jcarousel-list-horizontal { }
         padding: 0 0 0 5px;
 }
 
-.view-newslist .jcarousel-container .news-list-next p {
+.view-id-os2web_base_panels_view_newslist .jcarousel-container .news-list-next p {
 	display: inline;
 	padding-right: 5px;
 }
@@ -603,11 +603,11 @@ ul.jcarousel-list-horizontal { }
 }
 
 
-.view-newslist.view-display-id-page_1 .news-list-next {
+.view-id-os2web_base_panels_view_newslist.view-display-id-page_1 .news-list-next {
 	display: none;
 }
 
-.view-newslist.view-display-id-page_1 li {
+.view-id-os2web_base_panels_view_newslist.view-display-id-page_1 li {
 	display: block;
 	clear: both;
 	width: 100%;
