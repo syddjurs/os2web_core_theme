@@ -2235,7 +2235,8 @@ color: #B3B3B3;
     margin-right: 9px;
 }
 
-.skjul-andre-sites, #block-block-12, .vis-andre-sites, .os2web_frontend_view_preface {float: right}
+/* also uses the hashed version (equals betweeb different installations) of selector #block-views-os2web-diverse-block-2 and #block-views-os2web-diverse-block-1*/
+.skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-01214db10d6cffa14bc30a9c1af02127,#block-views-a6960d217e4aa28943a40b0ce5af5f42 {float: right}
 .skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
     background-repeat: no-repeat;
     display: block;
