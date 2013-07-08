@@ -2398,7 +2398,7 @@ text-transform: uppercase;
 	font-weight: normal;
 }
 
-#block-panels-mini-footer-menuer .pane-content a {
+#block-panels-mini-os2web-base-panels-mini-footer .pane-content a {
 	color: #9a9a9a;
 	font-size: 11px;
 	display: block;
@@ -2406,9 +2406,9 @@ text-transform: uppercase;
 }
 
 
-#block-panels-mini-footer-menuer h2.pane-title a,
+#block-panels-mini-os2web-base-panels-mini-footer h2.pane-title a,
 #region-footer-third h2.block-title,
-#block-panels-mini-footer-menuer h2.block-title a {
+#block-panels-mini-os2web-base-panels-mini-footer h2.block-title a {
 	color: #4B4B4B;
 	font-size: 14px;
 }
