@@ -9,8 +9,8 @@
 #forside .grid-8 { width: 650px} */
 
 #forside .pane-rotating-image-view { margin-bottom: 3px}
-.billedrotator { 
-	background-image: url(../images/billedkarusel-bg.png); 
+.billedrotator {
+	background-image: url(../images/billedkarusel-bg.png);
 	margin-top: 12px;
 	/*margin-left: 9px;  ## grid-fix
 	padding-left: 1px;*/
@@ -18,7 +18,7 @@
 	padding-bottom: 5px;
 	background-repeat: no-repeat}
 
-.view-id-newslist .view-content {
+.view-id-os2web_base_panels_view_newslist .view-content {
     background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;
     height: 158px;
     margin-left: 0px;
@@ -83,7 +83,7 @@
 }
 
 .region-inner.region-content-inner {
-	margin-left: 0px;   
+	margin-left: 0px;
 }
 #forside .grid-6.custom-video { padding: 5px 1px 0; margin-left: 9px; width: 468px;}
 
@@ -106,7 +106,7 @@
 .selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
 .selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
 .selvbetjening-block-forside .item-list a {  }
-.selvbetjening-block-forside .item-list a:hover { } 
+.selvbetjening-block-forside .item-list a:hover { }
 .selvbetjening-block-forside h3 { text-align: center; display: block; margin-bottom: 12px}
 .selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 4px 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; color: #fff; }
 

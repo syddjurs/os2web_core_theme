@@ -26,16 +26,16 @@ a:link, a:visited {
 .views-slideshow-pager-field-item.hover .views-field-title .views-content-title {
     background-color: #004077;
 }
-.view-id-newslist .jcarousel-skin-default a.jcarousel-prev:hover {
+.view-id-os2web_base_panels_view_newslist .jcarousel-skin-default a.jcarousel-prev:hover {
     background-image: url("../images/joncenterPILspot.png");
 }
-.view-id-newslist .jcarousel-skin-default a.jcarousel-next:hover {
+.view-id-os2web_base_panels_view_newslist .jcarousel-skin-default a.jcarousel-next:hover {
     background-image: url("../images/joncenterPILspot.png");
 }
-.view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal a:hover {
+.view-id-os2web_base_panels_view_newslist .jcarousel-skin-default .jcarousel-item-horizontal a:hover {
     color: #004077;
 }
-.view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal .news-list-right a:hover {
+.view-id-os2web_base_panels_view_newslist .jcarousel-skin-default .jcarousel-item-horizontal .news-list-right a:hover {
     color: #004077;
 }
 
@@ -208,8 +208,8 @@ a.overlayclass span.zoom-icon-tall {
 }
 
 /*
-** global-menu.css 
-** 2012 
+** global-menu.css
+** 2012
 */
 
 #region-sidebar-first ul.menuActive {
