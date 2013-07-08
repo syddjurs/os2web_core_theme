@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
         jQuery('.custom-slideshow .hover').removeClass('hover', 500);
     });
 
-    jQuery('.pane-newslist ul li').not(':last-child').each(function(k,v) {
+    jQuery('.pane-os2web-base-panels-view-newslist ul li').not(':last-child').each(function(k,v) {
         jQuery(v).find('.news-list-next').html(jQuery(v).next().find('.news-list-right').html());
     });
 
