@@ -8,7 +8,7 @@
 
 #forside .grid-8 { width: 650px} */
 
-#pane-os2web-base-panels-view-rotating { margin-bottom: 3px}
+.pane-os2web-base-panels-view-rotating { margin-bottom: 3px}
 .billedrotator { 
 	background-image: url(../images/billedkarusel-bg.png); 
 	margin-top: 12px;
