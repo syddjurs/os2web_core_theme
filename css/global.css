@@ -310,7 +310,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	float: right;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block {
 	float: left;
 	border: solid #fff 5px;
 	behavior: url(ie-css3.htc); /* IE FIX -tc */
@@ -321,16 +321,16 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	width: 475px;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block.hover {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block.hover {
 	border: solid #961862 5px;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block_1 {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block_1 {
   padding: 5px;
   width: 460px
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block_1.hover {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block_1.hover {
 	border: solid #961862 5px;
 	padding: 0;
 }
@@ -352,7 +352,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background-position: 15px 0;
 }
 
-#widget_pager_top_rotating_image_view-block {
+#widget_pager_top_os2web_base_panels_view_rotating-block {
 	width: 161px;
 	text-align: center;
 	margin-top: 5px;

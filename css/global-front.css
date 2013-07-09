@@ -8,15 +8,16 @@
 
 #forside .grid-8 { width: 650px} */
 
-#forside .pane-rotating-image-view { margin-bottom: 3px}
-.billedrotator {
-	background-image: url(../images/billedkarusel-bg.png);
+#pane-os2web-base-panels-view-rotating { margin-bottom: 3px}
+.billedrotator { 
+	background-image: url(../images/billedkarusel-bg.png); 
 	margin-top: 12px;
 	/*margin-left: 9px;  ## grid-fix
 	padding-left: 1px;*/
 	padding-top: 0px;
 	padding-bottom: 5px;
-	background-repeat: no-repeat}
+	background-repeat: no-repeat;
+}
 
 .view-id-os2web_base_panels_view_newslist .view-content {
     background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;

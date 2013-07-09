@@ -10,8 +10,8 @@ jQuery(document).ready(function () {
 
     jQuery('.billedrotator').mouseover(function() {
         jQuery('.custom-slideshow .active').addClass('hover');
-        jQuery('#views_slideshow_cycle_main_rotating_image_view-block').addClass('hover');
-        jQuery('#views_slideshow_cycle_main_rotating_image_view-block_1').addClass('hover');
+        jQuery('#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block').addClass('hover');
+        jQuery('#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block_1').addClass('hover');
     }).mouseout(function() {
         jQuery('.custom-slideshow .hover').removeClass('hover', 500);
     });
