@@ -3870,16 +3870,16 @@ ul.dynatree-container ul a { padding-left: 0 }
 }
 
 
-th.views-field-field-committee {
+th.views-field-field-os2web-meetings-committee {
     width: 320px;
 }
 
-th.views-field-field-date {
+th.views-field-field-os2web-meetings-date {
     width: 150px;
 }
 
 
-.view-os2web-meetings-view-search .views-field-field-committee a {
+.view-os2web-meetings-view-search .views-field-field-os2web-meetings-committee a {
     background-image: url('../images/megamenu-arrow-over.png');
     background-position: 5px 3px;
     background-repeat: no-repeat;
@@ -3892,7 +3892,7 @@ th.views-field-field-date {
    color: #333;
 }
 
-.view-os2web-meetings-view-search .views-field-field-committee  a:hover {
+.view-os2web-meetings-view-search .views-field-field-os2web-meetings-committee  a:hover {
     color: #8b0054;
 }
 
