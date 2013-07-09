@@ -3787,17 +3787,17 @@ th.views-field-field-os2web-meetings-date {
 .view-os2web-meetings-view-search .views-table tr.odd,
 .view-os2web-meetings-view-search .views-table tr.even td,
 .view-os2web-meetings-view-search .views-table tr.odd td,
-.view-meeting-details table,
-.view-meeting-details .views-table tr.even,
-.view-meeting-details .views-table tr.odd,
-.view-meeting-details .views-table tr.even td,
-.view-meeting-details .views-table tr.odd td {
+.view-os2web-meetings-meeting-details table,
+.view-os2web-meetings-meeting-details .views-table tr.even,
+.view-os2web-meetings-meeting-details .views-table tr.odd,
+.view-os2web-meetings-meeting-details .views-table tr.even td,
+.view-os2web-meetings-meeting-details .views-table tr.odd td {
     background: none;
     border: none;
     vertical-align: top;
 }
 
-.view-meeting-details .agenda-bullet-list {
+.view-os2web-meetings-meeting-details .agenda-bullet-list {
     color: #8b0054;
     border: 1px solid #CCCCCC;
     width: 672px;
@@ -3806,7 +3806,7 @@ th.views-field-field-os2web-meetings-date {
     font-size: 15px;
 }
 
-.view-meeting-details .agenda-bullet-list.open {
+.view-os2web-meetings-meeting-details .agenda-bullet-list.open {
     color: #8b0054;
     border: none;
     font-size: 15px;
@@ -3818,7 +3818,7 @@ th.views-field-field-os2web-meetings-date {
     font-size: 13px;
 }
 
-.view-meeting-details .view-header h3 {
+.view-os2web-meetings-meeting-details .view-header h3 {
     color: #333;
 }
 
@@ -3831,25 +3831,25 @@ th.views-field-field-os2web-meetings-date {
     clear: left;
 }
 
-.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+.view-os2web-meetings-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
     position: absolute;
     left: 675px;
     margin-top: 2px;
 }
 
-.view-meeting-details .views-field strong {
+.view-os2web-meetings-meeting-details .views-field strong {
     padding-left: 20px;
 }
 
-.view-meeting-details .clearfix h2,
-.view-meeting-details .clearfix h3 {
+.view-os2web-meetings-meeting-details .clearfix h2,
+.view-os2web-meetings-meeting-details .clearfix h3 {
     font-size: 14px;
     margin: 4px 0;
 }
 
-.view-meeting-details .clearfix,
-.view-meeting-details .clearfix li,
-.view-meeting-details .clearfix p {
+.view-os2web-meetings-meeting-details .clearfix,
+.view-os2web-meetings-meeting-details .clearfix li,
+.view-os2web-meetings-meeting-details .clearfix p {
     font-size: 12px;
     line-height: 16px;
     color: #333;
@@ -3857,16 +3857,16 @@ th.views-field-field-os2web-meetings-date {
     font-family: Arial,Helvetica,sans-serif;
 }
 
-.view-meeting-details .item-list ul li {
+.view-os2web-meetings-meeting-details .item-list ul li {
     margin: 0;
 }
 
-.view-meeting-details .field-name-field-bpa-body li {
+.view-os2web-meetings-meeting-details .field-name-field-bpa-body li {
     list-style: disc outside none;
 }
 
 
-.view-meeting-details h3.node-title { font-weight: bold}
+.view-os2web-meetings-meeting-details h3.node-title { font-weight: bold}
 
 #forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
 
