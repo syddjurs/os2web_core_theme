@@ -2955,6 +2955,41 @@ line-height: 22px;
         color: #fff;
 }
 
+/*
+	block-views-477c0f45ca9cbbc9cd19af36c681103e => block-os2web_base_panels_view_selfserv-block
+ */
+.block-views-477c0f45ca9cbbc9cd19af36c681103e {
+}
+
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-header {
+	background-image: url(../images/mellemSELVindhold.png);
+	padding: 1px 0;
+	}
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-header .blanketter {
+	background-image: url(../images/headerSELVindhold.png);
+	background-repeat: no-repeat;
+	}
+
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-footer {
+	background-image: url(../images/bundSELVindhold.png);
+	background-position: left bottom;
+	height: 41px;
+	}
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 0;
+	background-image: none;
+	font-size: 15px;
+	padding: 20px 0 15px 0;
+	height: 21px;
+	font-weight: normal;
+	border: none;
+	background-image: url(../images/topSELVindhold.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
 
 .printvenlig-side-sog a{
         background-image: url(../images/print.png);
