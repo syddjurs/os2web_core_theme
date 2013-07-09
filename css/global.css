@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /*   Myriad Pro Bold Font */
@@ -978,12 +978,12 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .views-field-field-os2web-contact-field-callc p {margin-bottom: 10px}
 .views-field-field-os2web-contact-field-callc {margin-top: 15px; margin-bottom: 15px}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block div.field-content h3 {padding: 0;}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact div.field-content h3 {padding: 0;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
 
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a {color: #9b9b9b;}
-#region-sidebar-second.grid-3 #block-views-kontaktblok-block.block a:hover {color: #8b0054;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a {color: #9b9b9b;}
+#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a:hover {color: #8b0054;}
 
 .view-os2web-contact-view-contact {
 	margin-bottom: 20px;
@@ -1031,16 +1031,17 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 	padding-left: 10px;
 }
 
-#block-views-kontaktblok-block.block .telefonnummer {
+.view-os2web-contact-view-contact .telefonnummer {
         padding: 15px 0 15px 30px;
         background-image: url(../images/telefon.png);
         background-repeat: no-repeat;
         background-position: 20px 20px;
 }
 
-#block-views-kontaktblok-block.block .telefonnummer a {
+.view-os2web-contact-view-contact .telefonnummer a {
         padding-left: 20px;
 }
+
 
 .telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
 .telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
@@ -1122,7 +1123,11 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 }
 .field-type-text-with-summary tbody tr{ border-top: 1px solid #f0f0f0; border-left: none}
 
-.block-kle-lonks-boks-kle-links-boks h2 {
+/*
+	block-views-18f59ce05ca3e305f3453541d5330659 => block-os2web_base_panels_view_kle_link-block
+ */
+
+.block-views-18f59ce05ca3e305f3453541d5330659 h2 {
     color:#9b9b9b;
     font-size:12px;
     display:block;
@@ -1130,7 +1135,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
     padding: 6px 0 6px 8px;
 }
 
-.block-kle-lonks-boks-kle-links-boks ul li {
+.block-views-18f59ce05ca3e305f3453541d5330659 ul li {
     background-image: url(../images/right-links-block-item.png);
     background-repeat: no-repeat;
     padding: 7px 0 7px 0;
@@ -1138,40 +1143,40 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
     display:block;
     border-bottom: 1px solid #ededed;}
 
-.block-kle-lonks-boks-kle-links-boks li.views-row-first {
+.block-views-18f59ce05ca3e305f3453541d5330659 li.views-row-first {
     padding: 25px 0 7px 0;
     background-image: url(../images/right-links-block-item-first.png);
     }
 
-.block-kle-lonks-boks-kle-links-boks li.views-row-last {
+.block-views-18f59ce05ca3e305f3453541d5330659 li.views-row-last {
     padding: 7px 0 20px 0;
 /*    background-image: url(../images/right-links-block-item-last.png);*/
     border-bottom: none;
     margin: 0 0 5px 0;
     }
 
-.block-kle-lonks-boks-kle-links-boks a {
+.block-views-18f59ce05ca3e305f3453541d5330659 a {
     font-size:12px;
     color:#9b9b9b;
     }
 
-.block-kle-lonks-boks-kle-links-boks span.field-content {
+.block-views-18f59ce05ca3e305f3453541d5330659 span.field-content {
     display:block;
     margin: 0 20px;
     }
 
-.block-kle-lonks-boks-kle-links-boks div.block-inner.clearfix{
+.block-views-18f59ce05ca3e305f3453541d5330659 div.block-inner.clearfix{
     background-color: #fff;
     margin: 0 0 10px;
     }
 
-.block-kle-lonks-boks-kle-links-boks div.content.clearfix{
+.block-views-18f59ce05ca3e305f3453541d5330659 div.content.clearfix{
     border-left: 1px solid #f7f7f7;
     border-right: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
     }
 
-.block-kle-lonks-boks-kle-links-boks div.item-list ul{
+.block-views-18f59ce05ca3e305f3453541d5330659 div.item-list ul{
     margin: 0 0 0 0;
     padding: 0 12px;
     background-color:#fafafa;
@@ -1190,7 +1195,7 @@ ul.menu li a.menu-minipanel-1608 {
 	border-top: solid 3px #5D0036
 	}
 
-#zone-user-wrapper ul.menu li {}
+#zone-user-wrapper ul.menu li {display: inline-block;}
 #zone-user-wrapper ul.menu li a {}
 
 .spotbox h2.pane-title {
@@ -2950,6 +2955,41 @@ line-height: 22px;
         color: #fff;
 }
 
+/*
+	block-views-477c0f45ca9cbbc9cd19af36c681103e => block-os2web_base_panels_view_selfserv-block
+ */
+.block-views-477c0f45ca9cbbc9cd19af36c681103e {
+}
+
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-header {
+	background-image: url(../images/mellemSELVindhold.png);
+	padding: 1px 0;
+	}
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-header .blanketter {
+	background-image: url(../images/headerSELVindhold.png);
+	background-repeat: no-repeat;
+	}
+
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e .selvbetjening-indholdsside .view-footer {
+	background-image: url(../images/bundSELVindhold.png);
+	background-position: left bottom;
+	height: 41px;
+	}
+#region-sidebar-second .block-views-477c0f45ca9cbbc9cd19af36c681103e h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 0;
+	background-image: none;
+	font-size: 15px;
+	padding: 20px 0 15px 0;
+	height: 21px;
+	font-weight: normal;
+	border: none;
+	background-image: url(../images/topSELVindhold.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
 
 .printvenlig-side-sog a{
         background-image: url(../images/print.png);
