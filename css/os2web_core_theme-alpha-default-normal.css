@@ -889,7 +889,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
   padding-left: 0px;
   margin-right: 9px;
 }
-#zone-footer .view-os2web-citizenservices-view h2.pane-title { margin-right: 0px}
+#zone-footer .pane-os2web-base-panels-view-selfserv h2.pane-title { margin-right: 0px}
 
 #zone-footer .menu-block-wrapper { margin-right: 9px}
 
@@ -2322,7 +2322,7 @@ color: #B3B3B3;
     margin-left: 0;
 }
 
-#panel-borger .view-os2web-citizenservices-view { margin-left: 0; padding-left: 0}
+#panel-borger .pane-os2web-base-panels-view-selfserv { margin-left: 0; padding-left: 0}
 #panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
 
 #panel-borger .spotbox-horisontal { }
@@ -2437,7 +2437,7 @@ text-transform: uppercase;
 }
 
 
-#region-footer-second .view-os2web-citizenservices-view {
+#region-footer-second .pane-os2web-base-panels-view-selfserv {
 	float: left;
 	display: inline;
 	position: relative;
