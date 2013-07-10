@@ -2154,84 +2154,84 @@ color: #B3B3B3;
 /* END */
 /*
 
-.view-borgerservices ul li.views-row-1 a {
+.view-os2web-citizenservices-view ul li.views-row-1 a {
   background-position: -9px 0;
   background-image: url(../images/borger-grid-1.png);
 }
-.view-borgerservices ul li.views-row-2 a {
+.view-os2web-citizenservices-view ul li.views-row-2 a {
   background-position: -160px 0;
   background-image: url(../images/borger-grid-2.png);
 }
-.view-borgerservices ul li.views-row-3 a {
+.view-os2web-citizenservices-view ul li.views-row-3 a {
   background-position: -330px 0;
   background-image: url(../images/borger-grid-3.png);
 }
-.view-borgerservices ul li.views-row-4 a {
+.view-os2web-citizenservices-view ul li.views-row-4 a {
   background-position: -9px -89px;
   background-image: url(../images/borger-grid-4.png);
 }
-.view-borgerservices ul li.views-row-5 a {
+.view-os2web-citizenservices-view ul li.views-row-5 a {
   background-position: -160px -89px;
   background-image: url(../images/borger-grid-5.png);
 }
-.view-borgerservices ul li.views-row-6 a {
+.view-os2web-citizenservices-view ul li.views-row-6 a {
   background-position: -330px -89px;
   background-image: url(../images/borger-grid-6.png);
 }
-.view-borgerservices ul li.views-row-7 a {
+.view-os2web-citizenservices-view ul li.views-row-7 a {
   background-position: -9px -191px;
   background-image: url(../images/borger-grid-7.png);
 }
-.view-borgerservices ul li.views-row-8 a {
+.view-os2web-citizenservices-view ul li.views-row-8 a {
   background-position: -160px -191px;
   background-image: url(../images/borger-grid-8.png);
 }
-.view-borgerservices ul li.views-row-9 a {
+.view-os2web-citizenservices-view ul li.views-row-9 a {
   background-position: -330px -191px;
   background-image: url(../images/borger-grid-9.png);
 }
 
 */
-.view-borgerservices ul li.views-row-1 a {
+.view-os2web-citizenservices-view ul li.views-row-1 a {
 
   background-image: url(../images/borger-grid-1.png);
 }
-.view-borgerservices ul li.views-row-2 a {
+.view-os2web-citizenservices-view ul li.views-row-2 a {
 
   background-image: url(../images/borger-grid-2.png);
 }
-.view-borgerservices ul li.views-row-3 a {
+.view-os2web-citizenservices-view ul li.views-row-3 a {
 
   background-image: url(../images/borger-grid-3.png);
 }
-.view-borgerservices ul li.views-row-4 a {
+.view-os2web-citizenservices-view ul li.views-row-4 a {
 
   background-image: url(../images/borger-grid-4.png);
 }
-.view-borgerservices ul li.views-row-5 a {
+.view-os2web-citizenservices-view ul li.views-row-5 a {
 
   background-image: url(../images/borger-grid-5.png);
 }
-.view-borgerservices ul li.views-row-6 a {
+.view-os2web-citizenservices-view ul li.views-row-6 a {
 
   background-image: url(../images/borger-grid-6.png);
 }
-.view-borgerservices ul li.views-row-7 a {
+.view-os2web-citizenservices-view ul li.views-row-7 a {
 
   background-image: url(../images/borger-grid-7.png);
 }
-.view-borgerservices ul li.views-row-8 a {
+.view-os2web-citizenservices-view ul li.views-row-8 a {
 
   background-image: url(../images/borger-grid-8.png);
 }
-.view-borgerservices ul li.views-row-9 a {
+.view-os2web-citizenservices-view ul li.views-row-9 a {
 
   background-image: url(../images/borger-grid-9.png);
 }
 
 #pop-borgerservices .view-content {
 }
-.view-borgerservices ul li.views-row-3, .view-borgerservices ul li.views-row-6, .view-borgerservices ul li.views-row-9 { width: 160px}
+.view-os2web-citizenservices-view ul li.views-row-3, .view-os2web-citizenservices-view ul li.views-row-6, .view-os2web-citizenservices-view ul li.views-row-9 { width: 160px}
 
 #zone-preface-wrapper { position: absolute; width: 1018px; z-index: 999; height: 35px; margin-left: -509px; left: 50% }
 #zone-preface { margin: auto;}
@@ -3507,11 +3507,11 @@ tr.even td { background: #f9f9f9;}
   background-position: -10px 0;
 }
 
-.view-borgerservices ul {
+.view-os2web-citizenservices-view ul {
   margin: 6px 0 0 0;
 }
 
-.view-borgerservices ul li {
+.view-os2web-citizenservices-view ul li {
   width: 161px;
   height: 94px;
   position: relative;
@@ -3521,7 +3521,7 @@ tr.even td { background: #f9f9f9;}
   float: right;
 }
 
-.view-borgerservices ul li a {
+.view-os2web-citizenservices-view ul li a {
   color: #fff;
   width: 161px;
   height: 94px;
@@ -3534,7 +3534,7 @@ tr.even td { background: #f9f9f9;}
   vertical-align: middle;
 }
 
-.view-borgerservices ul li a .lineHeightHack {
+.view-os2web-citizenservices-view ul li a .lineHeightHack {
   line-height: 1.2;
   text-align: center;
   display: table-cell;
@@ -3542,11 +3542,11 @@ tr.even td { background: #f9f9f9;}
   margin-top: expression(this.offsetHeight < this.parentNode.offsetHeight ? parseInt((this.parentNode.offsetHeight - this.offsetHeight) / 2) + "px" : "0"); /* iehack, move to ie.css if created */
 }
 
-.view-borgerservices ul li a:hover {
+.view-os2web-citizenservices-view ul li a:hover {
   background: transparent !important;
 }
 
-.view-borgerservices .view-header {
+.view-os2web-citizenservices-view .view-header {
   text-transform: uppercase;
   font-size: 1.25em;
   text-align: center;
