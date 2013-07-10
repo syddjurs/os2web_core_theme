@@ -874,7 +874,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
   padding-left: 0px;
   margin-right: 9px;
 }
-#zone-footer .pane-selvbetjening h2.pane-title { margin-right: 0px}
+#zone-footer .view-os2web-citizenservices-view h2.pane-title { margin-right: 0px}
 
 #zone-footer .menu-block-wrapper { margin-right: 9px}
 
@@ -2327,8 +2327,8 @@ color: #B3B3B3;
     margin-left: 0;
 }
 
-#panel-borger .pane-selvbetjening { margin-left: 0; padding-left: 0}
 #panel-borger .view-os2web-spotbox-view-spots .spotbox-row { padding: 6px 1px 0 0 }
+#panel-borger .view-os2web-citizenservices-view { margin-left: 0; padding-left: 0}
 
 #panel-borger .spotbox-horisontal { }
 #panel-borger .spotbox-horisontal .spotbox-row { float: left; margin-left: 7px; padding: 0 0 0 1px;}
@@ -2458,7 +2458,7 @@ text-transform: uppercase;
 }
 
 
-#region-footer-second .pane-selvbetjening {
+#region-footer-second .view-os2web-citizenservices-view {
 	float: left;
 	display: inline;
 	position: relative;
