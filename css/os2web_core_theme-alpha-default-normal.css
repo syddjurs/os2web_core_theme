@@ -327,7 +327,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	float: right;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block {
 	float: left;
 	border: solid #fff 5px;
 	behavior: url(ie-css3.htc); /* IE FIX -tc */
@@ -338,16 +338,16 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	width: 475px;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block.hover {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block.hover {
 	border: solid #961862 5px;
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block_1 {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block_1 {
   padding: 5px;
   width: 460px
 }
 
-#views_slideshow_cycle_main_rotating_image_view-block_1.hover {
+#views_slideshow_cycle_main_os2web_base_panels_view_rotating-block_1.hover {
 	border: solid #961862 5px;
 	padding: 0;
 }
@@ -369,7 +369,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background-position: 15px 0;
 }
 
-#widget_pager_top_rotating_image_view-block {
+#widget_pager_top_os2web_base_panels_view_rotating-block {
 	width: 161px;
 	text-align: center;
 	margin-top: 5px;
@@ -584,15 +584,15 @@ ul.jcarousel-list-horizontal { }
 	padding-right: 5px;
 }
 
-#block-block-5 {
+#block-block-4, #facebook-youtube {
 	float: right;
 	/*margin-top: -18px;*/
 	height: 21px;
 	left: 4px;
 	width: 42px;
 }
-#block-block-5 p { margin-bottom: 0px}
-#block-menu-menu-erhverv-genveje {float: left}
+#block-block-4 p { margin-bottom: 0px}
+#block-menu-os2web-menu-business-shortcuts {float: left}
 
 #region-header-second { height: 80px}
 
@@ -1987,7 +1987,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
 }
 
-#block-menu-menu-erhverv-genveje a {
+#block-menu-os2web-menu-business-shortcuts a {
     font-size: 12px;
     color: #5c5c5c;
     display: block;
@@ -3762,22 +3762,22 @@ ul.dynatree-container ul a { padding-left: 0 }
     display: none;
 }
 
-.view-meetings-search table.views-table th {
+.view-os2web-meetings-view-search table.views-table th {
     background: none;
     border: none;
 }
 
 
-th.views-field-field-committee {
+th.views-field-field-os2web-meetings-committee {
     width: 320px;
 }
 
-th.views-field-field-date {
+th.views-field-field-os2web-meetings-date {
     width: 150px;
 }
 
 
-.view-meetings-search .views-field-field-committee a {
+.view-os2web-meetings-view-search .views-field-field-os2web-meetings-committee a {
     background-image: url('../images/megamenu-arrow-over.png');
     background-position: 5px 3px;
     background-repeat: no-repeat;
@@ -3786,30 +3786,30 @@ th.views-field-field-date {
     color: #333;
 }
 
-.view-meetings-search .views-field a {
+.view-os2web-meetings-view-search .views-field a {
    color: #333;
 }
 
-.view-meetings-search .views-field-field-committee  a:hover {
+.view-os2web-meetings-view-search .views-field-field-os2web-meetings-committee  a:hover {
     color: #8b0054;
 }
 
-.view-meetings-search table,
-.view-meetings-search .views-table tr.even,
-.view-meetings-search .views-table tr.odd,
-.view-meetings-search .views-table tr.even td,
-.view-meetings-search .views-table tr.odd td,
-.view-meeting-details table,
-.view-meeting-details .views-table tr.even,
-.view-meeting-details .views-table tr.odd,
-.view-meeting-details .views-table tr.even td,
-.view-meeting-details .views-table tr.odd td {
+.view-os2web-meetings-view-search table,
+.view-os2web-meetings-view-search .views-table tr.even,
+.view-os2web-meetings-view-search .views-table tr.odd,
+.view-os2web-meetings-view-search .views-table tr.even td,
+.view-os2web-meetings-view-search .views-table tr.odd td,
+.view-os2web-meetings-meeting-details table,
+.view-os2web-meetings-meeting-details .views-table tr.even,
+.view-os2web-meetings-meeting-details .views-table tr.odd,
+.view-os2web-meetings-meeting-details .views-table tr.even td,
+.view-os2web-meetings-meeting-details .views-table tr.odd td {
     background: none;
     border: none;
     vertical-align: top;
 }
 
-.view-meeting-details .agenda-bullet-list {
+.view-os2web-meetings-meeting-details .agenda-bullet-list {
     color: #8b0054;
     border: 1px solid #CCCCCC;
     width: 672px;
@@ -3818,50 +3818,50 @@ th.views-field-field-date {
     font-size: 15px;
 }
 
-.view-meeting-details .agenda-bullet-list.open {
+.view-os2web-meetings-meeting-details .agenda-bullet-list.open {
     color: #8b0054;
     border: none;
     font-size: 15px;
 }
 
 
-.view-meetings-search .views-field {
+.view-os2web-meetings-view-search .views-field {
     color: #333;
     font-size: 13px;
 }
 
-.view-meeting-details .view-header h3 {
+.view-os2web-meetings-meeting-details .view-header h3 {
     color: #333;
 }
 
-.view-meetings-search .item-list .pager {
+.view-os2web-meetings-view-search .item-list .pager {
      margin-bottom: 35px;
 
 }
 
-.view-meetings-search .view-footer {
+.view-os2web-meetings-view-search .view-footer {
     clear: left;
 }
 
-.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+.view-os2web-meetings-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
     position: absolute;
     left: 675px;
     margin-top: 2px;
 }
 
-.view-meeting-details .views-field strong {
+.view-os2web-meetings-meeting-details .views-field strong {
     padding-left: 20px;
 }
 
-.view-meeting-details .clearfix h2,
-.view-meeting-details .clearfix h3 {
+.view-os2web-meetings-meeting-details .clearfix h2,
+.view-os2web-meetings-meeting-details .clearfix h3 {
     font-size: 14px;
     margin: 4px 0;
 }
 
-.view-meeting-details .clearfix,
-.view-meeting-details .clearfix li,
-.view-meeting-details .clearfix p {
+.view-os2web-meetings-meeting-details .clearfix,
+.view-os2web-meetings-meeting-details .clearfix li,
+.view-os2web-meetings-meeting-details .clearfix p {
     font-size: 12px;
     line-height: 16px;
     color: #333;
@@ -3869,16 +3869,16 @@ th.views-field-field-date {
     font-family: Arial,Helvetica,sans-serif;
 }
 
-.view-meeting-details .item-list ul li {
+.view-os2web-meetings-meeting-details .item-list ul li {
     margin: 0;
 }
 
-.view-meeting-details .field-name-field-bpa-body li {
+.view-os2web-meetings-meeting-details .field-name-field-bpa-body li {
     list-style: disc outside none;
 }
 
 
-.view-meeting-details h3.node-title { font-weight: bold}
+.view-os2web-meetings-meeting-details h3.node-title { font-weight: bold}
 
 #forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
 
