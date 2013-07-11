@@ -141,7 +141,7 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-os2web-kulturnaut-events-lists, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
@@ -1874,7 +1874,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     margin-left: 6px;
 }
 
-.view-kulturnaut-events-lister .views-field-title a {
+.view-os2web-kulturnaut-events-lists .views-field-title a {
     color: #787878;
     padding: 5px 0 0 62px;
     background-image: url(../images/megamenu-arrow.png);
@@ -1885,7 +1885,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 14px;
 }
 
-.view-kulturnaut-events-lister .views-field-title a:hover {
+.view-os2web-kulturnaut-events-lists .views-field-title a:hover {
     color: #8a0153;
     background-image: url(../images/megamenu-arrow-over.png);
     background-position: 50px 7px;
@@ -1893,7 +1893,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 }
 
 
-.view-kulturnaut-events-lister .calendar {
+.view-os2web-kulturnaut-events-lists .calendar {
     background-image: url(../images/calendar.png);
     background-repeat: no-repeat;
     height: 60px;
@@ -1901,7 +1901,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     text-align: center;
 }
 
-.view-kulturnaut-events-lister .calendar-top {
+.view-os2web-kulturnaut-events-lists .calendar-top {
     color: #fff;
     font-size: 8px;
     background: none;
@@ -1911,17 +1911,17 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 }
 
-.view-kulturnaut-events-lister .calendar-bottom {
+.view-os2web-kulturnaut-events-lists .calendar-bottom {
     color: #991f68;
     font-size: 16px;
     background: none;
 }
 
-.view-kulturnaut-events-lister .views-field-imported-1 {float: left; clear: left}
+.view-os2web-kulturnaut-events-lists .views-field-imported-1 {float: left; clear: left}
 
-.view-kulturnaut-events-lister .views-row {margin-top: 12px; margin-left: 22px; }
+.view-os2web-kulturnaut-events-lists .views-row {margin-top: 12px; margin-left: 22px; }
 
-.view-kulturnaut-events-lister .view-content {
+.view-os2web-kulturnaut-events-lists .view-content {
     padding: 10px 0 0 3px;
 }
 
