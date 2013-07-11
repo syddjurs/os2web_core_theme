@@ -1214,7 +1214,7 @@ ul.menu li a.menu-minipanel-1608 {
     padding-top: 6px;
 }
 
-.view-spotboxe .spotbox-row {
+.view-os2web-spotbox-view-spots .spotbox-row {
     background-image: url("../images/spot1.png");
     margin-bottom: 4px;
     padding: 6px 1px 0px 10px;
@@ -1321,7 +1321,7 @@ ul.menu li a.menu-minipanel-1608 {
 	font-size: 12px;
 	}
 
-#panel-borger .view-spotboxe .view-content .spotbox-row {
+#panel-borger .view-os2web-spotbox-view-spots .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
 }
 
@@ -1419,17 +1419,17 @@ padding-bottom: 5px
 
 .portal-politik-og-planer .spotbox-horisontal { clear: left; }
 
-.portal-politik-og-planer .view-spotboxe .spotbox-row,
+.portal-politik-og-planer .view-os2web-spotbox-view-spots .spotbox-row,
 .portal-politik-og-planer .spotbox-horisontal .views-row-last {
     background-image: url("../images/spot1b.png");
     background-position: 0 22px;
     padding-top: 0;
 }
 
-.portal-politik-og-planer .view-spotboxe .spotbox-row img,
+.portal-politik-og-planer .view-os2web-spotbox-view-spots .spotbox-row img,
 .portal-politik-og-planer .spotbox-horisontal .views-row-last img {padding-left: 1px;}
 
-.portal-politik-og-planer .view-spotboxe .spotbox-row {padding-left: 0;}
+.portal-politik-og-planer .view-os2web-spotbox-view-spots .spotbox-row {padding-left: 0;}
 
 .spotbox-horisontal-3 .view-content .views-row-first {
 	margin-left: 10px;
@@ -2323,7 +2323,7 @@ color: #B3B3B3;
 }
 
 #panel-borger .pane-os2web-base-panels-view-selfserv { margin-left: 0; padding-left: 0}
-#panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
+#panel-borger .view-os2web-spotbox-view-spots .spotbox-row { padding: 6px 1px 0 0 }
 
 #panel-borger .spotbox-horisontal { }
 #panel-borger .spotbox-horisontal .spotbox-row { float: left; margin-left: 7px; padding: 0 0 0 1px;}
@@ -3336,7 +3336,7 @@ tr.even td { background: #f9f9f9;}
 
 #mini-panel-hoejre_blokke_ved_dagsordener .spotbox5 .spotbox-row { margin-left: 0}
 
-#mini-panel-hoejre_blokke_ved_dagsordener .view-spotboxe .spotbox-row {padding: 6px 1px 0px 1px;}
+#mini-panel-hoejre_blokke_ved_dagsordener .view-os2web-spotbox-view-spots .spotbox-row {padding: 6px 1px 0px 1px;}
 
 #mini-panel-hoejre_blokke_ved_dagsordener .view-kontaktblok { margin-left: 0}
 
