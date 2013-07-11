@@ -4106,7 +4106,7 @@ input.error{
 	background-image: url("../images/transwhite.png");
 	background-repeat: repeat;
 	margin: 0;
-	padding: 0 5px;
+/* 	padding: 0 5px; */
 }
 #zone-content {
 	padding-top: 0px;
