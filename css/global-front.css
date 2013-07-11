@@ -36,7 +36,7 @@
 	background-image: url("../images/transwhite.png");
 	background-repeat: repeat;
 	margin: 0;
-	padding: 0 5px;
+/* 	padding: 0 5px; */
 	}
 
 .panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
