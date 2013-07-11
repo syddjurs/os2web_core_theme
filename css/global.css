@@ -4123,13 +4123,14 @@ input.error{
 	padding-bottom: 5px;
 	background-repeat: no-repeat}
 
-.view-id-os2web_base_panels_view_newslist .view-content {
+/*.view-id-os2web_base_panels_view_newslist .view-content {
     background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;
     height: 158px;
     margin-left: 0px;
     padding: 1px 0;
     width: 308px;
 }
+*/
 #zone-content {padding-top: 0px}
 #zone-postscript-wrapper {display: none}
 .custom-slideshow {
