@@ -2451,14 +2451,14 @@ text-transform: uppercase;
 }
 
 
-#panel-borger .view-id-kulturnaut_events_lister {
+#panel-borger .view-id-os2web_kulturnaut_events_lists {
 	background-image: url(../images/detsker-borger-bg.png);
 	width: 234px;
 	height: 235px;
 }
 
 
-#panel-borger .view-id-kulturnaut_events_lister a {
+#panel-borger .view-id-os2web_kulturnaut_events_lists a {
 	font-size: 12px;
 	background-position: 50px 7px;
 }
@@ -3606,7 +3606,7 @@ tr.even td { background: #f9f9f9;}
     margin-top: 3px;
 }
 
-#panel-borger .view-id-kulturnaut_events_lister {
+#panel-borger .view-id-os2web_kulturnaut_events_lists {
     background-image: url("../images/detskerBORGER.png");
     height: 235px;
     width: 234px;
