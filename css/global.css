@@ -3380,7 +3380,7 @@ tr.even td { background: #f9f9f9;}
   border: solid #3B5998 5px;
 }
 
-.view-id-newslist.portalnews-big .view-content {
+.view-os2web-base-panels-view-newslist .view-content {
   width: 470px;
   background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
   height: 232px;
