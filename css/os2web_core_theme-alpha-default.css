@@ -3328,7 +3328,7 @@ tr.even td { background: #f9f9f9;}
 
 #mini-panel-hoejre_blokke_ved_dagsordener .view-kontaktblok { margin-left: 0}
 
-.pane-planer-i-hoering { margin: 0 8px !important; width: 473px !important;  }
+.pane-planer-i-hearing { margin: 0 8px !important; width: 473px !important;  }
 .view-id-os2web_hearings_view_hearing { background-image: url(../images/planerihoeringTOP.png); padding-top: 10px}
 .view-id-os2web_hearings_view_hearing .view-header h3 { color: #fff; padding: 1px; line-height: 54px; text-align: center; text-transform: uppercase; font-size: 18px}
 .view-id-os2web_hearings_view_hearing .view-content { padding: 5px 0 5px 5px}
@@ -3345,7 +3345,7 @@ tr.even td { background: #f9f9f9;}
 
 .view-id-os2web_hearings_view_hearing .views-field-title { width: 329px; padding-right: 0;padding-top: 0; vertical-align:middle;}
 .view-id-os2web_hearings_view_hearing .aktiv-hoering { width: 60px; padding: 0 15px 5px 0}
-.view-id-os2web_hearings_view_hearing .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
+.view-id-os2web_hearings_view_hearing .er-i-hearing { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
 
 .slideshow-big .views-slideshow-controls-top {
   position: absolute;
