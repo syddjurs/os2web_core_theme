@@ -1586,7 +1586,7 @@ height: 90px;
 	height: 86px;
 	overflow: hidden;
 }
-.pane-os2web-meeting-views-meeting-search-block { margin-bottom: 8px}
+.pane-os2web-meetings-meeting-search-block { margin-bottom: 8px}
 
 .portal-politik-og-planer .view-display-id-sb_block_portal_att_2 .view-content {
 height: 139px;
@@ -2719,7 +2719,7 @@ div.breadcrumb.you-are-here {
 }
 
 
-.pane-os2web-meeting-views-meeting-search-block .pane-content {
+.pane-os2web-meetings-meeting-search-block .pane-content {
 	padding: 10px 10px;
 	clear: both;
 	background-image: url(../images/dagsordnerBAG.png);
