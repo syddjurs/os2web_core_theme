@@ -2144,7 +2144,7 @@ color: #B3B3B3;
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
-.page-taxonomy-term #region-content { margin-left: 0px; width: 720px}
+.page-taxonomy-term #region-content { margin-left: 0px; width: 720px; padding: 0;}
 
 .page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 723px;}
 
