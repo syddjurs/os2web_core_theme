@@ -1597,7 +1597,7 @@ height: 90px;
 	height: 86px;
 	overflow: hidden;
 }
-.pane-os2web-meeting-views-meeting-search-block { margin-bottom: 8px}
+.pane-os2web-meetings-meeting-search-block { margin-bottom: 8px}
 
 .portal-politik-og-planer .view-display-id-sb_block_portal_att_2 .view-content {
 height: 139px;
@@ -2144,7 +2144,7 @@ color: #B3B3B3;
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
-.page-taxonomy-term #region-content { margin-left: 0px; width: 720px}
+.page-taxonomy-term #region-content { margin-left: 0px; width: 720px; padding: 0;}
 
 .page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 723px;}
 
@@ -2347,7 +2347,7 @@ color: #B3B3B3;
 
 .page-taxonomy-term .block-menu-block h2.block-title {display: none}
 
-.view-sitestuktur { height: 33px; padding-left: 23px; margin-bottom: 15px; padding-top: 10px; }
+.view-os2web-base-panels-view-sitestru { height: 33px; padding-left: 23px; margin-bottom: 15px; padding-top: 10px; }
 
 .qtip-light { width: 100%; background-color: fuchsia; z-index: 999}
 
@@ -2472,14 +2472,14 @@ text-transform: uppercase;
 }
 
 
-#panel-borger .view-id-kulturnaut_events_lister {
+#panel-borger .view-id-os2web_kulturnaut_events_lists {
 	background-image: url(../images/detsker-borger-bg.png);
 	width: 234px;
 	height: 235px;
 }
 
 
-#panel-borger .view-id-kulturnaut_events_lister a {
+#panel-borger .view-id-os2web_kulturnaut_events_lists a {
 	font-size: 12px;
 	background-position: 50px 7px;
 }
@@ -2754,7 +2754,7 @@ div.breadcrumb.you-are-here {
 	margin-top: 0px;
 	margin-left: 7px}
 
-.pane-os2web-meeting-views-meeting-search-block .pane-content {
+.pane-os2web-meetings-meeting-search-block .pane-content {
 	padding: 10px 10px;
 	clear: both;
 	background-image: url(../images/dagsordnerBAG.png);
@@ -3430,7 +3430,7 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 .spotbox-horisontal a.overlayclass {
-	margin-left: 1px;
+/* 	margin-left: 1px; */
 }
 
 .doklist { padding: 8px; border: 1px solid #ccc; }
@@ -3448,24 +3448,24 @@ tr.even td { background: #f9f9f9;}
 
 #mini-panel-hoejre_blokke_ved_dagsordener .view-os2web-contact-view-contact { margin-left: 0}
 
-.pane-planer-i-hoering { margin: 0 8px !important; width: 473px !important;  }
-.view-id-planer_i_hoering { background-image: url(../images/planerihoeringTOP.png); padding-top: 10px}
-.view-id-planer_i_hoering .view-header h3 { color: #fff; padding: 1px; line-height: 54px; text-align: center; text-transform: uppercase; font-size: 18px}
-.view-id-planer_i_hoering .view-content { padding: 5px 0 5px 5px}
-.view-id-planer_i_hoering thead { display: none}
-.view-id-planer_i_hoering td, .view-id-planer_i_hoering table, .view-id-planer_i_hoering tr, .view-id-planer_i_hoering tbody { background-color: transparent !important; border-top: none !important;border-left: none !important;border-right: none !important; border-color: #eee; padding-right: 0}
-.view-id-planer_i_hoering .view-footer { background-image: url(../images/planerihoeringBUND.png);
+.pane-planer-i-hearing { margin: 0 8px !important; width: 473px !important;  }
+.view-id-os2web_hearings_view_hearing { background-image: url(../images/planerihoeringTOP.png); background-repeat: no-repeat; padding-top: 10px;}
+.view-id-os2web_hearings_view_hearing .view-header h3 { color: #fff; padding: 1px; line-height: 54px; text-align: center; text-transform: uppercase; font-size: 18px}
+.view-id-os2web_hearings_view_hearing .view-content { padding: 5px 0 5px 5px}
+.view-id-os2web_hearings_view_hearing thead { display: none}
+.view-id-os2web_hearings_view_hearing td, .view-id-os2web_hearings_view_hearing table, .view-id-os2web_hearings_view_hearing tr, .view-id-os2web_hearings_view_hearing tbody { background-color: transparent !important; border-top: none !important;border-left: none !important;border-right: none !important; border-color: #eee; padding-right: 0}
+.view-id-os2web_hearings_view_hearing .view-footer { background-image: url(../images/planerihoeringBUND.png);
 	padding: 10px;
 	margin-bottom: 15px; height: 30px; }
-.view-id-planer_i_hoering .view-footer span { display: block;float: left; margin-right: 15px}
-.view-id-planer_i_hoering .view-footer span.alle { float: right; margin-right: 0}
-.view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #8b0053; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
+.view-id-os2web_hearings_view_hearing .view-footer span { display: block;float: left; margin-right: 15px}
+.view-id-os2web_hearings_view_hearing .view-footer span.alle { float: right; margin-right: 0}
+.view-id-os2web_hearings_view_hearing .alle a, .view-id-os2web_hearings_view_hearing .vedtagne a, .view-id-os2web_hearings_view_hearing .foroffase a { background-color: #8b0053; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px;
 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 
 
-.view-id-planer_i_hoering .views-field-title { width: 329px; padding-right: 0;padding-top: 0; vertical-align:middle;}
-.view-id-planer_i_hoering .aktiv-hoering { width: 60px; padding: 0 15px 5px 0}
-.view-id-planer_i_hoering .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
+.view-id-os2web_hearings_view_hearing .views-field-title { width: 329px; padding-right: 0;padding-top: 0; vertical-align:middle;}
+.view-id-os2web_hearings_view_hearing .aktiv-hoering { width: 60px; padding: 0 15px 5px 0}
+.view-id-os2web_hearings_view_hearing .er-i-hearing { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
 
 .slideshow-big .views-slideshow-controls-top {
   position: absolute;
@@ -3714,7 +3714,7 @@ tr.even td { background: #f9f9f9;}
     margin-top: 3px;
 }
 
-#panel-borger .view-id-kulturnaut_events_lister {
+#panel-borger .view-id-os2web_kulturnaut_events_lists {
     background-image: url("../images/detskerBORGER.png");
     height: 235px;
     width: 234px;
@@ -4106,7 +4106,7 @@ input.error{
 	background-image: url("../images/transwhite.png");
 	background-repeat: repeat;
 	margin: 0;
-	padding: 0 5px;
+	padding: 0 10px;
 }
 #zone-content {
 	padding-top: 0px;
@@ -4115,13 +4115,15 @@ input.error{
 
 #forside .pane-rotating-image-view { margin-bottom: 3px}
 .billedrotator {
-	background-image: url(../images/billedkarusel-bg.png);
-	margin-top: 12px;
-	/*margin-left: 9px;  ## grid-fix
-	padding-left: 1px;*/
+/*	background-image: url(../images/billedkarusel-bg.png);
+ 	margin-top: 12px; 
+	margin-left: 9px;  ## grid-fix
+	padding-left: 1px;
 	padding-top: 0px;
 	padding-bottom: 5px;
-	background-repeat: no-repeat}
+	background-repeat: no-repeat;
+  */
+}
 
 .view-id-os2web_base_panels_view_newslist .view-content {
     background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;
@@ -4146,7 +4148,7 @@ input.error{
     margin: 0 4px 0 1px;
 }
 
-.view-kulturnaut-events-lister {
+.view-os2web-kulturnaut-events-lists {
     background-image: url("../images/detsker-bg.png");
     height: 159px;
 }
@@ -4185,7 +4187,7 @@ input.error{
 }
 #forside .grid-6.custom-video { padding: 5px 1px 0; margin-left: 9px; width: 468px;}
 
-.spotbox-horisontal .views-row { width: 229px; float: left }
+.spotbox-horisontal .views-row { width: 230px; float: left }
 .spotbox-horisontal {width: 490px}
 
 
