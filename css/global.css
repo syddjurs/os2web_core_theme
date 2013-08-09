@@ -4103,6 +4103,8 @@ input.error{
 }
 
 #region-content {
+	background-image: url("../images/transwhite.png");
+	background-repeat: repeat;
 	margin: 0;
 	padding: 0 10px;
 }
@@ -4114,7 +4116,7 @@ input.error{
 #forside .pane-rotating-image-view { margin-bottom: 3px}
 .billedrotator {
 /*	background-image: url(../images/billedkarusel-bg.png);
- 	margin-top: 12px;
+ 	margin-top: 12px; 
 	margin-left: 9px;  ## grid-fix
 	padding-left: 1px;
 	padding-top: 0px;
