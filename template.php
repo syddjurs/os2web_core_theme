@@ -18,7 +18,6 @@ function os2web_core_theme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
   drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
-  drupal_add_js($theme_path . '/js/jquery.dagsorden.js', array('scope' => 'footer', 'weight' => 5));
 
   // Add a vegas background from the background node.
   if (function_exists('bg_image_get_image_path_from_node')) {
