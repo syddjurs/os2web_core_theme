@@ -19,7 +19,6 @@ function os2web_core_theme_preprocess_html(&$variables) {
   drupal_add_js($theme_path . '/js/script.js');
   drupal_add_js($theme_path . '/js/jquery.vegas.js');
   drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
-  drupal_add_js($theme_path . '/js/jquery.dagsorden.js', array('scope' => 'footer', 'weight' => 5));
 }
 
 /**
