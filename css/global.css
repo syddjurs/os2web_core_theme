@@ -596,6 +596,7 @@ ul.jcarousel-list-horizontal { }
 	display: block;
 	clear: both;
 	width: 100%;
+	margin: 0;
 }
 
 .view-id-os2web_base_panels_view_newslist.view-display-id-page_1 .news-list-right {
