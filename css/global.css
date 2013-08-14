@@ -2032,8 +2032,8 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	background: none;
 }
 
-.field-name-field-case a,
-.field-name-field-doc a {
+.field-name-field-os2web-base-field-case a,
+.field-name-field-os2web-base-field-doc a {
     color: #676767;
     background-image: url(../images/megamenu-arrow-over.png);
     background-repeat: no-repeat;
@@ -2044,8 +2044,8 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 13px;
 }
 
-.field-name-field-case a:hover,
-.field-name-field-doc a:hover {
+.field-name-field-os2web-base-field-case a:hover,
+.field-name-field-os2web-base-field-doc a:hover {
     color: #880054;
 }
 
