@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /*   Myriad Pro Bold Font */
@@ -2103,12 +2103,12 @@ p.MsoNormal {
     margin: 10px 10px 10px 10px;
 }
 
-.node-type-os2web-base-contentpage .field.field-name-field-resume-long, .node-type-os2web-base-contentpage .region-inner h1.title, .node-type-os2web-base-contentpage .submitted, .node-type-os2web-base-contentpage .workbench-info-block {
+.node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary, .node-type-os2web-base-contentpage .region-inner h1.title, .node-type-os2web-base-contentpage .submitted, .node-type-os2web-base-contentpage .workbench-info-block {
 	margin-left: 25px;
 
 }
 
-.node-type-os2web-base-contentpage .field.field-name-field-resume-long, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
+.node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
 	font-size: 20px;
     color: #4a4a4a;
 }
