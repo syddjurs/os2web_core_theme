@@ -32,5 +32,7 @@ jQuery(document).ready(function () {
         jQuery('.vis-andre-sites a').toggle();
     });
 
+    jQuery('#edit-field-os2web-hearings-type-value').yaselect();
+
 });
 
