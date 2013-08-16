@@ -985,10 +985,6 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
-
-#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a {color: #9b9b9b;}
-#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a:hover {color: #8b0054;}
-
 .view-os2web-contact-view-contact {
 	margin-bottom: 20px;
 	margin-top: 3px;
@@ -1047,12 +1043,8 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 }
 
 
-.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
-.telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
-
-.telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
-    padding: 0 0 3px;    background-image: none;}
-
+.telefonnummer, .telfonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
+.telefonnummer, .telfonnummer, .telefonnummer a, .telfonnummer a { font-size: 35px; color: #9B9B9B;  }
 
 .view-os2web-contact-view-contact  div.dag {
 	float: left;
