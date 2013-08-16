@@ -3,7 +3,7 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page && $title): ?>
     <header>
-      <?php if ($view_mode != 'meeting_detail_view'): ?>
+      <?php if ($view_mode != 'os2web_meetings_meeting_detail_view'): ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
       <?php else: ?>
         <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
@@ -14,7 +14,7 @@
     <?php if (!empty($content['links'])): ?>
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
-    <?php if ($view_mode != 'meeting_detail_view' && arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
+    <?php if ($view_mode != 'os2web_meetings_meeting_detail_view' && arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
       <div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>">&nbsp;</a></div>
     <?php endif; ?>
 
@@ -32,13 +32,13 @@
       ?>
     </div>
   </div>
-  <?php if ($view_mode != 'meeting_detail_view'): ?>
+  <?php if ($view_mode != 'os2web_meetings_meeting_detail_view'): ?>
     <?php
     print "<div class='last-updated-node'> Opdateret: " . format_date($node->changed, "short") . "</div>";
     ?>
 
     <?php print render($content['comments']); ?>
-    <?php if (arg(0) == 'node' && is_numeric(arg(1))) : ?>
+    <?php if (arg(0) == 'node' && is_numeric(arg(1)) && $page) : ?>
       <div class="del-bund">
         <div class="del">
           <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
