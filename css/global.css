@@ -741,6 +741,9 @@ ul.jcarousel-list-horizontal { }
 	color: #9a9a9a; }
 
 
+#zone-menu #search-block-form  {
+	text-align: right;
+}
 #zone-menu .form-item-search-block-form input[type="text"] {
 	width: 399px !important;
 	padding-left: 20px !important;
