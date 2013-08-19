@@ -81,7 +81,7 @@ function os2web_core_theme_breadcrumb($variables) {
       $breadcrumb[0] = l(t('Forside'), '<front>', array('attributes' => array('title' => 'Forside')));
       $breadcrumb[] = '<a href="#" title="Søgning">Søgning</a>';
     }
-    if (isset($node) && is_object($node) && $node->type == 'meeting') {
+    if (isset($node) && is_object($node) && $node->type == 'os2web_meetings_meeting') {
       unset($breadcrumb);
       $breadcrumb[0] = l(t('Forside'), '<front>', array('attributes' => array('title' => 'Forside')));
       $breadcrumb[] = l(t('Politik & planer'), 'politik-og-planer', array('attributes' => array('title' => 'Politik og planer')));
