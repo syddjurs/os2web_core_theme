@@ -198,7 +198,12 @@ ul.primary li a {
 	border-left: none;
 	padding: 0 11px 0 0;
 }
-
+#main-menu li.first a{
+	background-position: 52% 85%;
+  }
+#main-menu li.first a.qtip-hover{
+	background-position: 47% 85%;
+}
 #main-menu li.last {
 	padding: 0 0 0 22px;
 }
@@ -866,7 +871,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
     display: block;
     padding-left: 16px;
     color: #4a4a4a;
-    width: 210px;
+    width: 260px;
 }
 
 .qtip-wrapper ul.menu li.leaf:hover a{
@@ -2829,7 +2834,7 @@ div.breadcrumb.you-are-here {
 }
 
 #main-menu li a {padding-left: 24px;padding-right: 24px}
-#main-menu li.last a {
+#main-menu li.first a {padding-left: 37px;
 }
 
 div.qtip { background-image: url(../images/mega_dd_bg_btm.png); background-position: bottom center; padding-bottom: 9px; border-bottom-left-radius: 3px !important; border-bottom-right-radius: 3px !important}
