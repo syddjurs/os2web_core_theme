@@ -264,21 +264,6 @@ h2.pane-title a, h2.block-title a {
 	display: none
 	}
 
-#block-search-form #edit-submit,
-#block-search-form .form-submit,
-#block-search-form #edit-submit--3 {
-    background-image: url(../images/search-button.png);
-    width: 70px;
-    height: 68px;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    background-color: #FBFBFB;
-    text-indent: 99999px;
-}
-
 #edit-submit {
 	background: #FBFBFB;
 }
@@ -758,9 +743,10 @@ ul.jcarousel-list-horizontal { }
   }
 
 
-#block-search-form #edit-submit {
+#block-search-form .form-submit {
     background-image: url(../images/search_btn.png); width: 48px; height: 43px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px; margin-left: -4px;
-    }
+    text-indent: -1100000px;
+}
 
 #region-header-second .region-inner {padding-top: 65px; padding-left: 20px}
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
@@ -2840,7 +2826,6 @@ div.breadcrumb.you-are-here {
 #main-menu li a {padding-left: 24px;padding-right: 24px}
 #main-menu li.first a {padding-left: 37px;
 }
-
 div.qtip { background-image: url(../images/mega_dd_bg_btm.png); background-position: bottom center; padding-bottom: 9px; border-bottom-left-radius: 3px !important; border-bottom-right-radius: 3px !important}
 
 .selvbetjening-megamenu { height: auto; margin-bottom: 5px }
