@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary {font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /*   Myriad Pro Bold Font */
@@ -198,7 +198,12 @@ ul.primary li a {
 	border-left: none;
 	padding: 0 11px 0 0;
 }
-
+#main-menu li.first a{
+	background-position: 52% 85%;
+  }
+#main-menu li.first a.qtip-hover{
+	background-position: 47% 85%;
+}
 #main-menu li.last {
 	padding: 0 0 0 22px;
 }
@@ -259,21 +264,6 @@ h2.pane-title a, h2.block-title a {
 	display: none
 	}
 
-#block-search-form #edit-submit,
-#block-search-form .form-submit,
-#block-search-form #edit-submit--3 {
-    background-image: url(../images/search-button.png);
-    width: 70px;
-    height: 68px;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    background-color: #FBFBFB;
-    text-indent: 99999px;
-}
-
 #edit-submit {
 	background: #FBFBFB;
 }
@@ -288,6 +278,10 @@ h2.pane-title a, h2.block-title a {
 	padding-right: 10px;
 	text-transform: uppercase;
 	font-size: 11px; list-style: none; }
+
+.field-name-field-os2web-hearings-meeting a {
+	padding-left: 19px;
+}
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
 
@@ -745,12 +739,14 @@ ul.jcarousel-list-horizontal { }
 	padding: 0 0 0 10px;
 	text-transform: uppercase;
 	background-image: url(../images/search_bg.png);
-	color: #9b185a; }
+	color: #9b185a; 
+  }
 
 
-#block-search-form #edit-submit {
+#block-search-form .form-submit {
     background-image: url(../images/search_btn.png); width: 48px; height: 43px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px; margin-left: -4px;
-    }
+    text-indent: -1100000px;
+}
 
 #region-header-second .region-inner {padding-top: 65px; padding-left: 20px}
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
@@ -864,8 +860,13 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
     text-transform: none;
     display: block;
     padding-left: 16px;
+<<<<<<< HEAD
     color: #333;
     width: 210px;
+=======
+    color: #4a4a4a;
+    width: 260px;
+>>>>>>> hearings_case
 }
 
 .qtip-wrapper ul.menu li.leaf:hover a{
@@ -991,10 +992,6 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
-
-#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a {color: #9b9b9b;}
-#region-sidebar-second.grid-3 .view-os2web-contact-view-contact a:hover {color: #8b0054;}
-
 .view-os2web-contact-view-contact {
 	margin-bottom: 20px;
 	margin-top: 3px;
@@ -1053,12 +1050,8 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 }
 
 
-.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
-.telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
-
-.telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
-    padding: 0 0 3px;    background-image: none;}
-
+.telefonnummer, .telfonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
+.telefonnummer, .telfonnummer, .telefonnummer a, .telfonnummer a { font-size: 35px; color: #9B9B9B;  }
 
 .view-os2web-contact-view-contact  div.dag {
 	float: left;
@@ -2086,11 +2079,16 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	top: 0;
 	margin-bottom: 0;}
 
+.field-label,
 .field-items .field-item p {
     color: #4a4a4a;
     font-size: 12px;
     line-height: 19px;
 	}
+	
+.field-name-field-os2web-hearings-enddate {
+	margin-bottom: 10px;
+}
 
 .field-type-text-long,
 .field-type-text-long p,
@@ -2836,9 +2834,8 @@ div.breadcrumb.you-are-here {
 }
 
 #main-menu li a {padding-left: 24px;padding-right: 24px}
-#main-menu li.last a {
+#main-menu li.first a {padding-left: 37px;
 }
-
 div.qtip { background-image: url(../images/mega_dd_bg_btm.png); background-position: bottom center; padding-bottom: 9px; border-bottom-left-radius: 3px !important; border-bottom-right-radius: 3px !important}
 
 .selvbetjening-megamenu { height: auto; margin-bottom: 5px }
