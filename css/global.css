@@ -4220,6 +4220,9 @@ input.error{
 .pane-os2web-hearings {
   height: 451px;
   float: left;
+  width: 232px;
+  padding-left: 1px;
+  margin-left: 9px;
 }
 .pane-os2web-hearings .pane-content {
   background-image: url(../images/spot2-424.png);
