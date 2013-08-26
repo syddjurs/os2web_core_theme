@@ -8,6 +8,8 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "myriad-pro",Arial,Helvetica,sans-serif;
   color: #787878;
 }
+
+.btn-primary, .btn-primary:hover{ background-color: #8B0053; background-image: linear-gradient(to bottom, #8B0053, #8B0053); }
 .footer {
   margin-top: 0;
   padding: 0 0 36px;
@@ -204,6 +206,8 @@ a {
 
 }
 
+.view-display-id-attachment_5 .views-field-title,
+table,
 .well,
 .pane-content-well .pane-content {
   background-color: #FFFFFF;
@@ -337,4 +341,75 @@ a {
 
 .btn:hover, .btn:focus {
   background-position: 0 0;
+}
+
+/**
+ * dagsorden og referater
+ */
+.view-meetings-search .help-block {
+  display: none;
+}
+
+.view-meetings-search .form-type-date-popup.form-item {
+  padding-left: 40px;
+  background-image: url(/profiles/os2web/themes/cmstheme/images/cal.png);
+  background-repeat: no-repeat;
+}
+.view-meetings-search .form-item-committee {
+  padding-left: 68px;
+}
+.control-group.form-type-date-popup.form-item-from-date-value.form-item {
+margin-left: 28px;
+}
+.view-meetings-search .form-item input {
+  width: 200px;
+}
+.view-meetings-search select {
+  width: 215px;
+} 
+
+.view-meetings-search .views-exposed-form .views-exposed-widget .form-submit { margin-top: 0; }
+
+.view-meetings-search .views-exposed-form .views-exposed-widget.views-submit-button { float: right; }
+
+
+.view-meetings-search label { width: 28px; float: left; }
+.view-meetings-search .views-widget { float: left; }
+
+.agenda-item ul {
+    list-style: none outside none;
+    margin-left: 0;
+}
+
+a.agenda-bullet-list:before {
+  content: "+";
+  margin: 0 5px;
+}
+a.agenda-bullet-list.open:before {
+  content: "-";
+}
+
+a.agenda-bullet-list.open { margin-bottom: 20px; display: block; }
+
+.view-meeting-details h2 a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.view-meeting-details .file a {
+  color: #333;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.views-field.views-field-field-meeting-type,
+.views-field.views-field-field-full-doc,
+.views-field.views-field-field-date,
+.views-field.views-field-field-committee {
+font-size: 16px;
+}
+
+.views-field.views-field-field-qbrick-ref {
+  width: 20px;
 }

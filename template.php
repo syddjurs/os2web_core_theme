@@ -133,3 +133,12 @@ function os2web_core_theme_filefield_item($file, $field) {
   }
   return '';
 }
+
+/**
+ * Implements hook_form_alter()
+ */
+function os2web_core_theme_form_alter(&$form, &$form_state, $form_id){
+  if($form_id == "search_block_form"){
+    $form['search_block_form']['#attributes']['placeholder'] = "Indsæt søgeord";
+  }
+}
