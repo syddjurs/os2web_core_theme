@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* Myriad Pro Light Font */
 
-.field-name-field-os2web-hearings-enddate,#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary {font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+.view-os2web-hearings .field-name-field-os2web-base-field-summary, .field-name-field-os2web-hearings-enddate,#views-exposed-form-os2web-meetings-view-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary {font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /*   Myriad Pro Bold Font */
@@ -283,6 +283,7 @@ h2.pane-title a, h2.block-title a {
 	padding-left: 19px;
 }
 
+.view-os2web-hearings.view-display-id-page,
 .node-type-os2web-hearings-hearing-case .region-content-inner {
 	width: 469px;
 }
@@ -2110,6 +2111,10 @@ p.MsoNormal {
     padding: 0 16px 10px 16px;
     margin: 10px 10px 10px 10px;
 }
+
+.view-os2web-hearings .region-inner h1.title,
+.view-os2web-hearings .field-name-field-os2web-base-field-summary,
+.view-os2web-hearings .field-name-body,
 .node-type-os2web-hearings-hearing-case .region-inner h1.title,
 .node-type-os2web-hearings-hearing-case .field-name-field-os2web-hearings-enddate,
 .node-type-os2web-hearings-hearing-case .field-name-body,
@@ -2117,10 +2122,16 @@ p.MsoNormal {
 	margin-left: 25px;
 
 }
-
+.view-os2web-hearings .views-exposed-widget.views-submit-button {
+float: right;
+}views-exposed-widget.views-submit-button {
+float: right;
+}
 .node-type-os2web-hearings-hearing-case .submitted { display: none}
 
+.view-os2web-hearings .field-name-field-os2web-base-field-summary,
 .node-type-os2web-hearings-hearing-case .field-name-field-os2web-hearings-enddate { margin-top: 4px}
+.view-os2web-hearings .field-name-field-os2web-base-field-summary,
 .node-type-os2web-hearings-hearing-case .field-name-field-os2web-hearings-enddate div {
   line-height: 1;
   font-size: 20px;
