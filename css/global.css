@@ -2112,9 +2112,6 @@ p.MsoNormal {
     margin: 10px 10px 10px 10px;
 }
 
-.view-os2web-hearings .region-inner h1.title,
-.view-os2web-hearings .field-name-field-os2web-base-field-summary,
-.view-os2web-hearings .field-name-body,
 .node-type-os2web-hearings-hearing-case .region-inner h1.title,
 .node-type-os2web-hearings-hearing-case .field-name-field-os2web-hearings-enddate,
 .node-type-os2web-hearings-hearing-case .field-name-body,
@@ -2136,7 +2133,6 @@ float: right;
   line-height: 1;
   font-size: 20px;
   color: #4a4a4a;
-  font-weight: normal;
 }
 .node-type-os2web-hearings-hearing-case .field-name-field-os2web-hearings-enddate .field-label { float: left;}
 .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
