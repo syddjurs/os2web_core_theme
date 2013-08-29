@@ -283,7 +283,9 @@ h2.pane-title a, h2.block-title a {
 	padding-left: 19px;
 }
 
-.view-os2web-hearings.view-display-id-page,
+.view-os2web-hearings.view-display-id-page {
+	width: 580px;
+}
 .node-type-os2web-hearings-hearing-case .region-content-inner {
 	width: 469px;
 }
