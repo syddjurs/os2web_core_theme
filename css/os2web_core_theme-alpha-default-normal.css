@@ -2850,7 +2850,7 @@ line-height: 22px;
 }
 
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {list-style:none;}
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-os2web-base-field-struc li {list-style:none;}
 
 .page-search-node #region-sidebar-first .block-title {
         text-transform: none;
@@ -2864,7 +2864,7 @@ line-height: 22px;
         color: #333;
 }
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-os2web-base-field-struc li {
         display: inline-block;
         vertical-align: middle;
         line-height: 1.2;
@@ -2875,16 +2875,16 @@ line-height: 22px;
         color: #333;
 }
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li a {
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-os2web-base-field-struc li a {
         color: #333;
 }
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover {
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-os2web-base-field-struc li:hover {
         background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
         color: #FFF;
 }
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover a {
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-os2web-base-field-struc li:hover a {
         color: #fff;
 }
 
