@@ -3223,6 +3223,10 @@ float: left;
  padding-left: 8px;
 }
 
+#block-apachesolr-search-sort {
+  position: relative;
+}
+
 #block-apachesolr-search-sort div.block-inner {
  width: 140px;
  position:absolute;
