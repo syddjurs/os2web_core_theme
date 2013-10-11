@@ -3490,6 +3490,7 @@ tr.even td { background: #f9f9f9;}
 
 
 .view-id-os2web_hearings_view_hearing .views-field-title { width: 329px; padding-right: 0;padding-top: 0; vertical-align:middle;}
+.view-id-os2web_hearings_view_hearing .aktiv-hearing span{ white-space:nowrap;}
 .view-id-os2web_hearings_view_hearing .aktiv-hoering { width: 60px; padding: 0 15px 5px 0}
 .view-id-os2web_hearings_view_hearing .er-i-hearing { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
 
