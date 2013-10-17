@@ -122,7 +122,14 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
-a:link, a:visited { color: #8b0053; }
+a:link, a:visited { color: #8b0053; text-decoration: none;}
+
+.region-content a,
+.region-second-sidebar a,
+.region-footer-second a,
+.region-footer-third a {
+  text-decoration: underline;
+}
 
 a:active,
 a:focus { outline: 1px solid #8b0053;}
