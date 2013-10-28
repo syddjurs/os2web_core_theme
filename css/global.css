@@ -2518,6 +2518,7 @@ text-transform: uppercase;
 }
 
 .icon-phone-large {
+  background-image: url(../images/telefon.png);
   display: inline-block;
   height: 32px;
   width: 23px;
