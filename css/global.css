@@ -2496,8 +2496,7 @@ text-transform: uppercase;
 }
 
 .section-footer .phonenumber-item h3 {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;
   margin: 0;
 }
 
@@ -2547,12 +2546,11 @@ text-transform: uppercase;
 
 .phonenumber {
   font-size: 26px;
-  font-weight: bold;
 }
 
 .phonenumber-item {
   display: inline-block;
-  padding: 12px 0;
+  padding: 4px 0 11px;
 }
 
 .inverse.contact-phonenumber-items {
@@ -2560,7 +2558,7 @@ text-transform: uppercase;
 }
 
 .section-footer .phonenumber-item {
-  width: 176px;
+  width: 199px;
 }
 
 .section-footer .icon-phone-large {
@@ -2568,7 +2566,7 @@ text-transform: uppercase;
 }
 
 .phonenumber-item .phonenumber {
-  line-height: 6px;
+  line-height: 13px;
 }
 .section-footer .icon-gt-purple {
   margin-bottom: -2px;
