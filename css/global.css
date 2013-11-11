@@ -124,10 +124,10 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-.region-content a,
-.region-sidebar-second a,
-.region-footer-second a,
-.region-footer-third a {
+.not-front .region-content a,
+.not-front .region-sidebar-second a,
+.not-front .region-footer-second a,
+.not-front .region-footer-third a {
   text-decoration: underline;
 }
 
@@ -1220,10 +1220,11 @@ ul.menu li a.menu-minipanel-1608 {
 #zone-user-wrapper ul.menu li {display: inline-block;}
 #zone-user-wrapper ul.menu li a {}
 
-.spotbox h2.pane-title {
+.spotbox h2.pane-title,
+.view-os2web-hearings h2.pane-title {
     margin: 0 0 3px;
     padding-bottom: 6px;
-    padding-top: 6px;
+    padding-top: 5px;
 }
 
 .view-os2web-spotbox-view-spots .spotbox-row {
@@ -4389,12 +4390,13 @@ input.error{
 }
 .pane-os2web-hearings .pane-content {
   background-image: url(../images/spot2-424.png);
-  height: 415px;
-  padding-top: 1px;
+  height: 441px;
   padding-left: 2px;
+  background-position-y: 27px;
+  background-repeat: no-repeat;
 }
 .pane-os2web-hearings .view-content{
-  height: 322px;
+  height: 325px;
   background: white;
   padding: 10px;
 }
