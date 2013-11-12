@@ -124,6 +124,13 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
+/*.not-front .region-content a,
+.not-front .region-sidebar-second a,
+.not-front .region-footer-second a,
+.not-front .region-footer-third a {
+  text-decoration: underline;
+}*/
+
 a:active,
 a:focus { outline: 1px solid #8b0053;}
 
@@ -136,7 +143,7 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-os2web-kulturnaut-events-lists, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, .telfonnummer, option, .agenda-bullet-list, .pane-os2web-hearings a, .qtip-wrapper a, .qtip-wrapper { font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-os2web-kulturnaut-events-lists, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, .telfonnummer, option, .agenda-bullet-list, .pane-os2web-hearings a, .qtip-wrapper a, .qtip-wrapper, .section-footer { font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
@@ -254,10 +261,6 @@ h2.pane-title, h2.block-title {
 
 h2.pane-title a, h2.block-title a {
 	color: #787878
-	}
-
-#block-block-3 {
-	float: left
 	}
 
 #block-search-form  h2 {
@@ -726,9 +729,6 @@ ul.jcarousel-list-horizontal { }
 ## grid-fix
 #region-menu { width: 960px; margin-right: 0px; padding-right: 0px; padding-left: 0; margin-left: 0}
 */
-.region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
-.region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
-#region-footer-first { width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
 
 .qtip-os2web_core_theme { background-color: transparent}
 
@@ -762,7 +762,7 @@ ul.jcarousel-list-horizontal { }
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
 #region-header-second .region-inner li.first { margin-left: 0px }
 
-#region-footer-ul.menu ul.menu li ul.menu a {list-style: none; color: #9b9b9b; margin-left: 0px;}
+#region-footer-ul.menu ul.menu li ul.menu a {list-style: none; color: #555; margin-left: 0px;}
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
@@ -883,10 +883,24 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
     padding-left: 12px;
 }
 
+.section-footer h1,
+.section-footer h2,
+.section-footer h3,
+.section-footer h4,
+.section-footer h5,
+.section-footer h6 {
+  color: #6d6e6d;
+}
+
+.section-footer p {
+  font-size: 12px;
+  color: #131313;
+}
+
 #zone-footer h2.pane-title {
-  border-bottom: solid 1px #ccc;
-  font-size: 14px;
-  color: #4b4b4b;
+  font-size: 16px;
+  font-weight: bold;
+  color: #eda0c9  ;
   padding-left: 0px;
   margin-right: 9px;
 }
@@ -1005,7 +1019,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .view-os2web-contact-view-contact .views-field {
 	font-size: 11px;
-	color: #9B9B9B;
+	color: #555;
 	padding-left: 20px;
 	clear: left;
 }
@@ -1056,7 +1070,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 
 .telefonnummer, .telfonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
-.telefonnummer, .telfonnummer, .telefonnummer a, .telfonnummer a { font-size: 33px; color: #9B9B9B;  }
+.telefonnummer, .telfonnummer, .telefonnummer a, .telfonnummer a { font-size: 33px; color: #555;  }
 
 .view-os2web-contact-view-contact  div.dag {
 	float: left;
@@ -1071,7 +1085,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 	display: block;
 }
 
-.view-os2web-contact-view-contact .aabningstider { padding: 0px 20px; font-size: 11px; color: #9B9B9B; width: 200px; display: block}
+.view-os2web-contact-view-contact .aabningstider { padding: 0px 20px; font-size: 11px; color: #555; width: 200px; display: block}
 
 .view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 { padding-left: 20px; text-transform: none; font-size: 14px}
 
@@ -1136,7 +1150,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
  */
 
 .block-views-18f59ce05ca3e305f3453541d5330659 h2 {
-    color:#9b9b9b;
+    color:#555;
     font-size:12px;
     display:block;
     border-bottom: 1px solid #ededed;
@@ -1165,7 +1179,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .block-views-18f59ce05ca3e305f3453541d5330659 a {
     font-size:12px;
-    color:#9b9b9b;
+    color:#555;
     }
 
 .block-views-18f59ce05ca3e305f3453541d5330659 span.field-content {
@@ -1206,10 +1220,11 @@ ul.menu li a.menu-minipanel-1608 {
 #zone-user-wrapper ul.menu li {display: inline-block;}
 #zone-user-wrapper ul.menu li a {}
 
-.spotbox h2.pane-title {
+.spotbox h2.pane-title,
+.view-os2web-hearings h2.pane-title {
     margin: 0 0 3px;
     padding-bottom: 6px;
-    padding-top: 6px;
+    padding-top: 5px;
 }
 
 .view-os2web-spotbox-view-spots .spotbox-row {
@@ -2150,30 +2165,7 @@ float: right;
 	margin-left: 10px;
 }
 */
-#region-footer-first {background-repeat: no-repeat; height: 53px; line-height: 53px; background-color: #FBFBFB; color: #B3B3B3; font-size: 11px; overflow: hidden}
-
-.region-footer-first-inner {
-    line-height: 53px;
-    padding-left: 200px
-}
 .selbetjening-bund {line-height: 53px}
-
-#region-footer-first .footer-off-links, .selbetjening-bund a {float: right; margin-right: 10px }
-
-#region-footer-first .footer-off-links .nemid, #region-footer-first .footer-off-links .virkdk, #region-footer-first .footer-off-links .borgerdk, .selbetjening-bund a { display: block; height: 35px; text-indent: -9999px; float: left}
-
-#region-footer-first .footer-off-links .nemid { width: 68px; background-image: url(../images/nemid-graa.png)}
-#region-footer-first .footer-off-links .virkdk {width: 52px; background-image: url(../images/virkdk-graa.png)}
-#region-footer-first .footer-off-links .borgerdk {width: 57px; background-image: url(../images/borgerdk-graa.png)}
-
-
-
-#region-footer-first span {border-right: 1px solid #B3B3B3; margin-right: 10px; padding-right: 10px; padding-top: 2px; padding-bottom: 1px}
-#region-footer-first span.last {border-right: none; margin-right: 0; padding-right: 0px}
-
-#zone-footer .region-footer-first .last a {
-color: #B3B3B3;
-}
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
@@ -2449,7 +2441,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 #region-sidebar-second div.kontaktblok-overskrift,
 #region-sidebar-second h2 ,
 #region-sidebar-second h3 {
-color: #787878;
+color: #4b4b4b;
 font-size: 16px;
 margin: 0 0 8px;
 padding-bottom: 0px;
@@ -2458,11 +2450,154 @@ text-transform: uppercase;
 	font-weight: normal;
 }
 
+.zone-footer .region-footer-first {
+  width: 970px;
+}
+
+.zone-footer .region-footer-second,
+.zone-footer .region-footer-third {
+  padding: 25px 0 0 30px;
+  background: #911653;
+  width: 940px;
+  margin: 0;
+}
+
+
+.footer-contact-inner {
+  padding-left: 15px;
+}
+
+.inverse {
+  background: #911653;
+}
+
+.inverse h1
+.inverse h2,
+.inverse h3,
+.inverse h4 {
+  color: #eca0c9;
+}
+
+.footer-grid-right {
+  padding-top: 29px;
+  width: 500px;
+  float: left;
+}
+
+.footer-grid-left {
+  padding-top: 29px;
+  padding-left: 15px;
+  width: 455px;
+  float: left;
+}
+
+.section-footer h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.section-footer .phonenumber-item h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.inverse,
+.inverse p,
+.inverse a {
+  color: #FFF;
+}
+
+.icon-syddjurs-medium{
+  height: 49px;
+  width: 107px;
+  display: inline-block;
+}
+
+.icon-syddjurs-medium.icon-inverse {
+  background: url('../images/icon-syddjurs-medium-inverse.png');
+}
+
+.icon-phone-large {
+  background-image: url(../images/telefon.png);
+  display: inline-block;
+  height: 32px;
+  width: 23px;
+}
+
+.icon-gt-purple {
+  background: url('../images/mega_dd_arrow_right.png');
+  width: 7px;
+  height: 11px;
+  display: inline-block;
+}
+
+.icon-phone-large.icon-inverse {
+  background: url(../images/icon-phone-large-inverse.png);
+}
+
+.icon-co2neutral-medium{
+  height: 54px;
+  width: 135px;
+  display: inline-block;
+}
+
+.icon-co2neutral-medium.icon-inverse {
+  background: url('../images/icon-co2neutral-medium-inverse.png');
+}
+
+.phonenumber {
+  font-size: 26px;
+}
+
+.phonenumber-item {
+  display: inline-block;
+  padding: 4px 0 11px;
+}
+
+.inverse.contact-phonenumber-items {
+  margin-top: 15px;
+}
+
+.section-footer .phonenumber-item {
+  width: 199px;
+}
+
+.section-footer .icon-phone-large {
+  margin: 0 14px 0;
+}
+
+.phonenumber-item .phonenumber {
+  line-height: 13px;
+}
+.section-footer .icon-gt-purple {
+  margin-bottom: -2px;
+  margin-right: 2px;
+}
+.contact-day-label {
+  width: 105px;
+  display: inline-block;
+}
+
+.footer-contact-inner {
+  line-height: 16px;
+}
+
+.footer-address {
+  font-size: 12px;
+  width: 655px;
+  display: inline-block;
+  height: 50px;
+  margin-left: 19px;
+  vertical-align: middle;
+}
+
+.section-footer .pane-menu-block-4 {
+  width: 206px;
+}
+
 #block-panels-mini-os2web-base-panels-mini-footer .pane-content a {
-	color: #9a9a9a;
-	font-size: 11px;
+	color: #fff;
 	display: block;
-	padding: 0 0 7px 0;
 }
 
 
@@ -2479,11 +2614,6 @@ text-transform: uppercase;
 	padding-left: 0px;
 }
 
-#region-footer-third .region-footer-third-inner a,
-#region-footer-third .region-footer-third-inner p {
-	color: #9a9a9a;
-	font-size: 11px;
-}
 #region-footer-third .region-footer-third-inner .telefonnummer a { font-size: 30px}
 
 #region-footer-third .region-footer-third-inner a:hover {
@@ -2544,7 +2674,8 @@ div.breadcrumb.you-are-here {
 }
 
 
-.view-id-os2web_base_panels_view_selfserv {
+.view-id-os2web_base_panels_view_selfserv ul li {
+  margin-left: 0;
 }
 
 #region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-content, #region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-header {
@@ -4259,12 +4390,13 @@ input.error{
 }
 .pane-os2web-hearings .pane-content {
   background-image: url(../images/spot2-424.png);
-  height: 415px;
-  padding-top: 1px;
+  height: 441px;
   padding-left: 2px;
+  background-position-y: 27px;
+  background-repeat: no-repeat;
 }
 .pane-os2web-hearings .view-content{
-  height: 322px;
+  height: 325px;
   background: white;
   padding: 10px;
 }
