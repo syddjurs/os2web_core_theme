@@ -4443,6 +4443,8 @@ background-position: 208px 22px;
 #os2web_service_popup {
   background: #911653;
   color: white;
+  top: 50%;
+  margin-top: -200px;
 }
 #os2web_service_popup h3 {
   font-size: 28px;
