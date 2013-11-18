@@ -1588,6 +1588,7 @@ height: 90px;
 .selbetjening-bund .nemid { width: 68px; margin-left: 32px;  background-image: url(../images/nemid-trans.png)}
 .selbetjening-bund .virkdk {width: 75px; background-image: url(../images/virkdk-trans.png)}
 .selbetjening-bund .borgerdk {width: 72px; background-image: url(../images/borgerdk-trans.png)}
+.selbetjening-bund a { display: block; height: 35px; text-indent: -9999px; float: left}
 .panels-flexible-region-forside-right_-inside .selvbetjening-block-forside {background-repeat: no-repeat; height: 415px}
 
 /*
