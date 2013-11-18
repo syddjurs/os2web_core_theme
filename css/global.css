@@ -3977,7 +3977,8 @@ ul.dynatree-container ul a { padding-left: 0 }
   top: 11px;
   padding-left: 6px;
 }
-#edit-to-date-wrapper label {
+#edit-to-date-wrapper label,
+#edit-from-date-wrapper label {
     position: absolute;
     text-transform: uppercase;
     margin: 19px 0 0 0;
@@ -3991,7 +3992,8 @@ ul.dynatree-container ul a { padding-left: 0 }
 }
 
 
-#edit-to-date-wrapper input {margin-left: 23px;}
+#edit-to-date-wrapper input {margin-left: 69px;}
+#edit-from-date-wrapper input {margin-left: 118px;}
 
 #views-exposed-form-os2web-meetings-view-search-page #edit-search-params{
     border: 1px solid #ddd;
