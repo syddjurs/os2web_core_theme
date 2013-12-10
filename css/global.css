@@ -1605,6 +1605,9 @@ height: 90px;
 	background-repeat: no-repeat;
   padding: 5px 7px 5px 7px;
 }
+.portal-borger .selvbetjening-block-portal {
+  height: 355px;
+}
 .portal-erhverv.portal-side .selvbetjening-block-portal {
 	height: 350px }
 
