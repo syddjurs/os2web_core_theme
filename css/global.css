@@ -3975,9 +3975,14 @@ ul.dynatree-container ul a { padding-left: 0 }
 
 .portal-politik-og-planer #views-exposed-form-os2web-meetings-view-search-page #edit-submit-os2web-meetings-view-search {
     position: absolute;
-    top: 44px;
+    top: 161px;
     left: 373px;
 }
+
+.portal-politik-og-planer .pane-os2web-meetings-meeting-search-block .pane-content {
+  height: 163px;
+}
+
 #edit-from-date-wrapper img,
 #edit-to-date-wrapper img {
   position: relative;
