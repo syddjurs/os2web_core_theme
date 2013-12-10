@@ -1606,6 +1606,9 @@ height: 90px;
 	background-repeat: no-repeat;
   padding: 5px 7px 5px 7px;
 }
+.portal-borger .selvbetjening-block-portal {
+  height: 355px;
+}
 .portal-erhverv.portal-side .selvbetjening-block-portal {
 	height: 350px }
 
@@ -1621,8 +1624,12 @@ height: 90px;
 .portal-side .view-display-id-block_2 .view-content { height: 55px; }
 
 .portal-side .view-display-id-sb_block_portal_att_2 .view-content {
-	height: 86px;
-	overflow: hidden;
+  height: 86px;
+  overflow: hidden;
+}
+.portal-side .view-display-id-sb_block_portal_att_2 .view-footer {
+  position: absolute;
+  bottom: 0;
 }
 .pane-os2web-meetings-meeting-search-block { margin-bottom: 8px}
 
@@ -1639,7 +1646,6 @@ overflow: hidden;
 	margin-bottom: 0px;
 	text-align: center;
 	text-transform: uppercase;
-	height: 70px;
 	line-height: 55px;
 }
 
@@ -2337,7 +2343,8 @@ float: right;
 	background-image: url(../images/borgerTEKST.png);
 	background-repeat: no-repeat;
 	background-position: 122px 31px;
-	padding-top: 11px;
+  line-height: 45px;
+  padding: 0;
 }
 
 
@@ -3968,9 +3975,14 @@ ul.dynatree-container ul a { padding-left: 0 }
 
 .portal-politik-og-planer #views-exposed-form-os2web-meetings-view-search-page #edit-submit-os2web-meetings-view-search {
     position: absolute;
-    top: 44px;
+    top: 161px;
     left: 373px;
 }
+
+.portal-politik-og-planer .pane-os2web-meetings-meeting-search-block .pane-content {
+  height: 163px;
+}
+
 #edit-from-date-wrapper img,
 #edit-to-date-wrapper img {
   position: relative;
