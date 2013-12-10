@@ -1588,6 +1588,7 @@ height: 90px;
 .selbetjening-bund .nemid { width: 68px; margin-left: 32px;  background-image: url(../images/nemid-trans.png)}
 .selbetjening-bund .virkdk {width: 75px; background-image: url(../images/virkdk-trans.png)}
 .selbetjening-bund .borgerdk {width: 72px; background-image: url(../images/borgerdk-trans.png)}
+.selbetjening-bund a { display: block; height: 35px; text-indent: -9999px; float: left}
 .panels-flexible-region-forside-right_-inside .selvbetjening-block-forside {background-repeat: no-repeat; height: 415px}
 
 /*
@@ -3980,7 +3981,8 @@ ul.dynatree-container ul a { padding-left: 0 }
   top: 11px;
   padding-left: 6px;
 }
-#edit-to-date-wrapper label {
+#edit-to-date-wrapper label,
+#edit-from-date-wrapper label {
     position: absolute;
     text-transform: uppercase;
     margin: 19px 0 0 0;
@@ -3994,7 +3996,8 @@ ul.dynatree-container ul a { padding-left: 0 }
 }
 
 
-#edit-to-date-wrapper input {margin-left: 23px;}
+#edit-to-date-wrapper input {margin-left: 69px;}
+#edit-from-date-wrapper input {margin-left: 118px;}
 
 #views-exposed-form-os2web-meetings-view-search-page #edit-search-params{
     border: 1px solid #ddd;
@@ -4439,3 +4442,22 @@ background-position: 208px 22px;
 .view-os2web-hearings .views-widget .description,
 .view-os2web-hearings #edit-from-date-wrapper label {display: none}
 
+
+/* Os2web Service Popup
+   styles os2web_service_popup
+*/
+
+#os2web_service_popup {
+  background: #911653;
+  color: white;
+  top: 50%;
+  margin-top: -200px;
+}
+#os2web_service_popup h3 {
+  font-size: 28px;
+  margin: 0;
+  color: #eca0c9;
+}
+#os2web_service_popup p {
+  margin-bottom: 20px;
+}
