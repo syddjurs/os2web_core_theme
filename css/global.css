@@ -1620,8 +1620,12 @@ height: 90px;
 .portal-side .view-display-id-block_2 .view-content { height: 55px; }
 
 .portal-side .view-display-id-sb_block_portal_att_2 .view-content {
-	height: 86px;
-	overflow: hidden;
+  height: 86px;
+  overflow: hidden;
+}
+.portal-side .view-display-id-sb_block_portal_att_2 .view-footer {
+  position: absolute;
+  bottom: 0;
 }
 .pane-os2web-meetings-meeting-search-block { margin-bottom: 8px}
 
@@ -1638,7 +1642,6 @@ overflow: hidden;
 	margin-bottom: 0px;
 	text-align: center;
 	text-transform: uppercase;
-	height: 70px;
 	line-height: 55px;
 }
 
@@ -2336,7 +2339,8 @@ float: right;
 	background-image: url(../images/borgerTEKST.png);
 	background-repeat: no-repeat;
 	background-position: 122px 31px;
-	padding-top: 11px;
+  line-height: 45px;
+  padding: 0;
 }
 
 
