@@ -124,12 +124,12 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-/*.not-front .region-content a,
-.not-front .region-sidebar-second a,
-.not-front .region-footer-second a,
-.not-front .region-footer-third a {
+.not-front .region-content a,
+.region-sidebar-second a,
+.region-footer-second a,
+.region-footer-third a {
   text-decoration: underline;
-}*/
+}
 
 a:active,
 a:focus { outline: 1px solid #8b0053;}
