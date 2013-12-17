@@ -4438,3 +4438,22 @@ background-position: 208px 22px;
 .view-os2web-hearings .views-widget .description,
 .view-os2web-hearings #edit-from-date-wrapper label {display: none}
 
+
+/* Os2web Service Popup
+   styles os2web_service_popup
+*/
+
+#os2web_service_popup {
+  background: #911653;
+  color: white;
+  top: 50%;
+  margin-top: -200px;
+}
+#os2web_service_popup h3 {
+  font-size: 28px;
+  margin: 0;
+  color: #eca0c9;
+}
+#os2web_service_popup p {
+  margin-bottom: 20px;
+}
