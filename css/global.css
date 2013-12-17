@@ -2427,17 +2427,28 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 }
 
 .sektionsforside .slideshow-big {
-    padding: 6px 7px;
+    /*padding: 6px 7px;
     margin-left: 7px;
-    margin-bottom: 7px;
+    margin-bottom: 7px;*/
 }
 
 .sektionsforside .container-12 .grid-6 {
     width: 480px;
 }
-
-
-
+.sektionsforside .selvbetjening-block-portal {
+  height: 350px;
+}
+.sektionsforside .pane-os2web-base-panels-view-newslist-panel-pane-3 {
+  padding-left: 10px;
+}
+.panel-region-stack1,
+.panel-region-stack2,
+.panel-region-stack3 {
+  clear: both;
+}
+.sektionsforside .panel-region-stack2 .spotbox-row {
+  margin-top: 2px;
+}
 
 #region-sidebar-second div.kontaktblok-overskrift,
 #region-sidebar-second h2 ,
@@ -4360,6 +4371,12 @@ input.error{
 .spotbox-horisontal .views-row { width: 230px; float: left }
 .spotbox-horisontal {width: 490px}
 
+.spotbox-horisontal.spotbox-fullwidth {
+  width: 100%;
+}
+.spotbox-horisontal.spotbox-fullwidth .views-row {
+  width: 229px;
+}
 
 .spotbox-horisontal h2.pane-title { margin-bottom: 1px; padding-top: 2px}
 
