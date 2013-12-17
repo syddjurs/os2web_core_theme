@@ -429,7 +429,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	color: #4B4B4B;
 	padding-left: 20px;
 }
-#panel-erhverv .custom-slideshow .views-field-body a {
+.portal-side .custom-slideshow .views-field-body a {
 	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
@@ -2433,6 +2433,14 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
     height: 150px;
 }
 
+.sektionsforside #region-content {
+    padding: 0;
+}
+
+.sektionsforside h1.title {
+    display: none;
+}
+
 .sektionsforside .slideshow-big {
     /*padding: 6px 7px;
     margin-left: 7px;
@@ -2440,7 +2448,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 }
 
 .sektionsforside .container-12 .grid-6 {
-    width: 480px;
+ /*   width: 480px; */
 }
 .sektionsforside .selvbetjening-block-portal {
   height: 350px;
