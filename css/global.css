@@ -124,12 +124,12 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-/*.not-front .region-content a,
-.not-front .region-sidebar-second a,
-.not-front .region-footer-second a,
-.not-front .region-footer-third a {
+.not-front .region-content a,
+.region-sidebar-second a,
+.region-footer-second a,
+.region-footer-third a {
   text-decoration: underline;
-}*/
+}
 
 a:active,
 a:focus { outline: 1px solid #8b0053;}
@@ -4475,3 +4475,22 @@ background-position: 208px 22px;
 .view-os2web-hearings .views-widget .description,
 .view-os2web-hearings #edit-from-date-wrapper label {display: none}
 
+
+/* Os2web Service Popup
+   styles os2web_service_popup
+*/
+
+#os2web_service_popup {
+  background: #911653;
+  color: white;
+  top: 50%;
+  margin-top: -200px;
+}
+#os2web_service_popup h3 {
+  font-size: 28px;
+  margin: 0;
+  color: #eca0c9;
+}
+#os2web_service_popup p {
+  margin-bottom: 20px;
+}
