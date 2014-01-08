@@ -4432,7 +4432,7 @@ input.error{
   background-image: url(../images/spot2-424.png);
   height: 441px;
   padding-left: 2px;
-  background-position-y: 27px;
+  background-position: 0 27px;
   background-repeat: no-repeat;
 }
 .pane-os2web-hearings .view-content{
@@ -4458,13 +4458,13 @@ background-position: 208px 22px;
  padding: 2px 0 18px 20px;
  background: url('../images/spotboxPILb.png');
  background-repeat: no-repeat;
- background-position-y : -4px;
+ background-position : 0 -4px;
 }
 
 .pane-os2web-hearings .views-row:hover {
  background: url('../images/spotboxPILc.png');
  background-repeat: no-repeat;
- background-position-y : -4px;
+ background-position : 0 -4px;
 }
 
 .view-os2web-hearings #edit-from-date-wrapper  input,
