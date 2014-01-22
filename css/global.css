@@ -4494,3 +4494,26 @@ background-position: 208px 22px;
 #os2web_service_popup p {
   margin-bottom: 20px;
 }
+
+/*
+ *  OS2web Subscription forms
+ */
+
+#os2web-subscription-add-subscription-form .fieldset-legend {
+  margin: 0;
+  color: #4B4B4B;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-bottom: 1px solid #EDEDED;
+  background-color: initial;
+}
+#os2web-subscription-add-subscription-form input[type=text] {
+  width: 100%;
+}
+#os2web-subscription-list-subscriptions-form .fieldset-legend {
+  display: none;
+}
