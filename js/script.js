@@ -34,5 +34,31 @@ jQuery(document).ready(function () {
 
     jQuery('#edit-field-os2web-hearings-type-value').yaselect();
 
+
+    // Prerendering all qtips removes a glitch.
+    jQuery.each(Drupal.settings.menuMinipanels.panels,function(i){
+        this.prerender = true;
+    });
+
+    MenuMiniPanels.setCallback('beforeShow', function(qTip, event, content) {
+        jQuery('.minipanel-processed').each(function(i){
+            jQuery(this).qtip('api').options.show.delay = '0';
+            jQuery(this).qtip('api').options.show.effect.type = 'false';
+            jQuery(this).qtip('api').options.show.effect.length = '0';
+        });
+    });
+
+    MenuMiniPanels.setCallback('beforeHide', function(qTip, event, content) {
+        setTimeout(function() {
+            if (!jQuery('.qtip-active').length) {
+                jQuery('.minipanel-processed').each(function(i){
+                    jQuery(this).qtip('api').options.show.delay = '500';
+                    jQuery(this).qtip('api').options.show.effect.type = 'fade';
+                    jQuery(this).qtip('api').options.show.effect.length = '100';
+                });
+            }
+        }, 1000);
+    });
+
 });
 
