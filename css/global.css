@@ -434,7 +434,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	color: #4B4B4B;
 	padding-left: 20px;
 }
-#panel-erhverv .custom-slideshow .views-field-body a {
+.portal-side .custom-slideshow .views-field-body a {
 	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
@@ -2438,6 +2438,14 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
     height: 150px;
 }
 
+.sektionsforside #region-content {
+    padding: 0;
+}
+
+.sektionsforside h1.title {
+    display: none;
+}
+
 .sektionsforside .slideshow-big {
     /*padding: 6px 7px;
     margin-left: 7px;
@@ -2445,7 +2453,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 }
 
 .sektionsforside .container-12 .grid-6 {
-    width: 480px;
+ /*   width: 480px; */
 }
 .sektionsforside .selvbetjening-block-portal {
   height: 350px;
@@ -4432,7 +4440,7 @@ input.error{
   background-image: url(../images/spot2-424.png);
   height: 441px;
   padding-left: 2px;
-  background-position-y: 27px;
+  background-position: 0 27px;
   background-repeat: no-repeat;
 }
 .pane-os2web-hearings .view-content{
@@ -4458,13 +4466,13 @@ background-position: 208px 22px;
  padding: 2px 0 18px 20px;
  background: url('../images/spotboxPILb.png');
  background-repeat: no-repeat;
- background-position-y : -4px;
+ background-position : 0 -4px;
 }
 
 .pane-os2web-hearings .views-row:hover {
  background: url('../images/spotboxPILc.png');
  background-repeat: no-repeat;
- background-position-y : -4px;
+ background-position : 0 -4px;
 }
 
 .view-os2web-hearings #edit-from-date-wrapper  input,
@@ -4502,3 +4510,25 @@ background-position: 208px 22px;
 .page-search #block-apachesolr-search-sort { margin-left: 516px; position: relative; }
 .page-search #block-system-main #edit-basic { margin-bottom: 0px; margin-top: 10px; margin-left: 7px;}
 .page-search #block-system-main #edit-basic .form-text { border-bottom: solid 1px #ded; border-left: solid 1px #ded; border-top: solid 1px #ded}
+/*
+ *  OS2web Subscription forms
+ */
+
+#os2web-subscription-add-subscription-form .fieldset-legend {
+  margin: 0;
+  color: #4B4B4B;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-bottom: 1px solid #EDEDED;
+  background-color: initial;
+}
+#os2web-subscription-add-subscription-form input[type=text] {
+  width: 100%;
+}
+#os2web-subscription-list-subscriptions-form .fieldset-legend {
+  display: none;
+}
