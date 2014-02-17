@@ -285,6 +285,11 @@ h2.pane-title a, h2.block-title a {
 	text-transform: uppercase;
 	font-size: 11px; list-style: none; }
 
+#region-header-second .region-inner li.last {
+  border: none;
+  margin-right: 0;
+  }
+
 .field-name-field-os2web-hearings-meeting a {
 	padding-left: 19px;
 }
@@ -3075,7 +3080,10 @@ line-height: 22px;
 .search-results .search-snippet-info {
 	padding-left: 0;
 }
-.page-search .content ul { margin-left: 20px}
+.page-search .content ul {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 #zone-content-wrapper.no-second-sidebar {background-image: url(../images/content-bg03-2.png);}
 
@@ -4502,6 +4510,13 @@ background-position: 208px 22px;
   margin-bottom: 20px;
 }
 
+/* Search Page styles. */
+
+.page-search h1 { display: none }
+.page-search .link-aaben-indsigt { margin-left: 20px;margin-top: 26px ; margin-bottom: 10px; padding: 10px; background-color: #eee; width: 440px; font-style: italic ; font-size: 0.75em}
+.page-search #block-apachesolr-search-sort { margin-left: 516px; position: relative; }
+.page-search #block-system-main #edit-basic { margin-bottom: 0px; margin-top: 10px; margin-left: 7px;}
+.page-search #block-system-main #edit-basic .form-text { border-bottom: solid 1px #ded; border-left: solid 1px #ded; border-top: solid 1px #ded}
 /*
  *  OS2web Subscription forms
  */
