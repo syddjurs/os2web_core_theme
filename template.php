@@ -135,10 +135,38 @@ function os2web_core_theme_filefield_item($file, $field) {
 }
 
 /**
- * Implements hook_form_alter()
+ * Implements hook_form_alter().
  */
-function os2web_core_theme_form_alter(&$form, &$form_state, $form_id){
-  if($form_id == "search_block_form"){
+function os2web_core_theme_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == "search_block_form") {
     $form['search_block_form']['#attributes']['placeholder'] = "Indsæt søgeord";
   }
+}
+
+/**
+ * Implements hook_file_link().
+ */
+function os2web_core_theme_file_link($variables) {
+  $file = $variables['file'];
+  $icon_directory = $variables['icon_directory'];
+  $url = file_create_url($file->uri);
+  $icon = theme('file_icon', array('file' => $file, 'icon_directory' => $icon_directory));
+  // Set options as per anchor format described at
+  // http://microformats.org/wiki/file-format-examples
+  $options = array(
+    'attributes' => array(
+      'type' => $file->filemime . '; length=' . $file->filesize,
+    ),
+  );
+  // Use the description as the link text if available.
+  if (empty($file->description)) {
+    $link_text = $file->filename;
+  }
+  else {
+    $link_text = $file->description;
+    $options['attributes']['title'] = check_plain($file->filename);
+  }
+  $options['attributes']['target'] = '_blank';
+
+  return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
 }
