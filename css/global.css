@@ -3556,7 +3556,9 @@ border-bottom: 1px solid #F3F3F3;
 .links-erhverv .pane-content a { color: #8A8A8A }
 
 .item-list .pager li, .item-list .pager ul li {float: none; }
-
+.pager li.pager-current {
+  background: #1A1A1A;
+}
 #block-apachesolr-search-sort li {
    margin-left: 0;
    padding-left: 10px;
