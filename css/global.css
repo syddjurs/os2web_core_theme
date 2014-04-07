@@ -143,7 +143,7 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-os2web-kulturnaut-events-lists, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, .telfonnummer, option, .agenda-bullet-list, .pane-os2web-hearings a, .qtip-wrapper a, .qtip-wrapper, .section-footer { 
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-os2web-kulturnaut-events-lists, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, .telfonnummer, option, .agenda-bullet-list, .pane-os2web-hearings a, .qtip-wrapper a, .qtip-wrapper, .section-footer {
   font-family: "myriad-pro", "Myriad Pro", Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
@@ -3556,7 +3556,9 @@ border-bottom: 1px solid #F3F3F3;
 .links-erhverv .pane-content a { color: #8A8A8A }
 
 .item-list .pager li, .item-list .pager ul li {float: none; }
-
+.pager li.pager-current {
+  background: #1A1A1A;
+}
 #block-apachesolr-search-sort li {
    margin-left: 0;
    padding-left: 10px;
