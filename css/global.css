@@ -4519,7 +4519,14 @@ background-position: 208px 22px;
 .page-search #block-apachesolr-search-sort { margin-left: 516px; position: relative; }
 .page-search #block-system-main #edit-basic { margin-bottom: 0px; margin-top: 10px; margin-left: 7px;}
 .page-search #block-system-main #edit-basic .form-text { border-bottom: solid 1px #ded; border-left: solid 1px #ded; border-top: solid 1px #ded}
-
+.page-search .block-os2web-search-clear-filters .content a {
+  padding: 20px;
+  display: block;
+}
+.page-search .block-os2web-search-clear-filters .content a:hover {
+  background: url(/profiles/os2web/themes/os2web_core_theme/images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
+  color: #FFF;
+}
 /*
  *  OS2web Subscription forms
  */
