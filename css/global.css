@@ -29,7 +29,7 @@
   position: relative;
 }
 
-#zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
+#zone-content {/* background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y;*/ min-height: 350px;}
 
 /*
  * ==========================================================
@@ -191,14 +191,14 @@ ul.primary li a {
 	}
 
 #main-menu li a {
-	background-image: url(../images/mega_dd_arrow_down.png);
+/*	background-image: url(../images/mega_dd_arrow_down.png);
 	background-position: 50% 85%;
 	background-repeat: no-repeat;
-	color: #666;
+*/	color: #666;
 	font-size: 17px;
-        border-left: 1px solid #EBEBEB;
+/*        border-left: 1px solid #EBEBEB;
         border-right: 1px solid #B0B0B0;
-	}
+*/	}
 
 #main-menu li a.qtip-hover{
     color: #880054;
@@ -648,34 +648,39 @@ ul.jcarousel-list-horizontal { }
 
 
 #page {
-	background: url(../images/sideskygge0.png) center top no-repeat;
+  /*background: url(../images/sideskygge0.png) center top no-repeat;*/
+  max-width: 970px;
+  margin: auto;
 }
-
+#page ul.nice-menu {margin-left: 0px;}
 #section-header {
-	background-image: url(../images/byvaaben1.png);
+/*	background-image: url(../images/byvaaben1.png);
 	background-position: center top;
 	background-repeat: no-repeat;
-	height: 202px;
-	margin: auto;}
+*/	height: 202px;
+        max-width: 970px;
+	margin: auto;
+}
 #section-content {
-	background: url(../images/byvaaben-00.png) center top no-repeat;}
+	/*background: url(../images/byvaaben-00.png) center top no-repeat;*/
+}
 #section-footer {}
 
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
 .zone-footer-wrapper {
-	background-image: url(../images/content-bg07.png);
+	/*background-image: url(../images/content-bg07.png);
 	background-position: center top;
-	background-repeat:repeat-y;
+	background-repeat:repeat-y;*/
 	padding-top: 25px;}
 .zone-content-wrapper {
 	/*width: 1018px; */
 	margin: auto;
-	/*background-color: #FFF;*/
-	/*background-image: url(../images/transwhite.png)*/
+	background-color: #FFF;
+	/*background-image: url(../images/transwhite.png)
 	background-image: url(../images/content-bg03.png);
 	background-repeat: repeat-y;
-	background-position: center center;
+	background-position: center center;*/
 	}
 
 .uden-hoejre-spalte-wrapper
@@ -686,17 +691,17 @@ ul.jcarousel-list-horizontal { }
 	background: url(../images/content-bg2.png) repeat-y center
 	}
 .front #zone-content-wrapper {
-	background: url(../images/content-bg-fs.png);
+	/*background: url(../images/content-bg-fs.png);
 	background-repeat: repeat-y;
-	background-position: center center;
+	background-position: center center;*/
 	}
 #zone-content {
 	padding-top: 10px;
 	padding-bottom: 20px;
-	background-image: url(../images/skyggeINDHOLD.png);
+	/*background-image: url(../images/skyggeINDHOLD.png);
 	background-repeat: no-repeat;
 	background-color: transparent;
-	background-position: top;
+	background-position: top;*/
 	}
 
 .node-type-os2web-base-contentpage #zone-content {
@@ -713,7 +718,7 @@ ul.jcarousel-list-horizontal { }
 	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/top_bar_bg.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#zone-menu { background-color: #f5f5f5; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; margin-top: 10px}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -723,10 +728,10 @@ ul.jcarousel-list-horizontal { }
 #zone-user .menu { margin-top: 12px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
-#zone-menu #main-menu  { height: 64px; font-size: 20px; margin: 0; width: auto; border-right: 1px solid #ebebeb;}
+#zone-menu #main-menu  { height: 64px; font-size: 20px; margin: 0; width: auto;}
 #main-menu {}
 #main-menu li {line-height: 64px; float: left; list-style: none}
-#main-menu li a {display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
+#main-menu li a {/*display: block;*/ line-height: 64px; color: #4B4B4B; font-weight: normal;border-bottom: 3px solid #5D0038 }
 
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
@@ -1221,7 +1226,7 @@ ul.menu li a.menu-minipanel-1608 {
 	display: block
 	}
 
-#zone-user-wrapper {
+#section-header {
 	border-top: solid 3px #5D0036
 	}
 
@@ -1982,12 +1987,13 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     font-size: 10px;
     }
 #zone-user a { font-weight: normal}
-#zone-user-wrapper { background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px; overflow: hidden}
+#zone-user-wrapper { 
+/*background-image: url(../images/tekstMpil.png); background-position: center; background-repeat: no-repeat; height: 40px;*/ overflow: hidden}
 #zone-header-wrapper {
-	background-image: url(../images/tekstUpil.png);
+/*	background-image: url(../images/tekstUpil.png);
 	background-position: center;
 	background-repeat: no-repeat;
-}
+*/}
 
 #zone-user-wrapper ul.menu li a {
     display: block;
@@ -2273,7 +2279,7 @@ float: right;
 }
 .view-os2web-citizenservices-view ul li.views-row-3, .view-os2web-citizenservices-view ul li.views-row-6, .view-os2web-citizenservices-view ul li.views-row-9 { width: 160px}
 
-#zone-preface-wrapper { position: absolute; width: 1018px; z-index: 999; height: 35px; margin-left: -509px; left: 50% }
+#zone-preface-wrapper { }
 #zone-preface { margin: auto;}
 
 .vis-andre-sites a {background-image: url("../images/webstederKNAP.png");
@@ -2397,36 +2403,35 @@ float: right;
 .hidden {display: none}
 .unhidden {display: block}
 
-ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
-}
-#region-preface-first {width: 970px; margin-left: 0px; margin-right: 0px}
-#zone-preface { line-height: 30px; padding-top: 5px; width: 970px; color: #FFF; font-size: 15px }
+ul.nice-menu-down li.menuparent {/*background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
+*/}
+#region-preface-first {width: 100%; margin-left: 0px; margin-right: 0px}
+#zone-preface { line-height: 30px; padding-top: 5px; width: 100%; color: #FFF; font-size: 15px }
 #zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
-#zone-preface .block-nice-menus  { float: right; margin-right: 30px}
+#zone-preface .block-nice-menus  { float: right;}
 #zone-preface .block-nice-menus .block-title { display: none;}
 #zone-preface  ul.nice-menu-down li.menuparent {
-    background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
+    background-color: #fff; margin-left: 35px;color: #6d6e6d;border-bottom: 2px solid #6d6e6d;
 }
 
 #zone-preface-wrapper {
-	position: absolute;
-	background-image: url("../images/syddjursWEBSTEDER-bg.png");
-	width: 1018px;
-	z-index: 999;
+	/*position: absolute;
+	background-image: url("../images/syddjursWEBSTEDER-bg.png");*/
+	width: 65%;
 	height: 35px;
-	margin-left: -509px;
-	left: 50%;
+	margin: auto;
+        float: right;
 }
 #zone-preface {
-	background-image: url("../images/syddjursWEBSTEDER.png");
-	background-repeat: no-repeat;
+	/*background-image: url("../images/syddjursWEBSTEDER.png");
+	background-repeat: no-repeat;*/
 	margin: auto;
 }
 
 #zone-preface ul.nice-menu-down li { border-top: none ;border: none}
 
-#zone-preface ul.nice-menu a {color: #FFF;font-size: 15px}
-
+#zone-preface ul.nice-menu li.menuparent  ul li a {color: #FFF;font-size: 15px}
+#zone-preface ul.nice-menu li.menuparent a {color:#6d6e6d;}
 #zone-preface ul.nice-menu li { background-color:  #640C3C;}
 
 #zone-preface ul.nice-menu ul { top: 30px; border: none}
@@ -3019,11 +3024,11 @@ div.breadcrumb.you-are-here {
 }
 
 #main-menu li, #main-menu li.first, #main-menu li.last {
-    padding: 0 0 0 0;
+    padding: 0 10px 0 0;
 }
 
-#main-menu li a {padding-left: 24px;padding-right: 24px}
-#main-menu li.first a {padding-left: 37px;
+#main-menu li a {margin-left : 20px; padding-left: 4px;padding-right: 4px; margin-right: 20px;}
+#main-menu li.first a {
 }
 div.qtip { background-image: url(../images/mega_dd_bg_btm.png); background-position: bottom center; padding-bottom: 9px; border-bottom-left-radius: 3px !important; border-bottom-right-radius: 3px !important}
 
