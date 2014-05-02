@@ -15,7 +15,7 @@
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
     <?php if ($view_mode != 'os2web_meetings_meeting_detail_view' && arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
-      <div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>">&nbsp;</a></div>
+      <div class="printvenlig-side"><a target= "_blank" href="/print/<?php print $nodeid; ?>">&nbsp;</a></div>
     <?php endif; ?>
 
     <?php // print render($title_suffix); ?>
