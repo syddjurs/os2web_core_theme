@@ -44,6 +44,7 @@
 
 .omega {
   margin-right: 0;
+  position: relative;
 }
 
 /*
@@ -415,11 +416,11 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	position: relative;
 	z-index: 999;
 }
-.custom-slideshow img {
+.front .custom-slideshow img {
   width: 100%;
   height: inherit;
 }
-.custom-slideshow .views-field-body {
+.front .custom-slideshow .views-field-body {
 	/*background-image: url(../images/w80.png) ;
 	background: url(../images/w80.png) top left;*/
         background-color: #fff;
@@ -429,7 +430,11 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	position: relative;
 	z-index: 998;
 }
-
+.not-front .custom-slideshow .views-field-body {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
 .custom-slideshow .views-field-body a {
 	display: block;
 	padding-top: 8px;
@@ -455,6 +460,11 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
   padding-left: 20px;
   width: 400px;
   display: inline-block;
+}
+.news-list-right-2 {
+  padding: 20px 20px;
+  width: 40%;
+  float: left;
 }
 .view-id-os2web_base_panels_view_newslist.view-display-id-panel_pane_1,
 .view-id-os2web_base_panels_view_newslist.view-display-id-block .jcarousel-skin-default {
@@ -518,7 +528,7 @@ ul.jcarousel-list-horizontal { }
   margin-top: 25px;
 }
 
-.news-list {width: 100%; height: 125px;}
+.news-list {width: 100%; height: 125px; background-color: #f5f5f5;}
 .view-id-os2web_base_panels_view_newslist.view-display-id-block p {
 	margin-bottom: 5px;
 }
@@ -814,6 +824,7 @@ ul.jcarousel-list-horizontal { }
 .block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
 .block-multistep a {color: #fff}
 
+.panel-separator,
 .panel-flexible .panel-separator {
     margin: 20px 0 0 0;
 }
@@ -1383,7 +1394,7 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 #panel-borger .view-os2web-spotbox-view-spots .view-content .spotbox-row {
-	background-image: url("../images/spot1b.png");
+	/*background-image: url("../images/spot1b.png");*/
 }
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
@@ -1484,8 +1495,8 @@ padding-bottom: 5px
 
 .portal-politik-og-planer .view-os2web-spotbox-view-spots .spotbox-row,
 .portal-politik-og-planer .spotbox-horisontal .views-row-last {
-    background-image: url("../images/spot1b.png");
-    background-position: 0 22px;
+    /*background-image: url("../images/spot1b.png");
+    background-position: 0 22px;*/
     padding-top: 0;
 }
 
@@ -1500,9 +1511,11 @@ padding-bottom: 5px
 
 .spotbox-horisontal-3 .spotbox-row {
 	margin-left: 7px;
-	background-image: url("../images/spot1b.png");
+	/*background-image: url("../images/spot1b.png");*/
 	margin-bottom: 6px;
-	padding: 6px 1px 0px 1px;
+	/*adding: 6px 1px 0px 1px;*/
+        padding : 0;
+        width: 230px;
 }
 
 /*
@@ -2012,8 +2025,10 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     background: none;
 }
 
-.view-os2web-kulturnaut-events-lists .views-field-imported-1 {float: left; clear: left;padding-left: 20px; width: 230px;}
-
+.view-os2web-kulturnaut-events-lists .views-field-imported-1 {float: left; clear: left;padding-left: 20px; }
+.panels-flexible-region-os2web_base_panels_layout_front-left-inside .views-field-imported-1 {
+  width: 230px;
+}
 .view-os2web-kulturnaut-events-lists .views-row {margin-top: 12px; margin-left: 0px;padding-left: 0px; border-bottom : 5px solid #fff; }
 
 .view-os2web-kulturnaut-events-lists .view-content {
@@ -3823,14 +3838,14 @@ tr.even td { background: #f9f9f9;}
 }
 
 .portalnews-big .views-row .news-list-left {
-  display: none;
+ /* display: none;*/
 }
 
 .portalnews-big .views-row {
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   float: left;
   /*  padding-left: 30px;width: 200px;*/
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
 
 .portalnews-big .views-row.views-row-first {
@@ -3843,15 +3858,15 @@ tr.even td { background: #f9f9f9;}
   height: 155px;
 }
 
-.portalnews-big .views-row.views-row-first .news-list-left {
+.portalnews-big .views-row .news-list-left {
   display: block;
-  width: 214px;
+  /*width: 214px;*/
   height: 116px;
-  margin-right: 5px;
-  border: solid #fff 5px;
+  /*margin-right: 5px;*/
+  /*border: solid #fff 5px;*/
   display: block;
   float: left;
-  margin-left: 11px;
+  /*margin-left: 11px;*/
 }
 
 .portalnews-big .views-row.views-row-first .news-list-left:hover {
@@ -3860,8 +3875,8 @@ tr.even td { background: #f9f9f9;}
 
 .view-id-os2web_base_panels_view_newslist.portalnews-big .view-content {
   width: 470px;
-  background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
-  height: 232px;
+  /*background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;*/
+  /*height: 232px;*/
   /*margin-left: 9px; grid-fix */
 }
 #panel-borger .panel-region-middle-right { margin-left: 8px}
@@ -3888,7 +3903,7 @@ tr.even td { background: #f9f9f9;}
 
 
 .portalnews-big .views-row.views-row-last {
-  margin-left: 11px;
+  /*margin-left: 11px;*/
 }
 
 .portalnews-big .field-content p {
@@ -4425,7 +4440,7 @@ input.error{
 }
 #zone-content {padding-top: 0px}
 #zone-postscript-wrapper {display: none}
-.custom-slideshow {
+.front .custom-slideshow {
   float: none;
   width: 670px;
 }
