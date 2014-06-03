@@ -2800,11 +2800,19 @@ div.breadcrumb.you-are-here {
 }
 .field-name-field-os2web-base-field-selfserv {
   margin: 25px;
-  background-color: #f5f5f5;
   padding: 20px 0px;
-  border: 1px solid #E8E8EB;
   line-height: 25px;
   border-radius: 4px;
+  background-color: #f5f5f5;
+  background-color: #f5f5f5;
+}
+.field-name-field-os2web-base-field-selfserv .field-items {
+}
+.field-name-field-os2web-base-field-selfserv .field-label {
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #8b0053;
+  margin: 0 20px;
 }
 .field-name-field-os2web-base-field-selfserv a {
   color: #333;
