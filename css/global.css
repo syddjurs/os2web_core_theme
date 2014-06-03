@@ -90,7 +90,8 @@ body {
 }
 
 .container-12 .grid-6 {
-  width: 469px;
+  width: 470px;
+  margin-left:0px;
 }
 
 .container-12 .grid-7 {
@@ -138,7 +139,9 @@ a:focus { outline: 1px solid #8b0053;}
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 5px;
 }
-
+.not-logged-in .action-links{
+  margin-bottom: 0px;
+}
 h1, h2, h3, h4, h5, h6  { letter-spacing: -0.7px;  }
 h4 {margin-top: 5px; font-size: 16px }
 
@@ -245,7 +248,7 @@ ul.menu, ul.menu li, ul.menu a {
 ul.inline li {
 	padding: 0
 	}
-.front h2.pane-title a,
+h2.pane-title a,
 .frontpage-title{
   border-bottom: 3px solid #5d0038;
 }
@@ -268,7 +271,9 @@ h2.pane-title, h2.block-title {
 	}
 
 h2.pane-title a, h2.block-title a {
-	color: #787878
+	color: #4b4b4b;
+        line-height: 24px;
+        font-weight: normal;
 	}
 
 #block-search-form  h2 {
@@ -342,7 +347,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 .slideshow-big { background-image: url(../images/imageslider.png); background-repeat: no-repeat;
 	height: 355px;
-	width: 475px;
+	width: 470px;
 }
 
 #views_slideshow_cycle_main_os2web_base_panels_view_rotating-block.hover {
@@ -428,7 +433,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	/*background-image: url(../images/w80.png) ;
 	background: url(../images/w80.png) top left;*/
         background-color: #fff;
-        bottom: 20px;
+        bottom: 120px;
         margin-left: 180px;
         width: 440px;
 	position: relative;
@@ -465,7 +470,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
   width: 400px;
   display: inline-block;
 }
-.view .news-list-right-small {width: 220px;} 
+.view .news-list-right-small {width: 218px;} 
 .news-list-right-2 {
   padding: 20px 20px;
   width: 40%;
@@ -525,7 +530,7 @@ ul.jcarousel-list-horizontal { }
 	text-align: center;*/
 }
 .view-os2web-spotbox-view-spots .news-list-right {
-  margin-top : 65px;
+  /*margin-top : 65px;*/
 }
 .news-list-right,
 .view-id-os2web_base_panels_view_newslist.view-display-id-block .news-list-right {
@@ -837,8 +842,8 @@ ul.jcarousel-list-horizontal { }
 
 .panel-separator,
 .panel-flexible .panel-separator {
-    margin: 20px 0 0 0;
-}
+/*    margin: 10px 0 0 0;
+*/}
 .block-multistep a.multistep-submitted {  color: #FFF;}
 .block-multistep a.multistep-unsubmitted { color: #FFF; font-weight: bold}
 .block-multistep span.multistep-unsubmitted { color: #CC72A6}
@@ -1556,10 +1561,10 @@ G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: 
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
 
-.selvbetjening-block-forside .knapper { margin: 1px 8px 18px; height: 82px;}
+.selvbetjening-block-forside .knapper { margin: 0px; height: 30px; clear: both;}
 .selvbetjening-block-forside .knapper a {/* text-transform: uppercase;*/ font-size: 12px; background-repeat: no-repeat; color: #333; }
-.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/knapSELVBETJENING.png); padding: 11px 22px 18px 32px; float: left; width: 80px}
-.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/knapSELVBETJENING.png); padding: 11px 22px 18px 32px; width: 80px; float: right; margin-right: 10px}
+.selvbetjening-block-forside .knapper a.kviksvar {background: url(../images/knapSELVBETJENING.png) 100% 0% no-repeat; padding: 11px 70px 18px 35px; float: left; width: 30px; color:#fff; text-transform: uppercase;}
+.selvbetjening-block-forside .knapper a.nemindsigt { background: url(../images/knapSELVBETJENING.png) 100% 0 no-repeat; padding: 11px 10px 18px 35px; width: 90px; float: right; color:#fff; text-transform: uppercase;}
 .selvbetjening-block-forside .knapper a.aabenindsigt {
 	background-image: url(../images/knapSELVBETJENING-BIG.png);
 	padding: 11px 22px 18px 32px;
@@ -1599,7 +1604,7 @@ height: 90px;
 */
 
 .selvbetjening-block-forside .item-list ul li {
-    padding: 0 0 0 10px;
+    padding: 5px 0 0px 0px;
 }
 .sb-block-left {
   float: left;
@@ -1656,7 +1661,7 @@ height: 90px;
 	background-position: 120px 20px;
 
 }
-.selbetjening-bund .nemid { width: 68px; margin-left: 32px;  background-image: url(../images/nemid-trans.png)}
+.selbetjening-bund .nemid { width: 68px; margin-left: 17px;  background-image: url(../images/nemid-trans.png)}
 .selbetjening-bund .virkdk {width: 75px; background-image: url(../images/virkdk-trans.png)}
 .selbetjening-bund .borgerdk {width: 72px; background-image: url(../images/borgerdk-trans.png)}
 .selbetjening-bund a { display: block; height: 35px; text-indent: -9999px; float: left}
@@ -1678,7 +1683,6 @@ height: 90px;
         padding: 5px 7px 5px 7px;*/
 }
 .portal-borger .selvbetjening-block-portal {
-  height: 180px;
 }
 .portal-erhverv.portal-side .selvbetjening-block-portal {
 	/*height: 350px */}
@@ -1696,7 +1700,7 @@ height: 90px;
 }
 .portal-side .view-display-id-block_2 .view-footer,
 .portal-side .view-display-id-block_2 .view-content { /*height: 55px;*/ }
-
+/*
 .portal-side .view-display-id-sb_block_portal_att_2 .view-content {
   height: 86px;
   overflow: hidden;
@@ -1706,13 +1710,13 @@ height: 90px;
   bottom: 0;
   background-color: #8b0053;
   width: 100%;
-}
+}*/
 .pane-os2web-meetings-meeting-search-block { margin-bottom: 8px}
-
+/*
 .portal-politik-og-planer .view-display-id-sb_block_portal_att_2 .view-content {
 height: 139px;
 overflow: hidden;
-}
+}*/
 
 .portal-side .selvbetjening-block-portal .view-header {margin-top: 0; }
 .portal-side .selvbetjening-block-portal .view-header h3 {
@@ -2251,15 +2255,15 @@ float: right;
 	margin-left: 10px;
 }
 */
-.selbetjening-bund {line-height: 53px}
+.selbetjening-bund {line-height: 53px; min-height:40px; background-color : #8b0053;}
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
-.page-taxonomy-term #region-content { margin-left: 0px; width: 770px; padding: 0;}
+.page-taxonomy-term #region-content { margin-left: 10px; width: 760px; padding: 0;}
 
-.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 770px;}
+.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 760px;}
 
- .page-taxonomy-term #panel-borger .panel-region-middle-center{  width: 470px;}
+ .page-taxonomy-term #panel-borger .panel-region-middle-center{  width: 460px;}
 
 
 /* END */
@@ -2439,7 +2443,6 @@ float: right;
 	display: none}
 
 #pop-borgerservices	{
-    padding-left: 3px;
     width: 470px;
     margin-left: 0;
     /*margin-right: 20px;*/
@@ -2460,7 +2463,7 @@ float: right;
 
 #pop-borgerservices .nemid {margin-left: 3px}
 
-#panel-borger .panel-region-lead {margin-left: 7px; /*height: 353px;*/ overflow: hidden}
+#panel-borger .panel-region-lead {/*margin-left: 7px;*/ /*height: 353px;*/ overflow: hidden}
 
 
 .page-taxonomy-term .block-menu-block h2.block-title {display: none}
@@ -2540,6 +2543,10 @@ ul.nice-menu-down li.menuparent {/*background: url("../images/webstederPIL.png")
 .sektionsforside .pane-os2web-base-panels-view-newslist-panel-pane-3 {
   padding-left: 10px;
 }
+.pane-os2web-base-panels-view-newslist-panel-pane-3 {
+  margin-top :  10px;
+  margin-bottom: 10px;
+}
 .panel-region-stack1,
 .panel-region-stack2,
 .panel-region-stack3 {
@@ -2563,6 +2570,7 @@ text-transform: uppercase;
 
 .zone-footer .region-footer-first {
   width: 970px;
+  margin-left: 10px;
 }
 
 .zone-footer .region-footer-second,
@@ -2572,7 +2580,9 @@ text-transform: uppercase;
   width: 940px;
   margin: 0;
 }
-
+.zone-footer .grid-3 {
+  width: 230px;
+}
 
 .footer-contact-inner {
   padding-left: 15px;
@@ -2880,7 +2890,7 @@ div.breadcrumb.you-are-here {
 	background-position: center center;
 	margin-bottom: 6px;
 }
-
+.selbetjening-bund a,
 .selvbetjening-block-portal .selbetjening-bund a,
 .selvbetjening-indholdsside .selbetjening-bund a {
 	padding: 0;
@@ -2892,7 +2902,8 @@ div.breadcrumb.you-are-here {
 .selbetjening-bund .borgerdk,
 .selbetjening-bund .virkdk {
 	background-repeat: no-repeat;
-	margin-top: 25px;
+	margin-top: 6px;
+        background-position: center center;
 }
 
 .selvbetjening-block-portal .form-type-select {
@@ -4417,8 +4428,8 @@ input.error{
 #region-content {
 	/*background-image: url("../images/transwhite.png");
 	background-repeat: repeat;*/
-	margin: 0;
-	padding: 0 10px;
+	margin-left: 10px;
+	padding: 0 10px 0 0;
 }
 #zone-content {
 	padding-top: 0px;
@@ -4450,7 +4461,7 @@ input.error{
   width: 420px;
   height: initial;
 }
-.portalnews-big.news-list.view-id-os2web_base_panels_view_newslist {width : 223px; height: initial;}
+.portalnews-big.news-list.view-id-os2web_base_panels_view_newslist {width : 220px; height: initial;}
 .news-list.view-id-os2web_base_panels_view_newslist  .views-row { margin-bottom: 10px;}
 .news-list-next {
   border-bottom: 10px solid #fff;
@@ -4460,6 +4471,8 @@ input.error{
 .front .custom-slideshow {
   float: none;
   width: 670px;
+  height: 292px;
+  overflow: hidden;
 }
 
 .panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
@@ -4534,7 +4547,7 @@ input.error{
 .selvbetjening-block-forside {background-color: #f5f5f5; color: #B3B3B3; /*background-image: url(../images/selvbetjeningFORSIDE.png); padding: 5px 7px 51px 7px; margin-top: 13px;*/ margin-left: 0px; font-size: 16px; text-transform: uppercase}
 .selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
 .selvbetjening-block-forside a { color: #333; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
-.selvbetjening-block-forside .item-list a { background: url("../images/mega_dd_arrow_right.png") no-repeat;background-position: 7px;padding-left: 25px; }
+.selvbetjening-block-forside .item-list a { background: url("../images/mega_dd_arrow_right.png") no-repeat;background-position: 7px;padding-left: 25px; display:block;}
 .selvbetjening-block-forside .item-list a:hover { }
 .selvbetjening-block-forside h3 { background-color: #8b0053;/*text-align: center; display: block; margin-bottom: 12px*/}
 .selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 18px; margin: 2px 8px; font-weight: normal;/* text-align: center;*/ display: block;/* padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom;*/ color: #fff; border-bottom: none; text-decoration: none !important; }
@@ -4549,7 +4562,7 @@ input.error{
   /*height: 451px;*/
   width: 270px !important;
   margin-left: 0px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .pane-os2web-hearings .pane-content {
 /*  background-image: url(../images/spot2-424.png);
