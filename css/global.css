@@ -655,7 +655,6 @@ ul.jcarousel-list-horizontal { }
 	background-image: url(../images/byvaaben1.png);
 	background-position: center top;
 	background-repeat: no-repeat;
-	height: 202px;
 	margin: auto;}
 #section-content {
 	background: url(../images/byvaaben-00.png) center top no-repeat;}
@@ -713,7 +712,7 @@ ul.jcarousel-list-horizontal { }
 	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/top_bar_bg.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#zone-menu { background-image: url(../images/top_bar_bg.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; background-position: center top}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -723,7 +722,7 @@ ul.jcarousel-list-horizontal { }
 #zone-user .menu { margin-top: 12px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
-#zone-menu #main-menu  { height: 64px; font-size: 20px; margin: 0; width: auto; border-right: 1px solid #ebebeb;}
+#zone-menu #main-menu  { font-size: 20px; margin: 0; width: auto; border-right: 1px solid #ebebeb;}
 #main-menu {}
 #main-menu li {line-height: 64px; float: left; list-style: none}
 #main-menu li a {display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
@@ -1920,7 +1919,6 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .menu-minipanels .aktuelle-emner h2.pane-title, .menu-minipanels .aktuelle-emner .pane-content { padding-left: 5px}
 
 .panels-flexible-region-inside {padding: 0}
-#zone-menu {   height: 64px;}
 
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;
