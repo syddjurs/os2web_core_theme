@@ -4597,8 +4597,10 @@ ul.os2web_menus-container {
   border-bottom-right-radius: 3px;
   position: relative;
 }
-.os2web_menus-container .megamenu-panel ul.menu li.leaf {
+.os2web_menus-container .megamenu-panel ul.menu {
   float: left;
+}
+.os2web_menus-container .megamenu-panel ul.menu li.leaf {
   width: 199px;
   margin-left: 19px;
   margin-bottom: -1px;
