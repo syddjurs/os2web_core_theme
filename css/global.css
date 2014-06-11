@@ -4706,8 +4706,6 @@ ul.os2web_menus-container {
   background-color: #8b0053;
 }
 .os2web_menus-container .megamenu-panel {
-  background-image: url(../images/mega_dd_bg_btm.png);
-  background-position: bottom center;
   padding-bottom: 9px;
   border-bottom-left-radius: 3px !important;
   border-bottom-right-radius: 3px !important;
@@ -4717,10 +4715,6 @@ ul.os2web_menus-container {
   clear: left;
 }
 .os2web_menus-container .megamenu-panel > div {
-  background-image: url("../images/mega_dd_bg.png");
-  background-position: center top;
-  background-color: #d6d6d6;
-  background-repeat: repeat-x;
   padding: 32px 0;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -4730,7 +4724,7 @@ ul.os2web_menus-container {
   float: left;
 }
 .os2web_menus-container .megamenu-panel ul.menu li.leaf {
-  width: 199px;
+  width: 219px;
   margin-left: 19px;
   margin-bottom: -1px;
   padding: 7px 0;
@@ -4748,8 +4742,8 @@ ul.os2web_menus-container {
   display: block;
 
   position: absolute;
-  top: 20px;
-  right: 0;
+  top: 36px;
+  right: 5px;
 }
 #zone-menu .os2web_menus-container .megamenu-panel .pane-custom p {
   font-size: 19px;
