@@ -186,9 +186,6 @@ ul.primary li a {
 
 .block-user-menu  a, .vertical-menu a, .block-menu-top-menu a { text-decoration: none }
 
-
-#zone-user a, #zone-menu a {color: #656565; text-decoration: none}
-
 #region-menu {
   padding-left: 0px;
   margin-left: 0px;
@@ -4735,14 +4732,11 @@ ul.os2web_menus-container {
   float:left;
   list-style: none;
   font-size: 17px;
-  color: #191919;
   font-weight: normal;
   margin: 0;
   float: left;
   margin-top: 4px;
   margin-left: 3px;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 .os2web_menus-container h2 a {
   margin: 0 18px;
@@ -4750,6 +4744,9 @@ ul.os2web_menus-container {
   display: block;
   font-size: 18px;
   letter-spacing: 0px;
+  color: #191919;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .os2web_menus-container h2 a.active {
   border-bottom: 3px solid #9b185c;
@@ -4777,6 +4774,9 @@ ul.os2web_menus-container {
 .os2web_menus-container .megamenu-panel ul.menu {
   float: left;
   margin-left: 10px;
+}
+.os2web_menus-container .megamenu-panel ul.menu a {
+  color: #191919;
 }
 .os2web_menus-container .megamenu-panel ul.menu li.leaf {
   width: 209px;
