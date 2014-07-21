@@ -4741,11 +4741,15 @@ ul.os2web_menus-container {
   font-weight: normal;
   margin: 0;
   float: left;
+  margin-top: 4px;
+  margin-left: 3px;
 }
 .os2web_menus-container h2 a {
   margin: 0 18px;
   padding: 12px 0 6px;
   display: block;
+  font-size: 18px;
+  letter-spacing: 0px;
 }
 .os2web_menus-container h2 a.active {
   border-bottom: 3px solid #9b185c;
@@ -4753,10 +4757,11 @@ ul.os2web_menus-container {
 }
 .os2web_menus-container .megamenu-panel {
   position: absolute;
-  width: 970px;
-  top: 36px;
+  width: 964px;
+  top: 41px;
   clear: left;
   background: #f4eded;
+  margin: 0 3px;
 }
 .os2web_menus-container .megamenu-panel .panel-display {
   background: white;
@@ -4788,8 +4793,8 @@ ul.os2web_menus-container {
   display: block;
 
   position: absolute;
-  top: 36px;
-  right: 5px;
+  top: 12px;
+  right: 12px;
 }
 #zone-menu .os2web_menus-container .megamenu-panel .pane-custom p {
   font-size: 19px;
