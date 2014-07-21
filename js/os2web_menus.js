@@ -44,7 +44,7 @@ Drupal.behaviors.os2web_menus = {
       var $parent = jQuery(this).parent();
 
       var number_of_items = jQuery(this).find('li').length,
-          number_of_items_per_column = Math.floor(number_of_items / 4);
+          number_of_items_per_column = Math.ceil(number_of_items / 4);
 
       for (var i = 2; i >= 0; i--) {
         var $ul = jQuery('<ul></ul>').addClass('menu');
