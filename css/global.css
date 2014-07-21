@@ -247,8 +247,7 @@ ul.menu, ul.menu li, ul.menu a {
 
 .block-search-form {
 	float: right;
-	margin-top: 10px;
-	}
+}
 
 
 ul.inline li {
@@ -291,7 +290,7 @@ h2.pane-title a, h2.block-title a {
 }
 
 #region-header-second .region-inner {
-	padding-top: 68px;
+	padding-top: 30px;
 	padding-left: 20px
 	}
 
@@ -859,10 +858,6 @@ ul.jcarousel-list-horizontal { }
     margin-left: -4px;
     text-indent: -1100000px;
 }
-
-#region-header-second .region-inner {padding-top: 45px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
-#region-header-second .region-inner li.first { margin-left: 0px }
 
 #region-footer-ul.menu ul.menu li ul.menu a {list-style: none; color: #555; margin-left: 0px;}
 
@@ -4735,10 +4730,12 @@ background-position: 208px 22px;
 ul.os2web_menus-container {
   margin: 0;
 }
+.os2web_menus-container .megamenu.open h2 {
+  background: #f4eded;
+}
 .os2web_menus-container h2 {
   float:left;
   list-style: none;
-  line-height: 64px;
   font-size: 17px;
   color: #4B4B4B;
   font-weight: normal;
@@ -4746,19 +4743,25 @@ ul.os2web_menus-container {
   float: left;
 }
 .os2web_menus-container h2 a {
-  margin: 0 20px;
+  margin: 0 18px;
+  padding: 12px 0 6px;
+  display: block;
 }
 .os2web_menus-container h2 a.active {
   border-bottom: 3px solid #9b185c;
+  padding: 10px 0 3px;
 }
 .os2web_menus-container .megamenu-panel {
-  padding-bottom: 9px;
-  border-bottom-left-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
   position: absolute;
   width: 970px;
-  top: 67px;
+  top: 36px;
   clear: left;
+  background: #f4eded;
+}
+.os2web_menus-container .megamenu-panel .panel-display {
+  background: white;
+  margin: 10px;
+  padding-left: 20px;
 }
 .os2web_menus-container .megamenu-panel > div {
   padding: 32px 0;
@@ -4771,15 +4774,12 @@ ul.os2web_menus-container {
 }
 .os2web_menus-container .megamenu-panel ul.menu li.leaf {
   width: 219px;
-  margin-left: 19px;
-  margin-bottom: -1px;
-  padding: 7px 0;
+  padding: 5px 0;
   text-transform: uppercase;
   letter-spacing: 0;
   font-size: 15px;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
-  overflow: hidden;
+  background: url('../images/mega_dd_arrow_right.png') no-repeat left 8px;
+  padding-left: 11px;
 }
 .os2web_menus-container .megamenu-panel .js-megamenu-close {
   background-image: url(../images/delete-icon.png);
