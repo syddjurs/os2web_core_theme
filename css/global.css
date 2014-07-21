@@ -789,9 +789,12 @@ ul.jcarousel-list-horizontal { }
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {
-  background-color: #f5f5f5;
   width: 200px;
   margin-right: 0px;
+  padding-left: 3px;
+}
+#region-sidebar-first .region-inner {
+  background-color: #f4eded;
 }
 
 /*
