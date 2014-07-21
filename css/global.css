@@ -188,7 +188,6 @@ ul.primary li a {
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
-#zone-menu { overflow: hidden; text-transform: uppercase;}
 
 #region-menu {
   padding-left: 0px;
@@ -4737,12 +4736,14 @@ ul.os2web_menus-container {
   float:left;
   list-style: none;
   font-size: 17px;
-  color: #4B4B4B;
+  color: #191919;
   font-weight: normal;
   margin: 0;
   float: left;
   margin-top: 4px;
   margin-left: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .os2web_menus-container h2 a {
   margin: 0 18px;
@@ -4776,15 +4777,21 @@ ul.os2web_menus-container {
 }
 .os2web_menus-container .megamenu-panel ul.menu {
   float: left;
+  margin-left: 10px;
 }
 .os2web_menus-container .megamenu-panel ul.menu li.leaf {
-  width: 219px;
+  width: 209px;
   padding: 5px 0;
-  text-transform: uppercase;
   letter-spacing: 0;
   font-size: 15px;
   background: url('../images/mega_dd_arrow_right.png') no-repeat left 8px;
   padding-left: 11px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: -1px;
+}
+.os2web_menus-container .megamenu-panel ul.menu li.active {
+  font-weight: bold;
 }
 .os2web_menus-container .megamenu-panel .js-megamenu-close {
   background-image: url(../images/delete-icon.png);
@@ -4799,6 +4806,8 @@ ul.os2web_menus-container {
 #zone-menu .os2web_menus-container .megamenu-panel .pane-custom p {
   font-size: 19px;
   padding: 0 20px;
+  text-transform: none;
+  font-style: italic;
 }
 #zone-menu .os2web_menus-container .megamenu-panel .pane-custom a {
   color: #8b0053;
