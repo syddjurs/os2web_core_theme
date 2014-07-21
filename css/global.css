@@ -2191,11 +2191,12 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	float: right;
 }
 .region-inner h1.title {
-	color: #7a7a7a;
-	font-size: 34px;
+	color: #9b185c;
+	font-size: 15px;
 	position: relative;
-	margin-bottom: 67px;
-	top: 67px;
+	margin-bottom: 35px;
+	top: 28px;
+  font-weight: bold;
 }
 .uden-hoejre-spalte-wrapper .region-inner h1.title {
 	color: #7a7a7a;
@@ -2239,8 +2240,7 @@ p.MsoNormal {
 }
 
 .node-type-os2web-base-contentpage .field-name-body  {
-    padding: 0 16px 10px 16px;
-    margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 .node-type-os2web-hearings-hearing-case .region-inner h1.title,
@@ -2266,8 +2266,10 @@ float: right;
   color: #4a4a4a;
 }
 .node-type-os2web-base-contentpage .field-name-field-os2web-base-field-summary, .node-type-iframe-selvbetjeningsl-sning-mm .field-name-field-text {
-	font-size: 20px;
-    color: #4a4a4a;
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
 }
 
 /*
@@ -2842,27 +2844,27 @@ div.breadcrumb.you-are-here {
   margin-left: 0;
 }
 .field-name-field-os2web-base-field-selfserv {
-  margin: 25px;
-  padding: 20px 0px;
-  line-height: 25px;
-  border-radius: 4px;
-  background-color: #f5f5f5;
-  background-color: #f5f5f5;
+  border-bottom: 3px solid #9b185c;
+  padding-bottom: 8px;
 }
 .field-name-field-os2web-base-field-selfserv .field-items {
 }
 .field-name-field-os2web-base-field-selfserv .field-label {
   font-size: 20px;
-  text-transform: uppercase;
-  border-bottom: 3px solid #8b0053;
-  margin: 0 20px;
+  background: #9b185c;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: normal;
+  margin-bottom: 21px;
 }
 .field-name-field-os2web-base-field-selfserv a {
   color: #333;
-  padding-left: 35px;
+  padding-left: 25px;
   background: url('../images/mega_dd_arrow_right.png') no-repeat;
   background-position: 15px;
   display: block;
+  margin-bottom: 10px;
 }
 #region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-content, #region-sidebar-second .view-id-os2web_base_panels_view_selfserv .selvbetjening-indholdsside .view-header {
 	background-image: url(../images/mellemSELVindhold.png);
