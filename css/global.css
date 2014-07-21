@@ -301,11 +301,6 @@ h2.pane-title a, h2.block-title a {
 	text-transform: uppercase;
 	font-size: 11px; list-style: none; }
 
-#region-header-second .region-inner li.last {
-  border: none;
-  margin-right: 0;
-  }
-
 .field-name-field-os2web-hearings-meeting a {
 	padding-left: 19px;
 }
@@ -632,12 +627,15 @@ ul.jcarousel-list-horizontal { }
 	padding-right: 5px;
 }
 
-#block-block-4, #facebook-youtube {
-	float: right;
-	/*margin-top: -18px;*/
-	height: 21px;
-	left: 4px;
-	width: 42px;
+#facebook-youtube {
+  float: left;
+  height: 21px;
+  left: 4px;
+  margin-top: -6px;
+}
+#facebook-youtube a {
+  border-right: solid 1px #d8d8d8;
+  padding: 0 10px;
 }
 #block-block-4 p { margin-bottom: 0px}
 #block-menu-os2web-menu-business-shortcuts {float: left}
@@ -767,7 +765,11 @@ ul.jcarousel-list-horizontal { }
 }
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-color: #f5f5f5; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; margin-top: 10px}
+#zone-menu {
+  background-color: #f5f5f5;
+  font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif;
+  margin-top: 10px;
+}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -814,6 +816,7 @@ ul.jcarousel-list-horizontal { }
 }
 #region-search #search-block-form .container-inline {
   border: 2px solid #8b0053;
+  border-radius: 4px;
 }
 #region-search #search-block-form input:focus {
   outline: none;
@@ -846,7 +849,7 @@ ul.jcarousel-list-horizontal { }
 
 #block-search-form .form-submit {
     background-image: url(../images/search_btn.png);
-    width: 48px;
+    width: 38px;
     height: 34px;
     border: none;
     margin: 0;
@@ -2500,7 +2503,8 @@ float: right;
 .hidden {display: none}
 .unhidden {display: block}
 
-ul.nice-menu-down li.menuparent {
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover {
   background: url("../images/arrow-down.png") right center no-repeat;
 }
 #region-preface-first {width: 100%; margin-left: 0px; margin-right: 0px}
@@ -2517,6 +2521,7 @@ ul.nice-menu-down li.menuparent {
   font-size: 13px;
   line-height: 27px;
   font-weight: bold;
+  display: inline;
 }
 #zone-preface .block-nice-menus  { float: right;}
 #zone-preface .block-nice-menus .block-title { display: none;}
