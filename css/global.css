@@ -767,7 +767,11 @@ ul.jcarousel-list-horizontal { }
 }
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-color: #f5f5f5; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; margin-top: 10px;}
+#zone-menu {
+  background-color: #f5f5f5;
+  font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif;
+  margin-top: 10px;
+}
 
 #region-user-second, #region-header-second {float: right}
 
