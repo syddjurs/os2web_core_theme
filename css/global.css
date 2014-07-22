@@ -3041,13 +3041,14 @@ div.breadcrumb.you-are-here {
 }
 
 .last-updated-node {
-	color: #787878;
-	font-size: 13px;
-	padding: 10px 0 15px 26px;
+  color: #4c4c4c;
+  font-size: 13px;
+  padding: 22px 0 15px 6px;
+  font-style: italic;
 }
 
 .view-os2web-ofir-job-lists .last-updated-node {
-	color: #787878;
+	color: #4c4c4c;
 	font-size: 11px;
 	padding: 5px 0 20px;
 }
@@ -4806,29 +4807,40 @@ ul.os2web_menus-container {
 .del-bund a:hover {
   text-decoration: underline;
 }
-.del-bund div.del {float: left; margin-left: 20px; margin-top: 8px;}
-.del-bund div.fandt-du {float: left;  margin-left: 35px; margin-top: 8px;}
-.del-bund div.synes-om {float: left; margin-left: 18px; margin-top: 8px; }
-
+.del-bund div.del {
+  float: left;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.del-bund div.fandt-du {
+  float: right;
+  margin-left: 16px;
+  margin-top: 8px;
+}
 
 .del-bund div.del a {
-  line-height: 32px;
+  line-height: 43px;
   display: block;
   width: 58px;
   height: 43px;
   background-image: url(../images/del.png);
   background-repeat: no-repeat;
   background-position: right center;
-  padding: 8px 10px 10px 0;
+  padding: 0 10px 0 0;
 }
 
 .del-bund div.fandt-du a {
-  line-height: 32px;
+  line-height: 43px;
   display: block;
   width: 200px;
   height: 43px;
   background-image: url(../images/fandtdudet.png);
   background-repeat: no-repeat;
   background-position: right center;
-  padding: 8px 7px 10px 0;
+  padding: 0 10px 0 0;
+}
+
+.synes-om {
+  float: right;
+  margin: 20px 12px;
 }
