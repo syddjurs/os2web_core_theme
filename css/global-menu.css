@@ -167,7 +167,7 @@
  background: url(../images/v-arrow-expanded-dark.png) no-repeat right 50%;
 }
 
-#region-sidebar-first ul.menu li.active-trail.active.expanded a.active {
+#region-sidebar-first ul.menu li.active-trail.active a.active {
   background-image: url(../images/v-arrow-expanded-on.png);
   background-color: #9b185c;
   color: #fff;
