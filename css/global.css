@@ -4805,7 +4805,7 @@ ul.os2web_menus-container {
   border-bottom: 1px solid #ccc;
   margin-top: -1px;
 }
-.os2web_menus-container .megamenu-panel ul.menu li.active {
+.os2web_menus-container .megamenu-panel ul.menu li.active-trail {
   font-weight: bold;
 }
 .os2web_menus-container .megamenu-panel .js-megamenu-close {
