@@ -729,17 +729,7 @@ ul.jcarousel-list-horizontal { }
 .page-taxonomy #zone-content-wrapper {
 	/*background: url(../images/content-bg2.png) repeat-y center*/
 	}
-.front #zone-content-wrapper {
-	/*background: url(../images/content-bg-fs.png);
-	background-repeat: repeat-y;
-	background-position: center center;*/
-	}
-.front .panels-flexible-region-os2web_base_panels_layout_front-left {
-  width: 670px;
-}
-.front .panels-flexible-region-os2web_base_panels_layout_front-right_  {
-  width: 270px;
-}
+
 #zone-content {
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -1082,6 +1072,7 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 /* Kontaktblok */
 
+#region-sidebar-second .pane-os2web-contact-view-contact,
 #region-sidebar-second .block-236b5043c40af396053d1693200f7809 {
   padding: 10px;
   border: 2px solid #f4eded;
@@ -4399,8 +4390,6 @@ input.error{
     }
 }
 
-.front .view-os2web-spotbox-view-spots { clear: both}
-
 .panels-flexible-region-6-center { width: 100%}
 
 #block-feedback-form span { display: block}
@@ -4591,16 +4580,7 @@ input.error{
 .selvbetjening-block-forside h3 span {
   text-transform: none;
 }
-.front .region-inner h1.title {
-	display: none;
-}
-.front .pane-os2web-spotbox-view-spots-panel-pane-5,
-.pane-os2web-hearings {
-  /*height: 451px;*/
-  width: 270px !important;
-  margin-left: 0px;
-  margin-top: 10px;
-}
+
 .pane-os2web-hearings .pane-content {
 /*  background-image: url(../images/spot2-424.png);
   height: 441px;
@@ -4854,3 +4834,28 @@ ul.os2web_menus-container {
   float: right;
   margin: 20px 12px;
 }
+
+/* Front page */
+.front #zone-content-wrapper {
+  /*background: url(../images/content-bg-fs.png);
+  background-repeat: repeat-y;
+  background-position: center center;*/
+  }
+.front .panels-flexible-region-os2web_base_panels_layout_front-left {
+  width: 670px;
+}
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_  {
+  width: 270px;
+}
+.front .region-inner h1.title {
+  display: none;
+}
+.front .pane-os2web-spotbox-view-spots-panel-pane-5,
+.pane-os2web-hearings {
+  /*height: 451px;*/
+  width: 270px !important;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.front .view-os2web-spotbox-view-spots { clear: both}
