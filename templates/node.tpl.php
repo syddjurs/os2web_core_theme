@@ -33,9 +33,6 @@
     </div>
   </div>
   <?php if ($view_mode != 'os2web_meetings_meeting_detail_view'): ?>
-    <?php
-    print "<div class='last-updated-node'> Opdateret: " . format_date($node->changed, "short") . "</div>";
-    ?>
 
     <?php print render($content['comments']); ?>
     <?php if (arg(0) == 'node' && is_numeric(arg(1)) && $page) : ?>
@@ -46,36 +43,17 @@
           </div>
         </div>
         <div class="fandt-du"><a href="/contact?<?php print urlencode('edit[subject]=' . $node_url); ?>">Fandt du ikke det du søgte</a></div>
-
-        <div class="synes-om">
-          <div class="addthis_toolbox addthis_default_style">
-            <a class="addthis_button_facebook_like" fb:like:width="104"></a>
-          </div>
-        </div>
       </div>
 
       <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+      <div class="synes-om">
+        <div class="addthis_toolbox addthis_default_style">
+          <a class="addthis_button_facebook_like" fb:like:width="104"></a>
+        </div>
+      </div>
     <?php endif; ?>
+    <?php
+    print "<div class='last-updated-node'> Opdateret: " . format_date($node->changed, "short") . "</div>";
+    ?>
   <?php endif; ?>
 </article>
-
-<?php /*
-  <script type="text/javascript">
-  //Script til at kollapse p-tags på indholdsside
-
-  (function ($) {
-  var is_visible = false;
-
-  $("h2").wrapInner('<a href="#" class="toggleLink">');
-  $("p").wrap('<div class="toggle">');
-  $('.toggle').hide();
-  $('a.toggleLink').click(function() {
-  $(this).parent().next('.toggle').toggle();
-
-  return false;
-
-  });
-  }(jQuery));
-
-  </script>
- */ ?>

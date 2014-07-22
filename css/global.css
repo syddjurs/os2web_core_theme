@@ -311,7 +311,12 @@ h2.pane-title a, h2.block-title a {
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
-#region-sidebar-second { margin-left: 0px; float: right; margin-right: 0px; /*background-image: url(../images/right_sidebar_bg.jpg)*/}
+#region-sidebar-second {
+  margin-left: 0px;
+  float: right;
+  margin-right: 0px;
+  /*background-image: url(../images/right_sidebar_bg.jpg)*/
+}
 
 .block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
 .block-multistep a {color: #fff}
@@ -1072,52 +1077,61 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 /* Kontaktblok */
 
+#region-sidebar-second .block-236b5043c40af396053d1693200f7809 {
+  padding: 10px;
+}
+
 .view-os2web-contact-view-contact {
-	background-image: url(../images/kontaktMELLEM.png);
-	width: 232px;
-	background-repeat: repeat-y;
-	background-position: -4px 0}
+	margin-bottom: 20px;
+}
 
 .view-os2web-contact-view-contact .view-content {
-	/*height: 305px;*/
-	padding-top: 20px;
-	overflow: hidden;
-	background-image: url(../images/kontaktTOP.png);
-	background-repeat: no-repeat;
-	background-position: -4px 4px}
-.view-os2web-contact-view-contact .view-footer {
-	height: 45px;
-	padding-top: 48px;
-	padding-left: 20px;
-	background-image: url(../images/kontaktBUND.png);
-	background-repeat: no-repeat;
-	background-position: -4px 0 }
+  /*height: 305px;*/
+  padding-top: 20px;
+  overflow: hidden;
+}
+.view-os2web-contact-view-contact .view-footer a {
+  display: inline-block;
+  background: #9b185c;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  padding: 11px 23px;
+}
+.view-os2web-contact-view-contact .view-footer a:hover {
+  text-decoration: underline;
+}
+.kontaktblok-overskrift {
+  color: #4B4B4B;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 5px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
 
-.kontaktblok-overskrift {color: #4B4B4B;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0 0 5px;
-    padding-bottom: 0;
-    text-transform: uppercase;}
-
-.telfonnummer {background-image: url(../images/telefon.png); background-repeat: no-repeat; padding-left: 35px; margin-bottom: 10px}
-.telfonnummer, .telfonnummer a { font-size: 34px;color: #777; line-height: 37px}
+.telfonnummer {
+  background-image: url(../images/telefon.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+.telfonnummer, .telfonnummer a {
+  font-size: 25px;
+  color: #9b185c;
+  font-weight: bold;
+  line-height: 37px;
+}
 
 .views-field-field-os2web-contact-field-callc p {margin-bottom: 10px}
 .views-field-field-os2web-contact-field-callc {margin-top: 15px; margin-bottom: 15px}
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 .view-os2web-contact-view-contact .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
 
-.view-os2web-contact-view-contact {
-	margin-bottom: 20px;
-	margin-top: 3px;
-	margin-left: 1px
-}
-
 .view-os2web-contact-view-contact .views-field {
 	font-size: 11px;
 	color: #555;
-	padding-left: 20px;
 	clear: left;
 }
 
@@ -1165,10 +1179,6 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
         padding-left: 20px;
 }
 
-
-.telefonnummer, .telfonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
-.telefonnummer, .telfonnummer, .telefonnummer a, .telfonnummer a { font-size: 33px; color: #555;  }
-
 .view-os2web-contact-view-contact  div.dag {
 	float: left;
 	width: 129px;
@@ -1184,7 +1194,11 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .view-os2web-contact-view-contact .aabningstider { padding: 0px 20px; font-size: 11px; color: #555; width: 200px; display: block}
 
-.view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 { padding-left: 20px; text-transform: none; font-size: 14px; font-weight: normal;}
+.view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: normal;
+}
 
 #region-sidebar-second .views-field-field-os2web-contact-field-callc h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
 
@@ -2607,6 +2621,11 @@ ul.nice-menu-down li.menuparent:hover {
   padding-bottom: 0px;
   padding-left: 0px;
   font-weight: normal;
+
+
+  text-transform: none;
+  font-weight: bold;
+  letter-spacing: 0px;
 }
 
 .zone-footer .region-footer-first {
@@ -2987,9 +3006,7 @@ div.breadcrumb.you-are-here {
   width: 227px;
   overflow: hidden;
   line-height: 0.9em;
-  background-image: url(../images/spotboxPILb.png);
-  background-position: 100% 39%;
-  background-repeat: no-repeat;
+  background: url('../images/spotboxPILc.png') no-repeat right center;
   font-size: 15px;
   border: none;
   padding: 16px 2px;
@@ -3004,8 +3021,6 @@ div.breadcrumb.you-are-here {
 #region-sidebar-second .spotbox-indhold .views-row:hover a {
         color: #8b0053;
 }
-
-#region-sidebar-second .spotbox-indhold .views-row:hover h3 { background-image: url(../images/spotboxPILc.png);}
 
 #region-sidebar-second .spotbox-indhold img {
         padding-top: 5px;
@@ -4775,4 +4790,46 @@ ul.os2web_menus-container {
 #zone-menu .os2web_menus-container .megamenu-panel .pane-custom a {
   color: #8b0053;
   font-weight: bold;
+}
+
+.del-bund {
+  height: 61px;
+  font-size: 13px;
+  width: 478px;
+  margin-left: -4px;
+  background: #f4eded;
+  border-radius: 4px;
+}
+.del-bund a {
+  text-decoration: none;
+  color: #9b195f;
+}
+.del-bund a:hover {
+  text-decoration: underline;
+}
+.del-bund div.del {float: left; margin-left: 20px; margin-top: 8px;}
+.del-bund div.fandt-du {float: left;  margin-left: 35px; margin-top: 8px;}
+.del-bund div.synes-om {float: left; margin-left: 18px; margin-top: 8px; }
+
+
+.del-bund div.del a {
+  line-height: 32px;
+  display: block;
+  width: 58px;
+  height: 43px;
+  background-image: url(../images/del.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 8px 10px 10px 0;
+}
+
+.del-bund div.fandt-du a {
+  line-height: 32px;
+  display: block;
+  width: 200px;
+  height: 43px;
+  background-image: url(../images/fandtdudet.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 8px 7px 10px 0;
 }
