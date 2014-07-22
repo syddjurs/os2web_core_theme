@@ -2601,13 +2601,12 @@ ul.nice-menu-down li.menuparent:hover {
 #region-sidebar-second div.kontaktblok-overskrift,
 #region-sidebar-second h2 ,
 #region-sidebar-second h3 {
-color: #4b4b4b;
-font-size: 16px;
-margin: 0 0 8px;
-padding-bottom: 0px;
-padding-left: 0px;
-text-transform: uppercase;
-	font-weight: normal;
+  color: #9b185c;
+  font-size: 16px;
+  margin: 0 0 8px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-weight: normal;
 }
 
 .zone-footer .region-footer-first {
@@ -2964,40 +2963,42 @@ div.breadcrumb.you-are-here {
 	background-position: 100% 44%;
 }
 
-.spotbox-indhold .views-row {
-	background-image: url(../images/spot1b.png);
-	background-position: bottom left;
-	height: 191px;
+
+#region-sidebar-second .view-os2web-spotbox-view-spot {}
+#region-sidebar-second .view-os2web-spotbox-view-spot .views-row {
+  border: 2px solid #f4eded;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 3px;
+}
+#region-sidebar-second .view-os2web-spotbox-view-spot .views-row img {
+  width: 100%;
+}
+#region-sidebar-second .view-os2web-spotbox-view-spot h2 {
+  border-bottom: none;
+  text-transform: none;
+  font-weight: bold;
+  padding: 3px 0;
+  letter-spacing: 0px;
 }
 
-#region-sidebar-second .spotbox-indhold .views-row {
-	background-image: url(../images/spot1b.png);
-	background-position: 0 27px;
-	height: 218px;
-	background-repeat: no-repeat;
-}
 
 #region-sidebar-second .spotbox-indhold  h3  {
-        width: 190px;
-        height: 30px;
-        overflow: hidden;
-        line-height: 0.9em;
-        background-image: url(../images/spotboxPILb.png);
-        background-position: 100% 39%;
-        background-repeat: no-repeat;
-        font-size: 15px;
-/*        font-weight: normal;*/
-        border: none;
-        padding: 25px 20px 20px 20px;
-        margin: 0;
-        text-transform: none;
-        float: left;
-        }
+  width: 227px;
+  overflow: hidden;
+  line-height: 0.9em;
+  background-image: url(../images/spotboxPILb.png);
+  background-position: 100% 39%;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  border: none;
+  padding: 16px 2px;
+  margin: 0;
+}
 
 .spotbox-indhold  h3 a {
-        color: #8A8A8A;
-        display: block;
-
+  color: #4a4a4a;
+  display: block;
 }
 
 #region-sidebar-second .spotbox-indhold .views-row:hover a {
