@@ -2076,23 +2076,23 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     background-image: url(../images/calendar.png);
     background-repeat: no-repeat;
     height: 60px;
-    width: 40px;
+    width: 43px;
     text-align: center;
 }
 
 .view-os2web-kulturnaut-events-lists .calendar-top {
     color: #fff;
-    font-size: 8px;
+    font-size: 10px;
     background: none;
     text-transform:uppercase;
-    padding: 5px 0px;
+    padding: 5px 0 0;
     font-weight: bold;
 
 }
 
 .view-os2web-kulturnaut-events-lists .calendar-bottom {
     color: #991f68;
-    font-size: 16px;
+    font-size: 18px;
     background: none;
 }
 
@@ -4941,7 +4941,7 @@ ul.os2web_menus-container {
   height: auto;
 }
 .front .view-os2web-kulturnaut-events-lists .calendar {
-  height: 44px;
+  height: 42px;
 }
 
 .front .pane-os2web-hearings .pane-title a,
