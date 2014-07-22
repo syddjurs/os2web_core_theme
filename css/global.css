@@ -3184,8 +3184,8 @@ div.qtip { background-image: url(../images/mega_dd_bg_btm.png); background-posit
   right: 15px;
   text-indent: -99999px;
   background-image: url(../images/rssfeed.png);
-  width: 58px;
-  height: 11px;
+  width: 72px;
+  height: 18px;
   display: block;
 }
 
@@ -4643,12 +4643,6 @@ background-position: 208px 22px;
 }
 .pane-os2web-hearings .views-row {
  padding: 2px 0 18px 20px;
- background: url('../images/spotboxPILb.png');
- background-repeat: no-repeat;
- background-position : 0 -4px;
-}
-
-.pane-os2web-hearings .views-row:hover {
  background: url('../images/spotboxPILc.png');
  background-repeat: no-repeat;
  background-position : 0 -4px;
@@ -4898,9 +4892,22 @@ ul.os2web_menus-container {
   font-size: 19px;
   color: #4b494a;
 }
+.front .news-list-right .pane-title {
+  padding: 0;
+  margin: 0;
+}
+.front .news-list-right .pane-title a {
+  color: #8b0053;
+}
 .front .news-list {
   border-radius: 4px;
   background-color: #f4eded;
+}
+.front .news-list {
+  margin-bottom: 9px;
+}
+.front .news-list img{
+  border-radius: 4px 0 0 4px;
 }
 
 .front .view-os2web-kulturnaut-events-lists .view-content {
@@ -4934,4 +4941,34 @@ ul.os2web_menus-container {
 }
 .front .view-os2web-kulturnaut-events-lists .calendar {
   height: 44px;
+}
+
+.front .pane-os2web-hearings .pane-title a,
+.front .view-os2web-hearings .view-footer a {
+  color: #8b0053;
+}
+.front .view-os2web-hearings {
+  border: 2px solid #f4eded;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 3px;
+}
+
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_ .view-os2web-spotbox-view-spots {
+  width: auto;
+}
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_ .spotbox .views-row {
+  border: 2px solid #f4eded;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+  width: auto;
+}
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_ .spotbox .views-row .pane-title {
+  padding-left: 0;
+}
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_ .spotbox .views-row h3 {
+  padding: 0;
+  width: 255px;
 }
