@@ -450,14 +450,22 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .custom-slideshow .views-field-body a {
 	display: block;
 	margin-top: -78px;
-	background-image: url(../images/slide-arrow.png);
-	background-position: 10px 14px;
-	background-repeat: no-repeat;
 	position: relative;
   font-size: 17px;
   color: #4B4B4B;
   padding: 8px 8px 8px 20px;
 }
+
+.custom-slideshow .views-field-body a span:after {
+  content: " ";
+  display: block;
+  background: url(../images/slide-arrow.png) no-repeat;
+  height: 11px;
+  width: 7px;
+  float: left;
+  margin: 3px 5px 0 2px;
+}
+
 .portal-side .custom-slideshow .views-field-body a {
   margin-top: 0px;}
 
@@ -4888,9 +4896,18 @@ ul.os2web_menus-container {
 .front .pane-os2web-kulturnaut-events-lists {
   margin-top: -1em;
 }
-.front .news-list-right a {
+.front .news-list-right > a {
   font-size: 19px;
   color: #4b494a;
+  float: left;
+}
+.front .news-list-right > a:after {
+  content: " ";
+  display: inline-block;
+  background-image: url(../images/slide-arrow.png);
+  height: 11px;
+  width: 7px;
+  margin-left: 10px;
 }
 .front .news-list-right .pane-title {
   padding: 0;
@@ -4902,8 +4919,6 @@ ul.os2web_menus-container {
 .front .news-list {
   border-radius: 4px;
   background-color: #f4eded;
-}
-.front .news-list {
   margin-bottom: 9px;
 }
 .front .news-list img{
