@@ -1574,28 +1574,50 @@ padding-bottom: 5px
         width: 230px;
 }
 
-/*
-.selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
-.selvbetjening-block-forside h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
-.selvbetjening-block-forside ul {margin-left: 10px; margin-bottom: 12px}
-.selvbetjening-block-forside li { padding-left: 5px}
-.selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
-G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
-*/
 
-.portal-politik-og-planer .selvbetjening-block-forside h3 a {
-	/*background-image: url(../images/politikogplanerTEKST.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	line-height: 55px;
-	padding: 8px 23px;*/}
+.selvbetjening-block-forside {
+  background-color: #f5f5f5;
+  color: #B3B3B3;
 
-.portal-erhverv .selvbetjening-block-forside h3 a{
-	/*background-image: url(../images/erhvervTEKST.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	line-height: 55px;
-	padding: 8px 23px;*/}
+  margin-left: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.selvbetjening-block-forside p {
+  padding-left: 25px;
+  margin-bottom: 0px;
+  color: #c386a8;
+}
+.selvbetjening-block-forside a {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: none;
+}
+.selvbetjening-block-forside .item-list a {
+  background: url("../images/mega_dd_arrow_right.png") no-repeat;
+  background-position: 7px;
+  padding-left: 25px;
+  display:block;
+}
+.selvbetjening-block-forside .item-list a:hover { }
+.selvbetjening-block-forside h3 {
+  background-color: #8b0053;
+}
+.selvbetjening-block-forside h3 a {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 2px 8px;
+  font-weight: normal;
+  display: block;
+  color: #fff;
+  border-bottom: none;
+  text-decoration: none !important;
+}
+.selvbetjening-block-forside h3 span {
+  text-transform: none;
+}
 
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
@@ -1614,34 +1636,6 @@ G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: 
 }
 
 .selvbetjening-block-forside .rel-register-link {display: none}
-/*
-.selvbetjening-block-forside .form-type-select {
-   width: 260px;
-   height: 50px;
-   overflow: hidden;
-   background-image: url(../images/dropdownPIL.png);
-   background-position: right;
-   background-repeat: no-repeat;
-   display: block;
-}
-.selvbetjening-block-forside #ctools-jump-menu--2, .selvbetjening-block-forside #ctools-jump-menu {   background-image: url(../images/dropdown-pil.png); width: 296px; overflow: hidden; margin-bottom: 17px
-}
-.selvbetjening-block-forside .form-type-select select {
-   background: transparent;
-   width: 298px;
-   padding: 16px 20px 15px 0px;
-   text-transform: none;
-   font-size: 15px;
-   border: none;
-   height: 50px;
-}
-
-.selvbetjening-block-forside .form-item {   margin: 0 16px;}
-
-.selvbetjening-block-forside .item-list {
-height: 90px;
-}
-*/
 
 .selvbetjening-block-forside .item-list ul li {
     padding: 5px 0 0px 0px;
@@ -4569,17 +4563,6 @@ input.error{
     background-position: 0 27px}
 
 .spotbox-tall-body {height: 290px; overflow: hidden; line-height: 1.1em; font-size: 12px; color: #A8A8A8; background-color: #fff; padding: 10px}
-
-.selvbetjening-block-forside {background-color: #f5f5f5; color: #B3B3B3; /*background-image: url(../images/selvbetjeningFORSIDE.png); padding: 5px 7px 51px 7px; margin-top: 13px;*/ margin-left: 0px; font-size: 16px; text-transform: uppercase}
-.selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
-.selvbetjening-block-forside a { color: #333; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
-.selvbetjening-block-forside .item-list a { background: url("../images/mega_dd_arrow_right.png") no-repeat;background-position: 7px;padding-left: 25px; display:block;}
-.selvbetjening-block-forside .item-list a:hover { }
-.selvbetjening-block-forside h3 { background-color: #8b0053;/*text-align: center; display: block; margin-bottom: 12px*/}
-.selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 18px; margin: 2px 8px; font-weight: normal;/* text-align: center;*/ display: block;/* padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom;*/ color: #fff; border-bottom: none; text-decoration: none !important; }
-.selvbetjening-block-forside h3 span {
-  text-transform: none;
-}
 
 .pane-os2web-hearings .pane-content {
 /*  background-image: url(../images/spot2-424.png);
