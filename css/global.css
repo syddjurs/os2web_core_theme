@@ -4973,3 +4973,8 @@ ul.os2web_menus-container {
   padding: 0;
   width: 255px;
 }
+
+.front .panels-flexible-region-os2web_base_panels_layout_front-right_ .spotbox .views-row img {
+  width: 100%;
+  height: auto;
+}
