@@ -789,7 +789,12 @@ ul.jcarousel-list-horizontal { }
   color: #fff;
   border-bottom: none;
 }
-#breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
+#breadcrumb {
+  padding: 20px 0 10px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 5px;
+}
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {
@@ -1078,6 +1083,9 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 #region-sidebar-second .block-236b5043c40af396053d1693200f7809 {
   padding: 10px;
+  border: 2px solid #f4eded;
+  border-radius: 4px;
+  margin-right: 3px;
 }
 
 .view-os2web-contact-view-contact {
@@ -1195,8 +1203,8 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 {
   text-transform: none;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 #region-sidebar-second .views-field-field-os2web-contact-field-callc h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
@@ -2988,6 +2996,7 @@ div.breadcrumb.you-are-here {
   border-radius: 4px;
   padding: 10px;
   margin-right: 3px;
+  margin-bottom: 10px;
 }
 #region-sidebar-second .view-os2web-spotbox-view-spot .views-row img {
   width: 100%;
@@ -4814,7 +4823,7 @@ ul.os2web_menus-container {
 }
 .del-bund div.fandt-du {
   float: right;
-  margin-left: 16px;
+  margin-right: 16px;
   margin-top: 8px;
 }
 
