@@ -433,37 +433,43 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .front .custom-slideshow .views-field-body {
 	/*background-image: url(../images/w80.png) ;
 	background: url(../images/w80.png) top left;*/
-        background-color: #fff;
-        bottom: 120px;
-        margin-left: 180px;
-        width: 440px;
+  background-color: #fff;
+  bottom: 120px;
+  width: 440px;
 	position: relative;
 	z-index: 998;
+  border-radius: 0 4px 4px 0;
 }
 .not-front .custom-slideshow .views-field-body {
   width: 100%;
   background-color: #fff;
   position: relative;
 }
+.front .custom-slideshow {
+  float: none;
+  width: 670px;
+  height: 292px;
+  overflow: hidden;
+  border-radius: 4px;
+}
 .custom-slideshow .views-field-body a {
 	display: block;
-	padding-top: 8px;
-	height: 70px;
-	width: 440px;
 	margin-top: -78px;
 	background-image: url(../images/slide-arrow.png);
 	background-position: 10px 14px;
 	background-repeat: no-repeat;
 	position: relative;
-	font-size: 21px;
-	color: #4B4B4B;
-	padding-left: 20px;
+  font-size: 17px;
+  color: #4B4B4B;
+  padding: 8px 8px 8px 20px;
 }
 .portal-side .custom-slideshow .views-field-body a {
-	margin-top: 0px;}
+  margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
-	color: #8b0053;
+  color: #8b0053;
+	font-size: 21px;
+  display: block;
 }
 .news-list-right,
 .view-id-os2web_base_panels_view_newslist .news-list-right {
@@ -4494,12 +4500,6 @@ input.error{
 }
 #zone-content {padding-top: 0px}
 #zone-postscript-wrapper {display: none}
-.front .custom-slideshow {
-  float: none;
-  width: 670px;
-  height: 292px;
-  overflow: hidden;
-}
 
 .panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
 .panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 468px; }
@@ -4837,10 +4837,8 @@ ul.os2web_menus-container {
 
 /* Front page */
 .front #zone-content-wrapper {
-  /*background: url(../images/content-bg-fs.png);
-  background-repeat: repeat-y;
-  background-position: center center;*/
-  }
+  margin-top: 10px;
+}
 .front .panels-flexible-region-os2web_base_panels_layout_front-left {
   width: 670px;
 }
