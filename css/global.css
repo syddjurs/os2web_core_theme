@@ -1204,8 +1204,8 @@ div.panel-pane.pane-views-panes.pane-os2web-base-panels-view-meganews-panel-pane
 
 .view-os2web-contact-view-contact h3, #region-sidebar-second .view-os2web-contact-view-contact h3 {
   text-transform: none;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 #region-sidebar-second .views-field-field-os2web-contact-field-callc h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
