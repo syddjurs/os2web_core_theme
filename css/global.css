@@ -790,7 +790,12 @@ ul.jcarousel-list-horizontal { }
   color: #fff;
   border-bottom: none;
 }
-#breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
+#breadcrumb {
+  padding: 20px 0 10px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 5px;
+}
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {
