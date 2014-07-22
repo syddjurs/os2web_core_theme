@@ -1354,7 +1354,7 @@ ul.menu li a.menu-minipanel-1608 {
     }
 
 .view-display-id-sb_block_forside { padding: 0}
-.view-display-id-sb_block_forside .view-header h3 { padding: 5px;}
+.view-display-id-sb_block_forside .view-header h3 { padding: 8px;}
 
 .spotbox-subsite-frontpage {
 	margin-bottom: 10px;
@@ -1576,9 +1576,7 @@ padding-bottom: 5px
 
 
 .selvbetjening-block-forside {
-  background-color: #f5f5f5;
   color: #B3B3B3;
-
   margin-left: 0px;
   font-size: 16px;
   text-transform: uppercase;
@@ -1598,15 +1596,15 @@ padding-bottom: 5px
 .selvbetjening-block-forside .item-list a {
   background: url("../images/mega_dd_arrow_right.png") no-repeat;
   background-position: 7px;
-  padding-left: 25px;
+  padding-left: 17px;
   display:block;
 }
 .selvbetjening-block-forside .item-list a:hover { }
 .selvbetjening-block-forside h3 {
   background-color: #8b0053;
+  border-radius: 4px;
 }
 .selvbetjening-block-forside h3 a {
-  text-transform: uppercase;
   font-size: 18px;
   margin: 2px 8px;
   font-weight: normal;
@@ -1623,10 +1621,33 @@ padding-bottom: 5px
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
 
-.selvbetjening-block-forside .knapper { margin: 0px; height: 30px; clear: both;}
-.selvbetjening-block-forside .knapper a {/* text-transform: uppercase;*/ font-size: 12px; background-repeat: no-repeat; color: #333; }
-.selvbetjening-block-forside .knapper a.kviksvar {background: url(../images/knapSELVBETJENING.png) 100% 0% no-repeat; padding: 11px 70px 18px 35px; float: left; width: 30px; color:#fff; text-transform: uppercase;}
-.selvbetjening-block-forside .knapper a.nemindsigt { background: url(../images/knapSELVBETJENING.png) 100% 0 no-repeat; padding: 11px 10px 18px 35px; width: 90px; float: right; color:#fff; text-transform: uppercase;}
+.selvbetjening-block-forside .knapper {
+  margin: 0px;
+  height: 30px;
+  clear: both;
+}
+.selvbetjening-block-forside .knapper a {
+  /* text-transform: uppercase;*/
+  font-size: 12px;
+  background-repeat: no-repeat;
+  color: #333;
+}
+.selvbetjening-block-forside .knapper a.kviksvar,
+.selvbetjening-block-forside .knapper a.nemindsigt {
+  float: left;
+  width: 111px;
+  color: #fff;
+  padding: 0;
+  line-height: 40px;
+  padding-left: 22px;
+}
+.selvbetjening-block-forside .knapper a.kviksvar {
+  background: url(../images/knapSELVBETJENING.png) 100% 0% no-repeat;
+  margin-right: 4px;
+}
+.selvbetjening-block-forside .knapper a.nemindsigt {
+  background: url(../images/knapSELVBETJENING.png) 100% 0 no-repeat;
+}
 .selvbetjening-block-forside .knapper a.aabenindsigt {
 	background-image: url(../images/knapSELVBETJENING-BIG.png);
 	padding: 11px 22px 18px 32px;
@@ -1637,9 +1658,16 @@ padding-bottom: 5px
 
 .selvbetjening-block-forside .rel-register-link {display: none}
 
-.selvbetjening-block-forside .item-list ul li {
-    padding: 5px 0 0px 0px;
+.selvbetjening-block-forside .item-list ul li ul li {
+    padding: 5px 0 0 3px;
 }
+.selbetjening-bund {
+  line-height: 53px;
+  min-height:40px;
+  background-color : #8b0053;
+  border-radius: 4px;
+}
+
 .sb-block-left {
   float: left;
   width: 50%;
@@ -2290,7 +2318,6 @@ float: right;
 	margin-left: 10px;
 }
 */
-.selbetjening-bund {line-height: 53px; min-height:40px; background-color : #8b0053;}
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
 
