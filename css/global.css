@@ -451,25 +451,30 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	display: block;
 	margin-top: -78px;
 	position: relative;
-  font-size: 17px;
-  color: #4B4B4B;
   padding: 8px 8px 8px 20px;
 }
 
-.custom-slideshow .views-field-body a span:after {
-  content: " ";
+.custom-slideshow .views-field-body a span {
   display: block;
+}
+.custom-slideshow .views-field-body a span.description {
+  font-size: 17px;
+  color: #4B4B4B;
+}
+.custom-slideshow .views-field-body a span.description:after {
+  content: "";
   background: url(../images/slide-arrow.png) no-repeat;
   height: 11px;
   width: 7px;
-  float: left;
   margin: 3px 5px 0 2px;
+  display: block;
+  float: left;
 }
 
 .portal-side .custom-slideshow .views-field-body a {
   margin-top: 0px;}
 
-.custom-slideshow .views-field-body a span {
+.custom-slideshow .views-field-body a {
   color: #8b0053;
 	font-size: 21px;
   display: block;
