@@ -2582,10 +2582,11 @@ ul.nice-menu-down li.menuparent:hover {
 #zone-preface ul.nice-menu-down > li > span,
 #zone-preface ul.nice-menu-down > li > a,
 #zone-preface ul.nice-menu > li > a {
-  padding: 5px 15px 5px 5px;
+  padding: 5px 19px 5px 5px;
   font-size: 13px;
   line-height: 27px;
   font-weight: bold;
+  cursor: pointer;
   display: inline;
 }
 ul.nice-menu-down li ul > li {
