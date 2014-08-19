@@ -18,17 +18,18 @@ function os2web_core_theme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
   drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
+  drupal_add_js($theme_path . '/js/os2web_menus.js');
 
   // Add a vegas background from the background node.
-  if (function_exists('bg_image_get_image_path_from_node')) {
+/*  if (function_exists('bg_image_get_image_path_from_node')) {
     $bg_nid = db_select('node', 'n')
       ->fields('n', array('nid'))
       ->condition('type', 'os2web_frontend_background_img')
       ->execute()
       ->fetchField();
     if ($bg_nid) {
-      drupal_add_js(path_to_theme() . '/js/jquery.vegas.js');
-      $bg = 'jQuery( function() {
+     // drupal_add_js(path_to_theme() . '/js/jquery.vegas.js');
+     /* $bg = 'jQuery( function() {
           jQuery.vegas({
           src:\''. bg_image_get_image_path_from_node($bg_nid) .'\'
           })(\'overlay\', {
@@ -37,7 +38,7 @@ function os2web_core_theme_preprocess_html(&$variables) {
       });';
       drupal_add_js($bg, array('type' => 'inline', 'scope' => 'header', 'weight' => 90));
     }
-  }
+  }*/
 }
 
 /**

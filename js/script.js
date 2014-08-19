@@ -60,5 +60,27 @@ jQuery(document).ready(function () {
         }, 1000);
     });
 
+    jQuery('ul.nice-menu').addClass("top_menu_down");
+     jQuery('ul.nice-menu').removeClass('nice-menu');
+    jQuery('.top_menu_down li').click(function(){
+      jQuery('.top_menu_down li ul').hide();
+
+      var $children = jQuery(this).find('ul');
+      if($children.hasClass('open')){
+        $children.hide();
+        $children.removeClass('open');
+      }
+      else {
+        jQuery('.top_menu_down li ul').removeClass('open');
+        $children.addClass('open');
+        $children.show();
+        /*$children.mouseleave(function(event) {
+          $children.hide();
+          $children.removeClass('open');
+        });*/
+      }
+      return false;
+    });
+
 });
 
